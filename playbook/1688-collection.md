@@ -283,4 +283,4 @@ node scripts/1688/diff_context.js 05_원본데이터/context_상품데이터.jso
 
 - VPS(데이터센터 IP)에서 자동 수집하는 Hermes 는 **`collect_mobile.sh` 를 기본 경로**로 삼는다(데스크톱은 이 IP 에서 계속 막힌다).
 - SKU 개별가/재고·리뷰 등 모바일에 없는 데이터가 필요한 상품만, 주거용 프록시(데스크톱 `collect.sh`) 또는 로그인 경로로 **선택 보강**.
-- **자동 전환은 `collect_auto.sh`**: 데스크톱을 실시간 프로브해 통과하면 `collect.sh`, 차단이면 `collect_mobile.sh` 로 분기한다(무인 구동용). `--desktop`/`--mobile` 로 강제, `https_proxy` 존중, curl·node·OS 자동 점검. 일부 데이터센터에서 m.1688.com 이 HTTP/2 스트림을 리셋하면 자동으로 `--http1.1` 재시도한다. IP 유형이 고정된 환경(VPS 는 늘 데이터센터)이면 경로를 직접 지정해도 무방하다.
+- **자동 전환은 `collect_auto.sh`**: 데스크톱을 실시간 프로브해 통과하면 `collect.sh`, 차단이면 `collect_mobile.sh` 로 분기한다(무인 구동용). `--desktop`/`--mobile` 로 강제, `https_proxy` 존중, curl·node·OS 자동 점검. 일부 데이터센터에서 1688/CDN 이 HTTP/2 스트림을 리셋하면 자동으로 `--http1.1` 재시도한다(프로브·모바일 페이지·상세페이지·이미지 다운로드 전부). IP 유형이 고정된 환경(VPS 는 늘 데이터센터)이면 경로를 직접 지정해도 무방하다.

@@ -113,9 +113,18 @@ node "$PARSER" skucsv    "$TMP/summary.json" > "$OUTDIR/01_상품정보/SKU_가�
 echo "--- 메인 이미지 다운로드 ---"
 SEEN="$TMP/seen_md5"; : > "$SEEN"
 SEEN_D="$TMP/seen_md5_detail"; : > "$SEEN_D"
-dl_img(){ # url dest
-  curl -sL -A "$UA" -H "Referer: https://detail.1688.com/" \
-    -o "$2" -w "%{http_code}" --max-time 40 "$1"
+dl_img(){ # $1 url  $2 dest  →  http_code 출력(성공 시 "200"). HTTP/2 스트림 리셋(curl 92) 시 --http1.1 재시도.
+  # 주의: H2 리셋은 curl 이 http_code 200 을 찍고도 비정상 종료(rc≠0)하며 파일을 잘라버리므로,
+  #       code 만으로 성공을 판정하면 깨진 파일을 저장하게 된다 → rc 와 파일 크기까지 검사한다.
+  local code rc opt
+  for opt in "" "--http1.1"; do
+    code="$(curl -sL $opt -A "$UA" -H "Referer: https://detail.1688.com/" \
+      -o "$2" -w "%{http_code}" --max-time 40 "$1")"; rc=$?
+    if [ $rc -eq 0 ] && [ "$code" = "200" ] && [ -s "$2" ]; then printf '%s' "$code"; return 0; fi
+  done
+  # 두 시도 모두 실패 → 호출부가 skip 하도록 비200 값을 반환(curl 실패면 ERR+코드)
+  if [ $rc -ne 0 ]; then printf 'ERR%s' "$rc"; else printf '%s' "$code"; fi
+  return 0
 }
 i=0
 node "$PARSER" images "$TMP/summary.json" | while IFS= read -r url || [ -n "$url" ]; do
@@ -134,8 +143,8 @@ done
 # ---- 7) 상세페이지 fetch + 상세 이미지 ----
 if [ -n "$DETAIL_URL" ]; then
   echo "--- 상세페이지 다운로드 ---"
-  code="$(curl -sL -A "$UA" -H "Referer: https://detail.1688.com/" \
-    -o "$OUTDIR/05_원본데이터/상세페이지_원본응답.js" -w "%{http_code}" --max-time 40 "$DETAIL_URL")"
+  # 상세페이지(JSONP)도 dl_img 로 받아 H2 리셋 시 --http1.1 재시도 (상세 이미지가 여기서 나온다)
+  code="$(dl_img "$DETAIL_URL" "$OUTDIR/05_원본데이터/상세페이지_원본응답.js")"
   if [ "$code" = "200" ]; then
     if node "$PARSER" detail-html "$OUTDIR/05_원본데이터/상세페이지_원본응답.js" \
          > "$OUTDIR/02_상세페이지/상세페이지_원본.html" 2>/dev/null; then
