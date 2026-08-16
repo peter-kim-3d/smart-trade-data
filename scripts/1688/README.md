@@ -40,6 +40,22 @@ bash collect_mobile.sh 647941709416 products/1688
 - ⚠️ **모바일 익명 초기 페이로드에 없는 것**(→ summary.json 에서 null): SKU 별 개별가/재고(`skuId` 만), 리뷰 통계(`rate.*`), 동영상 커버/제목, 판매자 인증정보·재구매율. 서명 mtop API 로 지연로딩되며 익명으로는 못 채운다(실증). 제목·계단가·이미지·동영상·속성·판매자 회사명·배송은 모두 포함.
 - **언제 쓰나**: 접속 IP 가 데이터센터일 때, 또는 `collect.sh` 가 `window.context 없음` 으로 실패할 때. 주거용 IP 라면 데이터가 더 풍부한 `collect.sh`(데스크톱)를 우선.
 
+## 1c. collect_auto.sh — 자동 분기 래퍼 (데스크톱 ↔ 모바일, 무인 구동 권장)
+
+```bash
+bash collect_auto.sh <offer_url_또는_offer_id> [출력_기준폴더] [--desktop|--mobile]
+# 예
+bash collect_auto.sh 647941709416 products/1688          # 자동 분기
+bash collect_auto.sh 647941709416 products/1688 --mobile  # 모바일 강제
+```
+
+접속 IP 로 데스크톱(detail.1688.com)이 뚫리는지 **실시간 프로브**한 뒤 분기한다: 통과(주거용 IP/프록시)면 `collect.sh`(데이터 최다), baxia/TMD 챌린지(데이터센터 IP)면 `collect_mobile.sh`. **환경을 추측하지 않고 현재 IP 를 직접 테스트**하므로 Mac/VPS 혼용·Hermes 무인 구동에 적합하다.
+
+- 무인 구동 대비: 실행 전 `curl`·`node`·필수 스크립트·OS 를 점검하고, 폴백 시 출구 IP 의 ASN 을 로깅한다.
+- `https_proxy` 를 존중한다 → 주거용 프록시를 걸면 VPS 에서도 데스크톱 경로가 자동 선택된다.
+- `--desktop`/`--mobile` 로 프로브 없이 경로 강제 가능.
+- 견고성: 일부 데이터센터에서 m.1688.com 이 HTTP/2 스트림을 리셋(`curl 92`, 2B 응답)하면 **자동으로 `--http1.1` 재시도**(collect_mobile.sh·프로브 모두). 데스크톱 경로가 프로브 통과 후에도 실패하면 모바일로 최종 폴백.
+
 ## 2. parse_context.js — window.context 파서 (핵심 재사용 모듈)
 
 ```bash

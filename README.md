@@ -8,6 +8,12 @@
 bash scripts/1688/collect.sh <offer_url_또는_id> products/1688
 ```
 
+> **환경을 모르거나 자동화(Hermes/AI) 구동이면 `collect_auto.sh` 권장** — 접속 IP 로 데스크톱이 뚫리는지 실시간 프로브해 `collect.sh`(주거용 IP)↔`collect_mobile.sh`(데이터센터 IP)로 자동 분기한다:
+>
+> ```bash
+> bash scripts/1688/collect_auto.sh <offer_url_또는_id> products/1688
+> ```
+
 - 첫 번째 인자: offer URL(`https://detail.1688.com/offer/{OFFER_ID}.html`) 또는 offer id 숫자.
 - 두 번째 인자: 출력 기준폴더(위 예시는 `products/1688`). 산출물은 `products/1688/{OFFER_ID}_{슬러그}/` 로 생성된다.
 - 요구사항: `bash` + `curl` + `node` (jq/python 불필요). `window.context` 파싱은 반드시 node.
@@ -49,6 +55,7 @@ README.md
 .gitignore
 playbook/1688-collection.md      # 1688 수집 전 과정 방법론
 scripts/1688/                    # 1688 수집 도구 (bash + curl + node)
+  collect_auto.sh                # 자동 분기 래퍼 (데스크톱↔모바일, 무인 구동 권장)
   collect.sh                     # 익명 수집 (데스크톱 detail.1688.com — 주거용 IP)
   collect_mobile.sh              # 익명 수집 (모바일 m.1688.com — 데이터센터 IP 우회)
   collect_authed.sh              # 로그인(쿠키) 수집 (선택)

@@ -44,13 +44,22 @@ trap 'rm -rf "$TMP"' EXIT
 
 echo "=== 1688 익명 수집 시작 (모바일 경로): offer $OFFER ==="
 
-# ---- 1) 모바일 상품 페이지 fetch ----
-CODE="$(curl -sL -A "$UA" \
-  -H "Referer: https://www.1688.com/" \
-  -H "Accept-Language: zh-CN,zh;q=0.9" \
-  -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" \
-  -o "$TMP/page.html" -w "%{http_code}" --max-time 40 "$OFFER_URL" || echo ERR)"
+# ---- 1) 모바일 상품 페이지 fetch (HTTP/2 스트림 리셋 대비: 실패 시 --http1.1 재시도) ----
+fetch_page(){ # $1: 추가 curl 옵션 (빈문자열 | --http1.1)
+  curl -sL $1 -A "$UA" \
+    -H "Referer: https://www.1688.com/" \
+    -H "Accept-Language: zh-CN,zh;q=0.9" \
+    -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" \
+    -o "$TMP/page.html" -w "%{http_code}" --max-time 40 "$OFFER_URL"
+}
+CODE="$(fetch_page '' || echo ERR)"
 SIZE="$(wc -c < "$TMP/page.html" 2>/dev/null | tr -d ' ')"
+# 일부 데이터센터에서 m.1688.com 이 HTTP/2 스트림을 리셋(curl 92, 2B 응답)한다 → HTTP/1.1 로 재시도
+if [ "$CODE" != "200" ] || [ "${SIZE:-0}" -lt 2000 ] || ! grep -q 'window.__INIT_DATA' "$TMP/page.html"; then
+  echo "페이지 1차 실패(HTTP:$CODE SIZE:${SIZE}B) — HTTP/2 리셋 가능, --http1.1 재시도"
+  CODE="$(fetch_page --http1.1 || echo ERR)"
+  SIZE="$(wc -c < "$TMP/page.html" 2>/dev/null | tr -d ' ')"
+fi
 echo "페이지 HTTP:$CODE SIZE:${SIZE}B"
 if [ "$CODE" != "200" ] || [ "${SIZE:-0}" -lt 2000 ]; then
   echo "❌ 페이지 수집 실패 (HTTP:$CODE, SIZE:$SIZE). 네트워크/차단 확인." >&2

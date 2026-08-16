@@ -220,6 +220,7 @@ node scripts/1688/diff_context.js 05_원본데이터/context_상품데이터.jso
 
 ## 8. 재사용 스크립트 (scripts/1688/)
 `scripts/1688/README.md` 에 각 스크립트 상세 사용법. 요약:
+- `collect_auto.sh <offer_url_또는_id> [출력폴더] [--desktop|--mobile]` — **자동 분기 래퍼**(무인 구동 권장). 데스크톱 실시간 프로브 → 통과면 `collect.sh`, 차단이면 `collect_mobile.sh`.
 - `collect.sh <offer_url_또는_id> [출력폴더]` — 익명 수집(데스크톱 detail.1688.com, 주거용 IP).
 - `collect_mobile.sh <offer_url_또는_id> [출력폴더]` — 익명 수집(모바일 m.1688.com, 데이터센터 IP 우회). 출력 계약 동일.
 - `parse_context.js <parse|summary|get|images|skucsv|attrs|productmd|detail-html|detail-images>` — window.context 파서(데스크톱).
@@ -282,4 +283,4 @@ node scripts/1688/diff_context.js 05_원본데이터/context_상품데이터.jso
 
 - VPS(데이터센터 IP)에서 자동 수집하는 Hermes 는 **`collect_mobile.sh` 를 기본 경로**로 삼는다(데스크톱은 이 IP 에서 계속 막힌다).
 - SKU 개별가/재고·리뷰 등 모바일에 없는 데이터가 필요한 상품만, 주거용 프록시(데스크톱 `collect.sh`) 또는 로그인 경로로 **선택 보강**.
-- (선택) 두 경로를 자동 전환하고 싶으면 얇은 래퍼(`collect_auto.sh`: 데스크톱 시도 → 챌린지 감지 시 모바일 폴백)를 두면 되지만, IP 유형이 고정된 환경에서는 경로를 직접 지정하는 편이 단순하다.
+- **자동 전환은 `collect_auto.sh`**: 데스크톱을 실시간 프로브해 통과하면 `collect.sh`, 차단이면 `collect_mobile.sh` 로 분기한다(무인 구동용). `--desktop`/`--mobile` 로 강제, `https_proxy` 존중, curl·node·OS 자동 점검. 일부 데이터센터에서 m.1688.com 이 HTTP/2 스트림을 리셋하면 자동으로 `--http1.1` 재시도한다. IP 유형이 고정된 환경(VPS 는 늘 데이터센터)이면 경로를 직접 지정해도 무방하다.
