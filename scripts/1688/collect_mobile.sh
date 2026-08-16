@@ -176,12 +176,22 @@ if [ -n "$VIDEO_COVER" ]; then
 fi
 if [ -n "$VIDEO_URL" ]; then
   echo "--- 동영상 다운로드 (302 → 서명 URL) ---"
-  LOC="$(curl -sI -A "$UA" -H "Referer: https://detail.1688.com/" --max-time 30 "$VIDEO_URL" \
-        | tr -d '\r' | awk -F': ' 'tolower($1)=="location"{print $2}' | tail -1)"
+  # 302 Location 해석 (HEAD 도 H2 리셋 가능 → 비면 --http1.1 재시도)
+  vid_loc(){ curl -sI $1 -A "$UA" -H "Referer: https://detail.1688.com/" --max-time 30 "$VIDEO_URL" \
+             | tr -d '\r' | awk -F': ' 'tolower($1)=="location"{print $2}' | tail -1; }
+  LOC="$(vid_loc '')"; [ -z "$LOC" ] && LOC="$(vid_loc --http1.1)"
   TARGET="${LOC:-$VIDEO_URL}"
-  c="$(curl -sL -A "$UA" -H "Referer: https://detail.1688.com/" \
-        -o "$OUTDIR/04_동영상/상품동영상.mp4" -w "%{http_code}" --max-time 90 "$TARGET")"
-  vs="$(wc -c < "$OUTDIR/04_동영상/상품동영상.mp4" 2>/dev/null | tr -d ' ')"
+  MP4="$OUTDIR/04_동영상/상품동영상.mp4"
+  # 다운로드 (HTTP/2 스트림 리셋 시 --http1.1 재시도; H2 리셋은 200 을 찍고도 파일을 자른다)
+  c=""; vs=0
+  for vopt in "" "--http1.1"; do
+    c="$(curl -sL $vopt -A "$UA" -H "Referer: https://detail.1688.com/" \
+          -o "$MP4" -w "%{http_code}" --max-time 90 "$TARGET")"; rc=$?
+    # 연결 실패(HTTP:000)면 mp4 가 아예 안 생기므로 존재 확인 후 크기 측정
+    if [ -f "$MP4" ]; then vs="$(wc -c < "$MP4" | tr -d ' ')"; else vs=0; fi
+    if [ $rc -eq 0 ] && [ "$c" = "200" ] && [ "${vs:-0}" -gt 10000 ]; then break; fi
+    [ "$vopt" = "" ] && echo "  동영상 1차 실패(HTTP:$c SIZE:$vs rc:$rc) — --http1.1 재시도"
+  done
   if [ "$c" = "200" ] && [ "${vs:-0}" -gt 10000 ]; then echo "  동영상 OK (${vs}B)"; else warn "동영상 실패 HTTP:$c SIZE:$vs"; fi
 fi
 
