@@ -23,6 +23,23 @@ bash collect.sh 889272226600 /Users/me/work/how-to-capture
 → `01_상품정보/상품정보_원본_중국어.md` + `SKU_가격표.csv` + `README.md` 생성.
 출력 폴더 = `<출력_기준폴더>/<offerId>_<슬러그>/` (기준폴더 기본값 = 현재 디렉터리).
 
+> ⚠️ **데이터센터 IP(VPS)** 에서는 이 스크립트가 ~4.8KB 챌린지 페이지만 받아 실패한다(아래 §1b). 원인은 IP 평판이며 curl 헤더/TLS 지문 문제가 아니다.
+
+## 1b. collect_mobile.sh — 익명 수집 (모바일 m.1688.com, 데이터센터 IP 우회)
+
+```bash
+bash collect_mobile.sh <offer_url_또는_offer_id> [출력_기준폴더]
+# 예
+bash collect_mobile.sh 647941709416 products/1688
+```
+
+`detail.1688.com`(데스크톱)은 접속 IP 의 ASN(대역 소유자)을 점수화해 **데이터센터/클라우드 IP** 를 안티봇(baxia/TMD)으로 막는다(HTTP 200 이지만 챌린지 페이지). **모바일 `m.1688.com/offer/<id>.html`** 은 같은 데이터센터 IP 에서도 익명 GET 으로 전체 상품 JSON 을 준다. `collect.sh` 와 **동일한 폴더 구조/소비 계약**(`05_원본데이터/summary.json` + `03_이미지/`)을 만든다.
+
+- 데이터는 `window.context`(JS 리터럴)가 아니라 **`window.__INIT_DATA`(순수 JSON → `JSON.parse`)** 에 들어 있다. 파싱은 `parse_mobile.js`(§2b).
+- iPhone UA 로 fetch(모바일 페이지를 받으려면 필수). 이미지·동영상 다운로드는 `collect.sh` 와 동일(원본만·md5 중복제거·동영상 302 서명 URL).
+- ⚠️ **모바일 익명 초기 페이로드에 없는 것**(→ summary.json 에서 null): SKU 별 개별가/재고(`skuId` 만), 리뷰 통계(`rate.*`), 동영상 커버/제목, 판매자 인증정보·재구매율. 서명 mtop API 로 지연로딩되며 익명으로는 못 채운다(실증). 제목·계단가·이미지·동영상·속성·판매자 회사명·배송은 모두 포함.
+- **언제 쓰나**: 접속 IP 가 데이터센터일 때, 또는 `collect.sh` 가 `window.context 없음` 으로 실패할 때. 주거용 IP 라면 데이터가 더 풍부한 `collect.sh`(데스크톱)를 우선.
+
 ## 2. parse_context.js — window.context 파서 (핵심 재사용 모듈)
 
 ```bash
@@ -38,6 +55,22 @@ node parse_context.js detail-images <detail_response.js> # 상세 원본 이미�
 ```
 
 `require('./parse_context.js')` 로 `extractContext / buildSummary / parseDetail / deepFind / slugify` 도 사용 가능.
+
+## 2b. parse_mobile.js — window.__INIT_DATA 파서 (모바일)
+
+```bash
+node parse_mobile.js parse   <page.html>                 # __INIT_DATA → JSON
+node parse_mobile.js summary <page.html|init.json>       # 정규화 요약 (parse_context 와 동일 스키마)
+node parse_mobile.js get     <*.json> <dotted.path>      # 스칼라
+node parse_mobile.js images  <page.html|init.json>       # 메인 원본 이미지 URL
+node parse_mobile.js skucsv  <page.html|init.json>       # SKU 가격표 CSV (동일 컬럼)
+node parse_mobile.js attrs   <page.html|init.json>       # 속성 마크다운
+node parse_mobile.js productmd <page.html|init.json>     # 상품정보 원문 마크다운
+node parse_mobile.js detail-html   <detail_response.js>  # 상세 content(HTML)
+node parse_mobile.js detail-images <detail_response.js>  # 상세 원본 이미지 URL
+```
+
+`parse_context.js` 와 **출력 스키마·서브커맨드가 동일**해 다운스트림이 두 경로를 구분 없이 소비할 수 있다. 차이는 입력뿐: `window.__INIT_DATA`(순수 JSON, `JSON.parse`)를 읽고, 모듈 ID 가 페이지마다 바뀌므로 `componentType` 으로 모듈을 찾는다. `require('./parse_mobile.js')` 로 `extractInitData / buildSummary / parseDetail / slugify / isThumb / moduleData` 사용 가능.
 
 ## 3. collect_authed.sh — 로그인(쿠키) 수집
 

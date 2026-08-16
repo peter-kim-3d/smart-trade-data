@@ -13,6 +13,14 @@ bash scripts/1688/collect.sh <offer_url_또는_id> products/1688
 - 요구사항: `bash` + `curl` + `node` (jq/python 불필요). `window.context` 파싱은 반드시 node.
 - 로그인 전용 데이터(도매/분소가·회사 상세·개별 리뷰)가 필요하면 `scripts/1688/collect_authed.sh` + `scripts/1688/diff_context.js` 사용. 자세한 방법론은 `playbook/1688-collection.md` 참조.
 
+### 데이터센터 IP(VPS) 에서는 모바일 경로
+
+```bash
+bash scripts/1688/collect_mobile.sh <offer_url_또는_id> products/1688
+```
+
+`detail.1688.com`(데스크톱) 은 **접속 IP 의 평판(ASN)** 으로 안티봇(baxia/TMD)을 건다. 집·사무실 같은 **주거용 IP** 는 위 `collect.sh` 로 통과되지만, **데이터센터/클라우드 IP(VPS: AWS·GCP·Vultr·Hetzner·OVH·Hostinger 등)** 는 HTTP 200 이어도 ~4.8KB 챌린지 페이지만 온다(→ `window.context` 없음). 이때는 **모바일 `m.1688.com` 경로(`collect_mobile.sh`)** 를 쓴다 — 같은 데이터센터 IP 에서도 익명으로 뚫린다(데이터는 `window.__INIT_DATA` JSON). 출력 폴더 구조·소비 계약은 `collect.sh` 와 동일. 단 모바일 익명 페이로드에는 SKU 별 개별가/재고·리뷰·판매자 인증정보가 없다(핵심 데이터는 모두 포함). **차단 원인은 IP 이지 OS 가 아니다**(TLS 지문 위장으로는 안 뚫림 — 실증됨). 자세한 판단 기준·OS 별 실행법은 `playbook/1688-collection.md` §10.
+
 ## 확장 규약 (새 소스 추가)
 
 새 소스 `{site}` 를 추가하려면 아래 3가지를 갖춘다.
@@ -41,9 +49,11 @@ README.md
 .gitignore
 playbook/1688-collection.md      # 1688 수집 전 과정 방법론
 scripts/1688/                    # 1688 수집 도구 (bash + curl + node)
-  collect.sh                     # 익명 수집 전체 자동화
+  collect.sh                     # 익명 수집 (데스크톱 detail.1688.com — 주거용 IP)
+  collect_mobile.sh              # 익명 수집 (모바일 m.1688.com — 데이터센터 IP 우회)
   collect_authed.sh              # 로그인(쿠키) 수집 (선택)
-  parse_context.js               # window.context 파서 (핵심 재사용 모듈)
+  parse_context.js               # window.context 파서 (데스크톱)
+  parse_mobile.js                # window.__INIT_DATA 파서 (모바일)
   parse_reviews.js               # 리뷰 파서
   diff_context.js                # 익명 vs 로그인 의미차
   README.md                      # 스크립트 상세 사용법

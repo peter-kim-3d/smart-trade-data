@@ -9,7 +9,7 @@
 
 ## 0. 복붙용 프롬프트 요약본 (다른 에이전트에게 이 한 단락만 줘도 됨)
 
-> 1688 상품 `https://detail.1688.com/offer/{OFFER_ID}.html` 를 수집하라. **WebFetch 류는 빈 페이지를 주니 쓰지 말고 반드시 curl** 로 받되 헤더 `User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36`, `Referer: https://www.1688.com/`, `Accept-Language: zh-CN,zh;q=0.9` 를 붙여라(로그인·쿠키 불필요, HTTP 200 ~80KB). HTML 안 `window.context = (function(b,d){...})(window.contextPath, {거대객체})` 의 **2번째 인자 객체**가 전체 상품 데이터인데, 순수 JSON 이 아니라 JS 객체 리터럴이라 **Python json.loads 는 실패 → node 로 파싱**: `(window.contextPath,` 뒤 첫 `{` 부터 문자열 내부를 무시하며 괄호 균형 스캔 후 `eval('('+raw+')')`. 파싱 결과 `result.data` 아래 35개 모듈에서 제목(`productTitle.fields.title`)·SKU/가격/재고(`mainPrice.fields.finalPriceModel.tradeWithoutPromotion.skuMapOriginal`)·속성(`gallery.fields.CpvEnhance`)·이미지(`gallery.fields.offerImgList`)·동영상(`gallery.fields.video`)·상세URL(`description.fields.detailUrl`)·배송(`shippingServices.fields`)을 추출하라. 이미지는 `cbu01.alicdn.com`의 **원본 `-cib.jpg`만**(`.220x220`/`.310x310`/`.search`/`.summ` 썸네일 제외), Referer `https://detail.1688.com/`, **md5 중복제거**. 동영상은 `cloud.video.taobao.com` URL이 **302 리다이렉트** 라 `curl -sI`로 Location(서명 CDN URL)을 받아 직접 다운로드. 상세페이지는 detailUrl을 GET하면 `var offer_details={"content":"<html>"}` JSONP 라 접두사/`;` 제거 후 eval → `.content` HTML. **가장 빠른 길: `scripts/1688/collect.sh {OFFER_ID}` 실행.** 로그인 전용 데이터(도매/분소가·회사 상세·개별 리뷰)가 필요하면 사람이 브라우저 로그인 후 쿠키를 내보내 `scripts/1688/collect_authed.sh` 로 수집하고 `scripts/1688/diff_context.js` 로 익명본과 대조하라.
+> 1688 상품 `https://detail.1688.com/offer/{OFFER_ID}.html` 를 수집하라. **WebFetch 류는 빈 페이지를 주니 쓰지 말고 반드시 curl** 로 받되 헤더 `User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36`, `Referer: https://www.1688.com/`, `Accept-Language: zh-CN,zh;q=0.9` 를 붙여라(로그인·쿠키 불필요, HTTP 200 ~80KB). HTML 안 `window.context = (function(b,d){...})(window.contextPath, {거대객체})` 의 **2번째 인자 객체**가 전체 상품 데이터인데, 순수 JSON 이 아니라 JS 객체 리터럴이라 **Python json.loads 는 실패 → node 로 파싱**: `(window.contextPath,` 뒤 첫 `{` 부터 문자열 내부를 무시하며 괄호 균형 스캔 후 `eval('('+raw+')')`. 파싱 결과 `result.data` 아래 35개 모듈에서 제목(`productTitle.fields.title`)·SKU/가격/재고(`mainPrice.fields.finalPriceModel.tradeWithoutPromotion.skuMapOriginal`)·속성(`gallery.fields.CpvEnhance`)·이미지(`gallery.fields.offerImgList`)·동영상(`gallery.fields.video`)·상세URL(`description.fields.detailUrl`)·배송(`shippingServices.fields`)을 추출하라. 이미지는 `cbu01.alicdn.com`의 **원본 `-cib.jpg`만**(`.220x220`/`.310x310`/`.search`/`.summ` 썸네일 제외), Referer `https://detail.1688.com/`, **md5 중복제거**. 동영상은 `cloud.video.taobao.com` URL이 **302 리다이렉트** 라 `curl -sI`로 Location(서명 CDN URL)을 받아 직접 다운로드. 상세페이지는 detailUrl을 GET하면 `var offer_details={"content":"<html>"}` JSONP 라 접두사/`;` 제거 후 eval → `.content` HTML. **가장 빠른 길: `scripts/1688/collect.sh {OFFER_ID}` 실행.** 로그인 전용 데이터(도매/분소가·회사 상세·개별 리뷰)가 필요하면 사람이 브라우저 로그인 후 쿠키를 내보내 `scripts/1688/collect_authed.sh` 로 수집하고 `scripts/1688/diff_context.js` 로 익명본과 대조하라. **★데이터센터/클라우드 IP(VPS)에서는 데스크톱 detail.1688.com 이 IP 평판으로 차단(HTTP 200 + ~4.8KB baxia/TMD 챌린지, `window.context` 없음)되니, 모바일 `m.1688.com/offer/{OFFER_ID}.html` 을 iPhone UA 로 받아 `window.__INIT_DATA`(순수 JSON, JSON.parse) 를 파싱하라 — 가장 빠른 길은 `scripts/1688/collect_mobile.sh {OFFER_ID}`. 차단은 IP 문제라 TLS/HTTP2 지문 위장(curl-impersonate)으로는 안 뚫린다(실증). 자세한 IP·OS 별 판단은 §10.★**
 
 ---
 
@@ -18,6 +18,7 @@
 - **목적**: 1688 상품 1건의 정보(제목·SKU·가격·재고·속성·이미지·동영상·상세페이지·판매자·배송·리뷰)를 손실 없이 로컬에 수집.
 - **입력**: offer URL `https://detail.1688.com/offer/{OFFER_ID}.html` 또는 offer id 숫자.
 - **핵심 통찰**: "1688은 안티봇으로 fetch 불가"는 **오해**다. 브라우저 헤더를 붙인 일반 curl 로 **로그인 없이** HTTP 200 정상 수집된다. 대부분의 데이터가 HTML 안 `window.context` 에 임베디드돼 있다.
+  - ⚠️ **단, 이는 접속 IP 가 주거용일 때.** detail.1688.com 은 접속 IP 의 ASN 을 점수화해 **데이터센터/클라우드 IP(VPS)** 는 안티봇으로 막는다(HTTP 200 이지만 챌린지). 이 경우 **모바일 `m.1688.com` 경로**(§2-0, `collect_mobile.sh`)를 쓴다 — 같은 VPS IP 에서도 익명으로 뚫리며 데이터는 `window.__INIT_DATA`(순수 JSON)에 있다. **차단은 IP 이지 OS/헤더/TLS 지문이 아니다**(§10 실증).
 - **2단계 구조**: **Phase 1 익명 수집**(핵심, 거의 모든 것) → **Phase 2 로그인 수집(선택)**(도매/분소가·회사 상세·개별 리뷰가 필요할 때만) → **검증**.
 
 ### 출력 폴더 구조
@@ -44,6 +45,19 @@ bash scripts/1688/collect.sh https://detail.1688.com/offer/{OFFER_ID}.html [출�
 bash scripts/1688/collect.sh {OFFER_ID}
 ```
 이 한 줄이 아래 2-1~2-5 전부를 수행한다. 아래는 **수동 재현/디버깅용** 상세.
+
+### 2-0. 데이터센터 IP / 데스크톱 차단 시 — 모바일 경로 (`collect_mobile.sh`)
+
+```bash
+bash scripts/1688/collect_mobile.sh {OFFER_ID} [출력_기준폴더]
+```
+
+**언제**: 접속 IP 가 데이터센터/클라우드(VPS)거나, 위 `collect.sh` 가 `window.context 없음`(≈4.8KB 챌린지)으로 실패할 때. **왜 되나**: detail.1688.com(데스크톱)은 IP 평판으로 막지만 **`m.1688.com`(모바일)** 은 같은 IP 에서도 익명 GET 으로 전체 상품 JSON 을 준다. **차이**: 데이터가 `window.context`(JS 리터럴, eval)가 아니라 **`window.__INIT_DATA`(순수 JSON → `JSON.parse`)** 에 있고, 모듈 ID 가 페이지마다 바뀌어 `parse_mobile.js` 는 `componentType` 으로 모듈을 찾는다. **출력 폴더 구조·소비 계약(summary.json + 03_이미지/)은 데스크톱과 동일.**
+
+- fetch 는 **iPhone UA** 필수: `Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1`, Referer `https://www.1688.com/`. 이미지·동영상 처리(원본만·md5 dedup·동영상 302 서명 URL)는 데스크톱과 동일.
+- ⚠️ **모바일 익명 초기 페이로드에 없는 것**(summary.json 에서 null): **SKU 별 개별가/재고**(`skuId` 만 확보), **리뷰 통계**(`rate.*`), **동영상 커버/제목**, **판매자 인증정보·재구매율**. 이들은 서명 mtop API 로 지연로딩되며 **익명으로는 못 채운다**(유일 API `mtop.alibaba.cbu.wireless.uniform.product.batchgetcomponentdata` 가 익명엔 빈 `{}` 반환, 전용 sku/rate API 부재 — 실증). 제목·계단가·이미지·동영상·속성·판매자 회사명·배송은 모두 포함.
+- 수동 파싱: `node scripts/1688/parse_mobile.js parse page.html > init.json` → `node scripts/1688/parse_mobile.js summary init.json > summary.json` (서브커맨드는 `parse_context.js` 와 동일).
+- 워크드 예제: `products/1688/647941709416_拍立得3寸…/` (이 경로로 실제 수집: 메인 11·상세 15 이미지, SKU 6, 동영상 6.14MB).
 
 ### 2-1. 상품 페이지 fetch (curl, 브라우저 헤더)
 ```bash
@@ -186,6 +200,8 @@ node scripts/1688/diff_context.js 05_원본데이터/context_상품데이터.jso
 | 리뷰 본문이 다 비슷 | 1688 canned 리뷰 | 본문보다 **규격·수량 메타데이터** 활용 |
 | 회사 상세/winport 가 캡차 | baxia/滑块/punish 안티봇 | curl 로 불가 → 사람이 브라우저에서 저장 |
 | `while read` 가 마지막 줄 누락 | 목록 마지막 줄 개행 없음 | 루프에 `|| [ -n "$url" ]` 가드(스크립트에 적용됨) |
+| 데스크톱이 ~4.8KB 챌린지만(`window.context` 없음) | **데이터센터/클라우드 IP** 평판 차단(baxia/TMD) — OS·헤더·TLS 지문 무관(실증) | **모바일 `collect_mobile.sh`** 사용(m.1688.com + `window.__INIT_DATA`). 주거용 IP·주거용 프록시면 데스크톱도 통과 (§2-0·§10) |
+| Windows 에서 스크립트가 안 돌아감 | cmd/PowerShell 엔 bash 없음 | **WSL2**(권장) 또는 **Git Bash**(bash+md5sum+curl 포함)에서 실행. node 는 크로스플랫폼 설치 (§10) |
 
 ---
 
@@ -204,8 +220,10 @@ node scripts/1688/diff_context.js 05_원본데이터/context_상품데이터.jso
 
 ## 8. 재사용 스크립트 (scripts/1688/)
 `scripts/1688/README.md` 에 각 스크립트 상세 사용법. 요약:
-- `collect.sh <offer_url_또는_id> [출력폴더]` — 익명 수집 전체 자동화.
-- `parse_context.js <parse|summary|get|images|skucsv|attrs|productmd|detail-html|detail-images>` — window.context 파서(핵심 재사용 모듈).
+- `collect.sh <offer_url_또는_id> [출력폴더]` — 익명 수집(데스크톱 detail.1688.com, 주거용 IP).
+- `collect_mobile.sh <offer_url_또는_id> [출력폴더]` — 익명 수집(모바일 m.1688.com, 데이터센터 IP 우회). 출력 계약 동일.
+- `parse_context.js <parse|summary|get|images|skucsv|attrs|productmd|detail-html|detail-images>` — window.context 파서(데스크톱).
+- `parse_mobile.js <동일 서브커맨드>` — window.__INIT_DATA 파서(모바일). 출력 스키마 동일.
 - `collect_authed.sh <offer_id> <cookies.txt> [출력폴더] [shopUrl] [memberId]` — 로그인 수집.
 - `parse_reviews.js <reviews_raw.json> [--json]` — commentList 파서(조각/JSONP 허용, rateId 중복제거).
 - `diff_context.js <anon.json> <authed.json> [--all]` — 노이즈 필터링된 의미차 리포트.
@@ -218,3 +236,50 @@ node scripts/1688/diff_context.js 05_원본데이터/context_상품데이터.jso
 - 익명 수집: 메인 이미지 7장(6·7 md5 동일), 상세 이미지 5장, 동영상 1.67MB, SKU 8종·속성 전체(CpvEnhance) 확보.
 - 로그인 수집·검증: 가격 **익명과 완전 동일**(铺货/分销 미지원), 회사 개요 일부 확보, contactinfo/creditdetail/winport 는 baxia 차단, 개별 리뷰는 DevTools 캡처로 확보.
 - 이 플레이북/스크립트는 그 폴더를 대상으로 `collect.sh 889272226600` 셀프테스트를 통과했다(제목·SKU·이미지·동영상 정상 추출).
+- `647941709416_拍立得3寸…/` — **모바일 경로**(`collect_mobile.sh`) 워크드 예제. 데이터센터 VPS 에서 데스크톱이 차단된 상태로 수집(메인 11·상세 15 이미지, SKU 6, 동영상 6.14MB).
+
+---
+
+## 10. 실행 환경 가이드 (OS / IP 유형)
+
+> 자주 헷갈리는 지점: "OS 따라 수집법이 달라지나?" → **아니다.** 무엇이 뚫리느냐는 **접속 IP 유형**이 정하고, OS 는 **스크립트를 어떻게 돌리느냐(툴·셸)** 만 정한다. 이 둘은 독립 축이다.
+
+### 축 1 — 접속 IP 유형이 "어떤 엔드포인트가 되느냐"를 정한다 (핵심)
+
+| IP 유형 | 데스크톱 `collect.sh` | 권장 |
+|---|---|---|
+| **주거용/사무실 ISP**(집 Mac, 집 Linux, 주거용 프록시) | ✅ 통과(≈80KB, `window.context`) — 데이터 가장 풍부(SKU 개별가/재고·리뷰까지 가능) | `collect.sh`(데스크톱) |
+| **데이터센터/클라우드**(VPS: AWS·GCP·Vultr·Hetzner·OVH·Hostinger 등) | ❌ 차단(HTTP 200 + ~4.8KB baxia/TMD 챌린지, `window.context` 없음) | `collect_mobile.sh`(모바일) |
+
+- **왜 IP 인가**: detail.1688.com 은 접속 IP 의 ASN(대역 소유자)을 봇 점수로 쓴다. **실증**: 완벽한 Chrome 지문(curl-impersonate: TLS+HTTP2+헤더 전부 Chrome)으로 VPS 에서 받아도 **바이트 단위 동일한 4.8KB 챌린지** → 지문/헤더/OS 문제가 아니라 **IP 평판 문제**. 쿠키 워밍은 오히려 `punish` 로 악화.
+- **IP 유형 확인**: `curl -s https://ipinfo.io/json` → `org`/`asn` 이 hosting/datacenter 면 데스크톱은 막힌다고 보면 된다.
+- **주거용 프록시**를 쓰면 VPS 에서도 데스크톱을 통과시킬 수 있다: 코드 수정 없이 `https_proxy=http://user:pass@host:port` 환경변수만 export 하고 `collect.sh` 실행(유료). 데스크톱의 풍부한 데이터가 꼭 필요할 때만.
+
+### 축 2 — OS 가 "스크립트를 어떻게 돌리느냐"를 정한다
+
+공통 요구: **`bash` + `curl` + `node`**(GET 만, jq/python 불필요). 스크립트는 GNU 전용 구문을 쓰지 않고 md5 도 `md5sum`(Linux)/`md5 -q`(macOS) 를 자동 감지하므로 **Mac/Linux 는 수정 없이 그대로** 동작한다.
+
+| OS | curl | md5 | 셸 | node 설치 | 비고 |
+|---|---|---|---|---|---|
+| **macOS** | 내장(LibreSSL) | `md5 -q`(자동) | bash(3.2+; 최신은 `brew install bash`) | `brew` 또는 `nvm` | 보통 주거용 IP → 데스크톱 경로 |
+| **Linux(데스크톱/서버/WSL)** | 내장(OpenSSL) | `md5sum`(자동) | bash 내장 | 배포판 패키지 / `nvm` / 공식 바이너리(`~/.local`, root 불필요) | VPS 면 데이터센터 IP → 모바일 경로 |
+| **Windows** | `curl.exe` 내장(Win10+) | — | **cmd/PowerShell 엔 bash 없음** | 크로스플랫폼 설치 | 아래 방법 필요 |
+
+**Windows 실행법**(택 1):
+- **(A) WSL2 — 권장.** 우분투를 깔면 사실상 Linux 다. 스크립트가 그대로 돌고 node 설치도 Linux 와 동일. 파일 I/O 는 `\\wsl$` 대신 WSL 내부 경로(`~/…`)에서 하는 게 성능·인코딩상 유리.
+- **(B) Git Bash.** Git for Windows 에 bash + coreutils(`md5sum`) + curl 이 포함돼 스크립트가 그대로 실행된다. node 는 별도 설치.
+- **(C) PowerShell 재작성** — 비권장(공수 큼). 필요하면 curl.exe + node 로 포팅 가능하나 유지보수 부담.
+- 파일명에 한중일 문자가 들어가므로 UTF-8 터미널을 쓰고, git 에서 경로가 깨져 보이면 `git config core.quotepath false`.
+
+### 의사결정 플로우 (한눈에)
+
+1. `bash scripts/1688/collect.sh {ID} products/1688` 실행.
+2. **성공**(≈80KB, `window.context` 있음) → 끝. (주거용 IP)
+3. **~4.8KB 챌린지 / `window.context 없음`** → IP 차단 → `bash scripts/1688/collect_mobile.sh {ID} products/1688`. (데이터센터 IP)
+4. 데스크톱 수준의 **SKU 개별가/재고·리뷰**가 꼭 필요 → 주거용 프록시로 `collect.sh`, 또는 사람-쿠키 로그인 경로(§3).
+
+### 권장 아키텍처 (이 repo 의 VPS/Hermes 기준)
+
+- VPS(데이터센터 IP)에서 자동 수집하는 Hermes 는 **`collect_mobile.sh` 를 기본 경로**로 삼는다(데스크톱은 이 IP 에서 계속 막힌다).
+- SKU 개별가/재고·리뷰 등 모바일에 없는 데이터가 필요한 상품만, 주거용 프록시(데스크톱 `collect.sh`) 또는 로그인 경로로 **선택 보강**.
+- (선택) 두 경로를 자동 전환하고 싶으면 얇은 래퍼(`collect_auto.sh`: 데스크톱 시도 → 챌린지 감지 시 모바일 폴백)를 두면 되지만, IP 유형이 고정된 환경에서는 경로를 직접 지정하는 편이 단순하다.
