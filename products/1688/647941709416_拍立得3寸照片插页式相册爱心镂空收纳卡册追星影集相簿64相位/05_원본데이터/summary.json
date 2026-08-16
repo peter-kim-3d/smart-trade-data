@@ -1,0 +1,210 @@
+{
+  "offerId": 647941709416,
+  "title": "拍立得3寸照片插页式相册爱心镂空收纳卡册追星影集相簿64相位",
+  "slug": "拍立得3寸照片插页式相册爱心镂空收纳卡册追星影集相簿64相位",
+  "saleNum": "1597",
+  "unit": "本",
+  "price": {
+    "display": "5.00-4.50",
+    "min": "4.50",
+    "max": "5.00",
+    "moq": 2,
+    "tiers": [
+      {
+        "price": "5.00",
+        "beginAmount": "2"
+      },
+      {
+        "price": "4.80",
+        "beginAmount": "100"
+      },
+      {
+        "price": "4.50",
+        "beginAmount": "1000"
+      }
+    ]
+  },
+  "skus": [
+    {
+      "skuId": 4848809687443,
+      "specId": null,
+      "specAttrs": null,
+      "price": null,
+      "discountPrice": null,
+      "canBookCount": null
+    },
+    {
+      "skuId": 4848809687442,
+      "specId": null,
+      "specAttrs": null,
+      "price": null,
+      "discountPrice": null,
+      "canBookCount": null
+    },
+    {
+      "skuId": 4848809687445,
+      "specId": null,
+      "specAttrs": null,
+      "price": null,
+      "discountPrice": null,
+      "canBookCount": null
+    },
+    {
+      "skuId": 4947240700838,
+      "specId": null,
+      "specAttrs": null,
+      "price": null,
+      "discountPrice": null,
+      "canBookCount": null
+    },
+    {
+      "skuId": 4848809687444,
+      "specId": null,
+      "specAttrs": null,
+      "price": null,
+      "discountPrice": null,
+      "canBookCount": null
+    },
+    {
+      "skuId": 4947240700839,
+      "specId": null,
+      "specAttrs": null,
+      "price": null,
+      "discountPrice": null,
+      "canBookCount": null
+    }
+  ],
+  "attributes": [
+    {
+      "name": "款式",
+      "values": [
+        "卡通相册"
+      ]
+    },
+    {
+      "name": "封面材质",
+      "values": [
+        "PVC"
+      ]
+    },
+    {
+      "name": "内页页数",
+      "values": [
+        "16页64"
+      ]
+    },
+    {
+      "name": "用途",
+      "values": [
+        "普通相册"
+      ]
+    },
+    {
+      "name": "品牌",
+      "values": [
+        "其他"
+      ]
+    },
+    {
+      "name": "封面颜色",
+      "values": [
+        "蓝色",
+        "湖蓝色",
+        "粉色",
+        "mi'ni紫色",
+        "米白色",
+        "紫色"
+      ]
+    },
+    {
+      "name": "加印LOGO",
+      "values": [
+        "可以"
+      ]
+    },
+    {
+      "name": "加工定制",
+      "values": [
+        "是"
+      ]
+    },
+    {
+      "name": "是否跨境出口专供货源",
+      "values": [
+        "否"
+      ]
+    },
+    {
+      "name": "是否属于礼品",
+      "values": [
+        "否"
+      ]
+    },
+    {
+      "name": "是否IP授权",
+      "values": [
+        "否"
+      ]
+    },
+    {
+      "name": "拍立得照片",
+      "values": [
+        "3寸"
+      ]
+    },
+    {
+      "name": "爱心镂空",
+      "values": [
+        "相册"
+      ]
+    },
+    {
+      "name": "64",
+      "values": [
+        "卡位"
+      ]
+    }
+  ],
+  "images": [
+    "https://cbu01.alicdn.com/img/ibank/O1CN01R6AFx81j72ywIKUtQ_!!2075544500-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01g6fXao1j72ywFKX6I_!!2075544500-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01XXkOUI1j72z1OqZa0_!!2075544500-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01SFgsp61j72z2v7q2L_!!2075544500-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01VTnYSH1Bs2nrKbXcA_!!0-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01inaAGp1j72z1OwkbS_!!2075544500-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01KzFB8K1j72ywn46wS_!!2075544500-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN010sM4mi1j72yuGVsT3_!!2075544500-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01p6GhuJ1j72z1Oxl4Y_!!2075544500-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN0104sN761j73JRsq2FS_!!2075544500-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01tz741e1j73JP9HpVL_!!2075544500-0-cib.jpg"
+  ],
+  "video": {
+    "videoUrl": "https://cloud.video.taobao.com/play/u/2075544500/p/2/e/6/t/1/376602972885.mp4",
+    "coverUrl": null,
+    "videoId": 376602972885,
+    "title": null
+  },
+  "detailUrl": "https://itemcdn.tmall.com/1688offer/icoss130201358939351cd104c552e5",
+  "leafCategoryId": 1034111,
+  "shipping": {
+    "location": "浙江温州",
+    "logisticsText": "承诺48小时发货·常发中通快递",
+    "unitWeight": 0
+  },
+  "seller": {
+    "companyName": "苍南县金乡镇蕾蕾皮塑制品厂",
+    "authCompanyName": null,
+    "cardType": null,
+    "byrRepeatRate3m": null,
+    "sellerMemberId": "b2b-2075544500",
+    "sellerUserId": 2075544500,
+    "shopUrl": "https://winport.m.1688.com/page/index.html?memberId=b2b-2075544500&_tabId_=index&upstreamSource=od&offerId=647941709416",
+    "winportUrl": "https://winport.m.1688.com/page/index.html?memberId=b2b-2075544500&_tabId_=index&upstreamSource=od&offerId=647941709416&scene=OD&offerId=647941709416"
+  },
+  "rate": {
+    "goodRates": null,
+    "goodsGrade": null,
+    "reviewCount": null,
+    "impressionTags": []
+  }
+}
