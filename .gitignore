@@ -1,0 +1,4 @@
+cookies.txt
+*cookies*.txt
+.env
+**/05_원본데이터/authed/
