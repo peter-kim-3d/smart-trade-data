@@ -1,0 +1,255 @@
+{
+  "offerId": 909017407573,
+  "title": "霁旅信的恋人 闪砂PET胶带 轻柔甜梦曲系列 韩系ins清新diy装饰",
+  "slug": "霁旅信的恋人_闪砂PET胶带_轻柔甜梦曲系列_韩系ins清新diy装饰",
+  "unit": "卷",
+  "price": {
+    "display": "3.16-3.38",
+    "min": "3.16",
+    "max": "3.38",
+    "moq": 1,
+    "tiers": [
+      {
+        "price": "3.38",
+        "beginAmount": 1
+      },
+      {
+        "price": "3.27",
+        "beginAmount": 5
+      },
+      {
+        "price": "3.16",
+        "beginAmount": 10
+      }
+    ]
+  },
+  "skus": [
+    {
+      "skuId": 5772401005985,
+      "specId": "741f161178fdaf17cf86b58a4feb8ebf",
+      "specAttrs": "跑跑喵",
+      "canBookCount": 181
+    },
+    {
+      "skuId": 5772401005984,
+      "specId": "2579129a5f1a2a5ebfc70fa5a3ba9938",
+      "specAttrs": "苹果派",
+      "canBookCount": 170
+    },
+    {
+      "skuId": 5772401005988,
+      "specId": "10187068463561f9052b5e9d4401aff9",
+      "specAttrs": "飞鸟梦",
+      "canBookCount": 41
+    },
+    {
+      "skuId": 5772401005981,
+      "specId": "8ac9c0b72e3d33dc78e7aa0371bee096",
+      "specAttrs": "幸运草",
+      "canBookCount": 149
+    },
+    {
+      "skuId": 5772401005982,
+      "specId": "6439b359c9a8dd3c19c998841545c3e9",
+      "specAttrs": "小房子",
+      "canBookCount": 108
+    },
+    {
+      "skuId": 5772401005987,
+      "specId": "843fcfc2f8f514a95ad3effea09da254",
+      "specAttrs": "粉梦心",
+      "canBookCount": 94
+    },
+    {
+      "skuId": 5772401005986,
+      "specId": "3bab17d80bb8cefcf0a74b67a498d956",
+      "specAttrs": "星雨滴",
+      "canBookCount": 167
+    },
+    {
+      "skuId": 5772401005983,
+      "specId": "a5e7e6ef51d1289e1db11940419fffd6",
+      "specAttrs": "番茄星",
+      "canBookCount": 184
+    }
+  ],
+  "attributes": [
+    {
+      "name": "基材",
+      "values": [
+        "PET（聚酯)"
+      ]
+    },
+    {
+      "name": "品牌",
+      "values": [
+        "infeel.me"
+      ]
+    },
+    {
+      "name": "长度",
+      "values": [
+        "3"
+      ]
+    },
+    {
+      "name": "厚度",
+      "values": [
+        "0.01"
+      ]
+    },
+    {
+      "name": "宽度",
+      "values": [
+        "20"
+      ]
+    },
+    {
+      "name": "适用范围",
+      "values": [
+        "手账装饰"
+      ]
+    },
+    {
+      "name": "颜色",
+      "values": [
+        "幸运草",
+        "小房子",
+        "番茄星",
+        "苹果派",
+        "跑跑喵",
+        "星雨滴",
+        "粉梦心",
+        "飞鸟梦"
+      ]
+    },
+    {
+      "name": "加工定制",
+      "values": [
+        "否"
+      ]
+    },
+    {
+      "name": "是否进口",
+      "values": [
+        "否"
+      ]
+    },
+    {
+      "name": "是否跨境出口专供货源",
+      "values": [
+        "否"
+      ]
+    },
+    {
+      "name": "是否属于礼品",
+      "values": [
+        "否"
+      ]
+    },
+    {
+      "name": "适用场景",
+      "values": [
+        "手账"
+      ]
+    }
+  ],
+  "images": [
+    "https://cbu01.alicdn.com/img/ibank/O1CN01s2yZWj1ZklWoOP1gg_!!2782503233-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN010tOI9j1ZklWoOPpZi_!!2782503233-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01xg9hkG1ZklWmKfpL7_!!2782503233-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN010xGzts1ZklWnzYxbF_!!2782503233-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01tFmjwU1ZklWoCcg0v_!!2782503233-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01QDYBGE1ZklWoChZh8_!!2782503233-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01XqO4XY1ZklWo6TOC9_!!2782503233-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01FexR601ZklWnSWwYJ_!!2782503233-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01lM5Eby1ZklWnSz9UN_!!2782503233-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01U2YnY41ZklWpJC2b2_!!2782503233-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01W5s7Bu1ZklWnD7tL5_!!2782503233-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN010Rv30m1ZklWolhu04_!!2782503233-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN011k26Of1ZklWmDPYHZ_!!2782503233-0-cib.jpg"
+  ],
+  "video": {
+    "videoId": 0
+  },
+  "detailUrl": "https://itemcdn.tmall.com/1688offer/icoss2622924098253fdee554981b54",
+  "leafCategoryId": 127840005,
+  "shipping": {
+    "location": "浙江省金华市",
+    "logisticsText": "承诺48小时发货·常发圆通快递",
+    "unitWeight": 0
+  },
+  "seller": {
+    "companyName": "义乌市町集文化用品有限公司",
+    "authCompanyName": "义乌市町集文化用品有限公司",
+    "cardType": "pm",
+    "byrRepeatRate3m": "88.41%",
+    "sellerMemberId": "b2b-278250323365a94",
+    "sellerUserId": 2782503233,
+    "shopUrl": "https://shop1454000237452.1688.com",
+    "winportUrl": "https://winport.m.1688.com/page/index.html?memberId=b2b-278250323365a94"
+  },
+  "rate": {
+    "goodRates": 100,
+    "goodsGrade": 5,
+    "reviewCount": 343404,
+    "impressionTags": [
+      {
+        "name": "服务不错",
+        "count": 148
+      },
+      {
+        "name": "价格很便宜",
+        "count": 146
+      },
+      {
+        "name": "发货很快",
+        "count": 108
+      },
+      {
+        "name": "质量好的没话说",
+        "count": 70
+      },
+      {
+        "name": "性价比超高",
+        "count": 66
+      },
+      {
+        "name": "下单推荐",
+        "count": 48
+      },
+      {
+        "name": "质量不错",
+        "count": 42
+      },
+      {
+        "name": "包装很细心",
+        "count": 32
+      },
+      {
+        "name": "和图片符合",
+        "count": 27
+      },
+      {
+        "name": "性价比不错",
+        "count": 27
+      },
+      {
+        "name": "印刷很清晰",
+        "count": 26
+      },
+      {
+        "name": "质感很喜欢",
+        "count": 24
+      },
+      {
+        "name": "质量好",
+        "count": 24
+      },
+      {
+        "name": "下单可以",
+        "count": 20
+      }
+    ]
+  }
+}
