@@ -1,0 +1,2391 @@
+{
+  "offerId": 41537815714,
+  "title": "纱袋现货批发糖果色欧根纱抽绳束口袋饰品首饰包装网纱袋",
+  "slug": "纱袋现货批发糖果色欧根纱抽绳束口袋饰品首饰包装网纱袋",
+  "saleNum": "10万+",
+  "unit": "个",
+  "price": {
+    "display": "0.09-1.30",
+    "min": "0.09",
+    "max": "1.30",
+    "moq": 100,
+    "tiers": [
+      {
+        "price": "0.09",
+        "beginAmount": 100
+      },
+      {
+        "price": "1.30",
+        "beginAmount": 100
+      }
+    ]
+  },
+  "skus": [
+    {
+      "skuId": 5783058881211,
+      "specId": "6369fc2ce022216d00109d3341ec07a1",
+      "specAttrs": "湖蓝色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1091964
+    },
+    {
+      "skuId": 5446989327119,
+      "specId": "7047bb44f2a955cf23c0a439ee893344",
+      "specAttrs": "玫红色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1094532
+    },
+    {
+      "skuId": 5446989327092,
+      "specId": "a181c959acfa727386403846f1664d5d",
+      "specAttrs": "白色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 719925
+    },
+    {
+      "skuId": 5446989327104,
+      "specId": "2d75163d7b18fbbf2c1029b130a9aa96",
+      "specAttrs": "黑色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 902196
+    },
+    {
+      "skuId": 5446989327315,
+      "specId": "81afc1ee46ef170873295df1ff02df93",
+      "specAttrs": "果绿色;35*50",
+      "price": "0.92",
+      "discountPrice": "0.92",
+      "canBookCount": 2137
+    },
+    {
+      "skuId": 5446989327148,
+      "specId": "7894cbb8ea400f25591ea5bf25c3370a",
+      "specAttrs": "橄榄绿;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 924646
+    },
+    {
+      "skuId": 5783058881263,
+      "specId": "a903513fb6f4f20a3100b4cee3b25d8d",
+      "specAttrs": "浅紫色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 443438
+    },
+    {
+      "skuId": 5783058881237,
+      "specId": "9dde600c2e0d5de4da57f8fb71fe51c6",
+      "specAttrs": "咖啡色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 787561
+    },
+    {
+      "skuId": 5446989327131,
+      "specId": "79c0ad6c5145bf799a5f89e598a1e521",
+      "specAttrs": "宝蓝色;10*12",
+      "price": "0.14",
+      "discountPrice": "0.14",
+      "canBookCount": 7882
+    },
+    {
+      "skuId": 5446989327366,
+      "specId": "84e9560c194094b123a5964f55fc8686",
+      "specAttrs": "血牙色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1070524
+    },
+    {
+      "skuId": 5446989327114,
+      "specId": "bf3e20bbac5e4013a866312b70102cc7",
+      "specAttrs": "宝蓝色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 978314
+    },
+    {
+      "skuId": 5446989327237,
+      "specId": "f976a9ef8b63c5379e0b7ce626aa6b67",
+      "specAttrs": "粉色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 779076
+    },
+    {
+      "skuId": 5446989327134,
+      "specId": "683d72c24c21efe79186937053763e57",
+      "specAttrs": "红色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1067468
+    },
+    {
+      "skuId": 5783058881230,
+      "specId": "01891b966296bb20642a54f5d5c626b3",
+      "specAttrs": "浅紫色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 1034735
+    },
+    {
+      "skuId": 5446989327291,
+      "specId": "a1676bfa471b0f2c6e3716ebe95a1cf4",
+      "specAttrs": "果绿色;30*40",
+      "price": "0.60",
+      "discountPrice": "0.60",
+      "canBookCount": 23270
+    },
+    {
+      "skuId": 5446989327383,
+      "specId": "ba3a6d8f5eeb8bb732ed8d82308c474e",
+      "specAttrs": "混色;5x7cm",
+      "price": "0.12",
+      "discountPrice": "0.12",
+      "canBookCount": 83685
+    },
+    {
+      "skuId": 5446989327233,
+      "specId": "cc81ee46279b6118e7611cd3ef3c1e6b",
+      "specAttrs": "果绿色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 1066763
+    },
+    {
+      "skuId": 5783058881215,
+      "specId": "ebb5c1d293a04632caa272af0b8f09e1",
+      "specAttrs": "浅紫色;10*12",
+      "price": "0.14",
+      "discountPrice": "0.14",
+      "canBookCount": 18
+    },
+    {
+      "skuId": 5446989327400,
+      "specId": "3602bc65d1fe8819dba5c6195c8eb781",
+      "specAttrs": "粉色;8x10cm",
+      "price": "0.12",
+      "discountPrice": "0.12",
+      "canBookCount": 23
+    },
+    {
+      "skuId": 5783058881220,
+      "specId": "c74b57af3df418a274b302141703f39b",
+      "specAttrs": "湖蓝色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 1067326
+    },
+    {
+      "skuId": 5446989327120,
+      "specId": "2fff2edcafb2e1ee0e41ee576bc085aa",
+      "specAttrs": "橄榄绿;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1090662
+    },
+    {
+      "skuId": 5446989327307,
+      "specId": "d6a92292596752f25dca19ea74b9b72b",
+      "specAttrs": "桔色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 1007590
+    },
+    {
+      "skuId": 5783058881231,
+      "specId": "e7516581a601706e0c7faa289c757724",
+      "specAttrs": "咖啡色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 1085454
+    },
+    {
+      "skuId": 5446989327147,
+      "specId": "ccff3a2e859eec5d881efbf17b2d8fe4",
+      "specAttrs": "玫红色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 1050969
+    },
+    {
+      "skuId": 5446989327100,
+      "specId": "bef568df3cae1ddee4c059a412cab43f",
+      "specAttrs": "黑色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1071739
+    },
+    {
+      "skuId": 5446989327430,
+      "specId": "ee96e9104c064328987e8792719af67a",
+      "specAttrs": "宝蓝色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 729891
+    },
+    {
+      "skuId": 5446989327108,
+      "specId": "9219604943b4f528d7fcef90403b466d",
+      "specAttrs": "酒红色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 893337
+    },
+    {
+      "skuId": 5783058881209,
+      "specId": "6da7c222d8ccff1f25bb28b01a8129c9",
+      "specAttrs": "浅紫色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 916083
+    },
+    {
+      "skuId": 5446989327392,
+      "specId": "9f283008338d42f6ee2621ac92ad677a",
+      "specAttrs": "米色;8x10cm",
+      "price": "0.12",
+      "discountPrice": "0.12",
+      "canBookCount": 12160
+    },
+    {
+      "skuId": 5446989327273,
+      "specId": "f9cd4dc5d6c50fcf4d30d3ebccefe0a3",
+      "specAttrs": "混色;25*35",
+      "price": "0.46",
+      "discountPrice": "0.46",
+      "canBookCount": 1081580
+    },
+    {
+      "skuId": 5783058881216,
+      "specId": "2f50c8ca836ed72ce76700aa0a2bd436",
+      "specAttrs": "咖啡色;10*12",
+      "price": "0.14",
+      "discountPrice": "0.14",
+      "canBookCount": 33573
+    },
+    {
+      "skuId": 5783058881266,
+      "specId": "b706f6045aebacf2d7aa96e7fa675740",
+      "specAttrs": "湖蓝色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 116676
+    },
+    {
+      "skuId": 5783058881210,
+      "specId": "1328661e2c6b09df0ab5704b1d55ea6e",
+      "specAttrs": "咖啡色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 1042259
+    },
+    {
+      "skuId": 5981448974148,
+      "specId": "325220db8c0a450a87b1fc4c5799b8f9",
+      "specAttrs": "柠檬黄;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 0
+    },
+    {
+      "skuId": 5783058881259,
+      "specId": "1db30b9670215fdb89983d88e79902d7",
+      "specAttrs": "藏青色;11*16",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 1080916
+    },
+    {
+      "skuId": 5446989327368,
+      "specId": "781c0b081f57e6193c9777dee5f746f2",
+      "specAttrs": "黑色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 834463
+    },
+    {
+      "skuId": 5446989327334,
+      "specId": "e14b1de884c1eeb076269f925a83c4a3",
+      "specAttrs": "米色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 997727
+    },
+    {
+      "skuId": 5446989327350,
+      "specId": "1f68519e2fcb203b60f368f2305f9234",
+      "specAttrs": "桔色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 1079313
+    },
+    {
+      "skuId": 5783058881255,
+      "specId": "d64d0fe3cacd604b64d4914c16222222",
+      "specAttrs": "柠檬黄;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 1082797
+    },
+    {
+      "skuId": 5446989327412,
+      "specId": "55c1a902c0cc7265b0324138a62b3d8c",
+      "specAttrs": "白色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 2953104
+    },
+    {
+      "skuId": 5446989327409,
+      "specId": "4c8724da31b2a5d43005511a018254b0",
+      "specAttrs": "橄榄绿;8x10cm",
+      "price": "0.12",
+      "discountPrice": "0.12",
+      "canBookCount": 0
+    },
+    {
+      "skuId": 5446989327390,
+      "specId": "c78aeb2735a56833ee2353b54ca5a3ef",
+      "specAttrs": "白色;8x10cm",
+      "price": "0.12",
+      "discountPrice": "0.12",
+      "canBookCount": 4834949
+    },
+    {
+      "skuId": 5446989327314,
+      "specId": "47df04af69c97097fc1cec2fc4cabd83",
+      "specAttrs": "金色;35*50",
+      "price": "0.92",
+      "discountPrice": "0.92",
+      "canBookCount": 3820
+    },
+    {
+      "skuId": 5446989327297,
+      "specId": "0b9d1580d1f8aadc7a35a3a96a5bee77",
+      "specAttrs": "深紫色;30*40",
+      "price": "0.60",
+      "discountPrice": "0.60",
+      "canBookCount": 260
+    },
+    {
+      "skuId": 5446989327177,
+      "specId": "d25adb9484fa2532f4a92c2b097b06a6",
+      "specAttrs": "酒红色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 1033148
+    },
+    {
+      "skuId": 5446989327349,
+      "specId": "b1b30a376130617bba59b286698794a2",
+      "specAttrs": "桔色;10*12",
+      "price": "0.14",
+      "discountPrice": "0.14",
+      "canBookCount": 3809
+    },
+    {
+      "skuId": 5446989327170,
+      "specId": "811cf574fc7c92800e07e37e82204b01",
+      "specAttrs": "金色;30*40",
+      "price": "0.60",
+      "discountPrice": "0.60",
+      "canBookCount": 1636
+    },
+    {
+      "skuId": 5446989327188,
+      "specId": "644d97ca9a52471a0748ee60eb9ee8cf",
+      "specAttrs": "金色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 551790
+    },
+    {
+      "skuId": 5446989327420,
+      "specId": "1f7bed2f5cfda806c531ee63a0725fe7",
+      "specAttrs": "酒红色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 856969
+    },
+    {
+      "skuId": 5446989327094,
+      "specId": "f96f2884e382f901de0d02882c432121",
+      "specAttrs": "白色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 86500
+    },
+    {
+      "skuId": 5446989327226,
+      "specId": "6e093508ff565e6ddab57e308c88c4d9",
+      "specAttrs": "桔色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 965043
+    },
+    {
+      "skuId": 5446989327110,
+      "specId": "09fc2bb4ee0b67e462c02d4feb68da32",
+      "specAttrs": "灰色;10*15",
+      "price": "0.14",
+      "discountPrice": "0.14",
+      "canBookCount": 836281
+    },
+    {
+      "skuId": 5446989327179,
+      "specId": "1967ce5e4c8adc3507dfc07a3642e8dd",
+      "specAttrs": "灰色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 817000
+    },
+    {
+      "skuId": 5446989327432,
+      "specId": "f4412eee9315cde5667f165d85a2dde1",
+      "specAttrs": "橄榄绿;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 710606
+    },
+    {
+      "skuId": 5446989327413,
+      "specId": "53c5a8eee5cbaca3dc834ef88d14c713",
+      "specAttrs": "黑色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 465726
+    },
+    {
+      "skuId": 5446989327118,
+      "specId": "92d27e5035abc4e63e46e31d5222bbef",
+      "specAttrs": "灰色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1060194
+    },
+    {
+      "skuId": 5446989327239,
+      "specId": "a2839ea64de3150c0381c0f9f289e40a",
+      "specAttrs": "混色;13*18",
+      "price": "0.19",
+      "discountPrice": "0.19",
+      "canBookCount": 1051747
+    },
+    {
+      "skuId": 5446989327372,
+      "specId": "c3e3d24634f6c20c73feffc9c7c06637",
+      "specAttrs": "果绿色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 673034
+    },
+    {
+      "skuId": 5446989327266,
+      "specId": "88f4bf44c6e988cd9a3dc577c08e25b2",
+      "specAttrs": "血牙色;11*16",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 49
+    },
+    {
+      "skuId": 5446989327164,
+      "specId": "03bb042dd71e8d27bc0ff3e48a8e0f46",
+      "specAttrs": "灰色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 910636
+    },
+    {
+      "skuId": 5446989327363,
+      "specId": "b43d6b642c2397231d8e3b5694dabde2",
+      "specAttrs": "天蓝色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1073371
+    },
+    {
+      "skuId": 5446989327168,
+      "specId": "6a55ebe27909d4642ae27bc03ce04cc8",
+      "specAttrs": "宝蓝色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 934013
+    },
+    {
+      "skuId": 5783058881238,
+      "specId": "208559e935b5fbefa54299995c0b5d74",
+      "specAttrs": "藏青色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 1029716
+    },
+    {
+      "skuId": 5446989327415,
+      "specId": "6dfcad49e90097cdf6f047f68657cc2e",
+      "specAttrs": "灰色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 267554
+    },
+    {
+      "skuId": 5446989327371,
+      "specId": "0f475de8b2a83fefde9f590996a05545",
+      "specAttrs": "金色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 326465
+    },
+    {
+      "skuId": 5446989327274,
+      "specId": "6ba1055457d8a59df21548571c6208c0",
+      "specAttrs": "深紫色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1094835
+    },
+    {
+      "skuId": 5783058881248,
+      "specId": "a9d977ec24c986dbd98bf2dea5e8b831",
+      "specAttrs": "藏青色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1090961
+    },
+    {
+      "skuId": 5783058881222,
+      "specId": "dff2760402c04ef4f82c27f2d84720f6",
+      "specAttrs": "咖啡色;20*30",
+      "price": "0.33",
+      "discountPrice": "0.33",
+      "canBookCount": 1095709
+    },
+    {
+      "skuId": 5446989327111,
+      "specId": "e9642cc638b750cc74c4d83c90d222a5",
+      "specAttrs": "黑色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 115590
+    },
+    {
+      "skuId": 5783058881269,
+      "specId": "2af93427dfccd29134775afdddb48f7c",
+      "specAttrs": "湖蓝色;8x10cm",
+      "price": "0.12",
+      "discountPrice": "0.12",
+      "canBookCount": 89
+    },
+    {
+      "skuId": 5446989327262,
+      "specId": "4e06a3f86b649aeb484f1d2a69b47090",
+      "specAttrs": "宝蓝色;11*16",
+      "price": "0.17",
+      "discountPrice": "0.17",
+      "canBookCount": 9
+    },
+    {
+      "skuId": 5446989327113,
+      "specId": "329b8ad2a8ccaf8152b594d989a07554",
+      "specAttrs": "橄榄绿;10*15",
+      "price": "0.14",
+      "discountPrice": "0.14",
+      "canBookCount": 1031104
+    },
+    {
+      "skuId": 5446989327313,
+      "specId": "d7ac2e94240b4bbd3ed17d689619f4cb",
+      "specAttrs": "米色;35*50",
+      "price": "0.92",
+      "discountPrice": "0.92",
+      "canBookCount": 0
+    },
+    {
+      "skuId": 5446989327122,
+      "specId": "694b590a71588699ceb35f0ba793bfb1",
+      "specAttrs": "白色;10*12",
+      "price": "0.14",
+      "discountPrice": "0.14",
+      "canBookCount": 434664
+    },
+    {
+      "skuId": 5446989327227,
+      "specId": "4c9620f82e85f4812afe68985cf387a6",
+      "specAttrs": "混色;9*12",
+      "price": "0.14",
+      "discountPrice": "0.14",
+      "canBookCount": 728628
+    },
+    {
+      "skuId": 5446989327182,
+      "specId": "c7615cf42734f20207be414a6c39aa97",
+      "specAttrs": "橄榄绿;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 1020585
+    },
+    {
+      "skuId": 5446989327180,
+      "specId": "1725b92cff58c8aa011c04cc1ebf705c",
+      "specAttrs": "黑色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 768912
+    },
+    {
+      "skuId": 5446989327146,
+      "specId": "df9b91b4b6d5cdd100ea1b0613a52fd9",
+      "specAttrs": "灰色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 983911
+    },
+    {
+      "skuId": 5783058881213,
+      "specId": "d947a789b0561edf2c242ca307a8ef0e",
+      "specAttrs": "咖啡色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1095679
+    },
+    {
+      "skuId": 5446989327105,
+      "specId": "c1321a513e8e750318fafd6b1d281341",
+      "specAttrs": "白色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 874677
+    },
+    {
+      "skuId": 5446989327290,
+      "specId": "91d97ec327b55a3555c0d0e0f1d834fe",
+      "specAttrs": "米色;30*40",
+      "price": "0.56",
+      "discountPrice": "0.56",
+      "canBookCount": 10057
+    },
+    {
+      "skuId": 5783058881226,
+      "specId": "20e4ba99eb3ebcca927aad1901fceb35",
+      "specAttrs": "湖蓝色;30*40",
+      "price": "0.60",
+      "discountPrice": "0.60",
+      "canBookCount": 12794
+    },
+    {
+      "skuId": 5446989327357,
+      "specId": "4cedc69816d4af512bc35517d1aae280",
+      "specAttrs": "深紫色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1087781
+    },
+    {
+      "skuId": 5446989327246,
+      "specId": "99c6999c700e04d4caee7f90bd1ed96e",
+      "specAttrs": "米色;11*16",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 856407
+    },
+    {
+      "skuId": 5446989327190,
+      "specId": "fed0c15ed7b0394189ed05f4b7091277",
+      "specAttrs": "黑色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 562741
+    },
+    {
+      "skuId": 6094677339492,
+      "specId": "5ff40a9fd1d1b874653859ce5fd48709",
+      "specAttrs": "天蓝色;9*14",
+      "price": "0.14",
+      "discountPrice": "0.14",
+      "canBookCount": 400
+    },
+    {
+      "skuId": 5446989327338,
+      "specId": "f3c3e4c3c398e72f48b6b6fbb9872ae7",
+      "specAttrs": "草绿色;10*12",
+      "price": "0.14",
+      "discountPrice": "0.14",
+      "canBookCount": 0
+    },
+    {
+      "skuId": 5446989327337,
+      "specId": "2d3b3eaf469b1bbbaa0d98b2d9aeec65",
+      "specAttrs": "果绿色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1033802
+    },
+    {
+      "skuId": 5446989327339,
+      "specId": "e9c005906d17f4a77e08d5f8c841baf0",
+      "specAttrs": "草绿色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 1077221
+    },
+    {
+      "skuId": 5783058881262,
+      "specId": "ed77bfa9778b2d5f534344d2e8d4c009",
+      "specAttrs": "咖啡色;8x10cm",
+      "price": "0.12",
+      "discountPrice": "0.12",
+      "canBookCount": 0
+    },
+    {
+      "skuId": 5783058881241,
+      "specId": "22bf12dab33c9eb549383c9b8048354d",
+      "specAttrs": "藏青色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 1013969
+    },
+    {
+      "skuId": 5446989327192,
+      "specId": "5b701fdb45ef5a84f19f61b9331c5f58",
+      "specAttrs": "橄榄绿;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 2598
+    },
+    {
+      "skuId": 5446989327129,
+      "specId": "b8f5e1bdc60544f9fdc558534e270147",
+      "specAttrs": "玫红色;10*12",
+      "price": "0.14",
+      "discountPrice": "0.14",
+      "canBookCount": 36
+    },
+    {
+      "skuId": 5446989327144,
+      "specId": "eb57a5c677fa20f9ea14bb1d03e1e634",
+      "specAttrs": "酒红色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 1085664
+    },
+    {
+      "skuId": 5783058881267,
+      "specId": "fa3620861deafa51c3609df9228cab95",
+      "specAttrs": "柠檬黄;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 830109
+    },
+    {
+      "skuId": 5446989327112,
+      "specId": "aa131df088acc944997d43e13eb9b578",
+      "specAttrs": "玫红色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 994956
+    },
+    {
+      "skuId": 5446989327230,
+      "specId": "9cc532380f34985d04213411ee8c2327",
+      "specAttrs": "天蓝色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 850674
+    },
+    {
+      "skuId": 5446989327303,
+      "specId": "36b5b887607711919d151fb81af7ed4e",
+      "specAttrs": "草绿色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 929288
+    },
+    {
+      "skuId": 5783058881257,
+      "specId": "816ec095d39fcd60c03420a76dc804f3",
+      "specAttrs": "柠檬黄;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1093479
+    },
+    {
+      "skuId": 5446989327181,
+      "specId": "149bc37d76e49917197fb30a1df301be",
+      "specAttrs": "玫红色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 1061066
+    },
+    {
+      "skuId": 5446989327242,
+      "specId": "c02be1916cc64ab77ce645a6663a1a1d",
+      "specAttrs": "天蓝色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 1050302
+    },
+    {
+      "skuId": 5783058881223,
+      "specId": "0004add4caf89d212ab219741cd6b93b",
+      "specAttrs": "湖蓝色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 672948
+    },
+    {
+      "skuId": 5981448974147,
+      "specId": "3f961d0c91047a1f9b5dfb781a5e424a",
+      "specAttrs": "薄荷绿;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 86361
+    },
+    {
+      "skuId": 5446989327243,
+      "specId": "f3416c0f7e7cd3df5346f4bda507422d",
+      "specAttrs": "血牙色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 1087451
+    },
+    {
+      "skuId": 5446989327109,
+      "specId": "9c113f7a2e7a5dff7423ca3db0ceea81",
+      "specAttrs": "金色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 15263645
+    },
+    {
+      "skuId": 5446989327115,
+      "specId": "f292981704c8263a6ec99bbfb888cce8",
+      "specAttrs": "白色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 702981
+    },
+    {
+      "skuId": 5446989327159,
+      "specId": "73dddfabca48c6d5041515266b368796",
+      "specAttrs": "白色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 3057625
+    },
+    {
+      "skuId": 5446989327205,
+      "specId": "fa1346b24606798cb85a3e5c1e741b24",
+      "specAttrs": "粉色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 1015203
+    },
+    {
+      "skuId": 5446989327299,
+      "specId": "e040bdfcdf0a9a757aa00778b1115308",
+      "specAttrs": "天蓝色;30*40",
+      "price": "0.60",
+      "discountPrice": "0.60",
+      "canBookCount": 940
+    },
+    {
+      "skuId": 5446989327267,
+      "specId": "b4aa9231f00443bc7c5fb6d3c792f7aa",
+      "specAttrs": "米色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1035269
+    },
+    {
+      "skuId": 5446989327107,
+      "specId": "515641f6fb42aaa8817a3d2c3741ad92",
+      "specAttrs": "红色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 829893
+    },
+    {
+      "skuId": 5446989327220,
+      "specId": "9bcb39b5844278fac365711472ef9521",
+      "specAttrs": "米色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 773002
+    },
+    {
+      "skuId": 5783058881212,
+      "specId": "a0de670ac961777b741700cdf4564442",
+      "specAttrs": "浅紫色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1091969
+    },
+    {
+      "skuId": 5783058881265,
+      "specId": "8ee6c80ed46f27e044053de08270598f",
+      "specAttrs": "浅紫色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 44832
+    },
+    {
+      "skuId": 5446989327369,
+      "specId": "cf2063b35c413f1fd3011cd941cdd72d",
+      "specAttrs": "米色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 445878
+    },
+    {
+      "skuId": 5783058881225,
+      "specId": "583bcac2ca86a6d0ac2a401af9e8cf1d",
+      "specAttrs": "咖啡色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 948610
+    },
+    {
+      "skuId": 5446989327097,
+      "specId": "a7c19405ee46db01f2cf32b58f1161dc",
+      "specAttrs": "粉色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1077826
+    },
+    {
+      "skuId": 5446989327215,
+      "specId": "3ac132e62463254839c3cc71bcdba5ec",
+      "specAttrs": "混色;20*30",
+      "price": "0.37",
+      "discountPrice": "0.37",
+      "canBookCount": 908958
+    },
+    {
+      "skuId": 5446989327141,
+      "specId": "c8c4a730302934e3a403bd0954ad09b6",
+      "specAttrs": "宝蓝色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1090025
+    },
+    {
+      "skuId": 5783058881242,
+      "specId": "33d1da72238519800fe2471552c2955c",
+      "specAttrs": "藏青色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 1078729
+    },
+    {
+      "skuId": 5783058881228,
+      "specId": "58c06dfadbe20dc2c0714548e2f2d979",
+      "specAttrs": "咖啡色;30*40",
+      "price": "0.60",
+      "discountPrice": "0.60",
+      "canBookCount": 5220
+    },
+    {
+      "skuId": 5446989327178,
+      "specId": "540456eb6a947ace67e83b475042d4f1",
+      "specAttrs": "金色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 599135
+    },
+    {
+      "skuId": 5446989327417,
+      "specId": "35b63c97c96df1a24ad3009be007a9b8",
+      "specAttrs": "果绿色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 760127
+    },
+    {
+      "skuId": 5446989327228,
+      "specId": "6f92d5808580c2cc52fb00dccfdc167e",
+      "specAttrs": "深紫色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 883206
+    },
+    {
+      "skuId": 5446989327252,
+      "specId": "7ecb263340cb65d403ab6bb29b0b3677",
+      "specAttrs": "酒红色;11*16",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 0
+    },
+    {
+      "skuId": 5446989327424,
+      "specId": "e66ae685523fd4a83e25107708992000",
+      "specAttrs": "桔色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 957132
+    },
+    {
+      "skuId": 5446989327209,
+      "specId": "1c3fa985d9e8aacd84b448dead860dce",
+      "specAttrs": "米色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 707507
+    },
+    {
+      "skuId": 5783058881234,
+      "specId": "36cd215a55fdd1cdbd161ecb1526fd78",
+      "specAttrs": "咖啡色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 1073450
+    },
+    {
+      "skuId": 5446989327095,
+      "specId": "957da42aeedad100fcc25ca506d6d462",
+      "specAttrs": "白色;35*50",
+      "price": "0.92",
+      "discountPrice": "0.92",
+      "canBookCount": 933490
+    },
+    {
+      "skuId": 5783058881221,
+      "specId": "700fef5b3f158deb002871d51814d138",
+      "specAttrs": "浅紫色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 1073134
+    },
+    {
+      "skuId": 5446989327251,
+      "specId": "01c45f98413a0cc00aae3c6a469224db",
+      "specAttrs": "红色;11*16",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 1068572
+    },
+    {
+      "skuId": 5446989327406,
+      "specId": "1fa181257b37ef54632d2f36b2c95114",
+      "specAttrs": "深紫色;8x10cm",
+      "price": "0.12",
+      "discountPrice": "0.12",
+      "canBookCount": 149
+    },
+    {
+      "skuId": 5446989327145,
+      "specId": "f9b105d49582496383d3d3480c948073",
+      "specAttrs": "金色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 866430
+    },
+    {
+      "skuId": 5446989327249,
+      "specId": "ded8cf5c5844f72762921b380a70acb8",
+      "specAttrs": "果绿色;11*16",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 0
+    },
+    {
+      "skuId": 5446989327374,
+      "specId": "8a97eb8ea16f039f5f53509e83cc8c7f",
+      "specAttrs": "红色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 612029
+    },
+    {
+      "skuId": 5446989327370,
+      "specId": "b781f374a2da8b239c8df350f07b7ea2",
+      "specAttrs": "灰色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 609357
+    },
+    {
+      "skuId": 5446989327166,
+      "specId": "b818a8dabc9e018dab5b82de246788f5",
+      "specAttrs": "玫红色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 732969
+    },
+    {
+      "skuId": 5446989327211,
+      "specId": "17d03a981841f1d2574eccde9da6ed73",
+      "specAttrs": "草绿色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 956850
+    },
+    {
+      "skuId": 5446989327434,
+      "specId": "8013245e3139dcf5abfdd6c385bef50e",
+      "specAttrs": "血牙色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 964625
+    },
+    {
+      "skuId": 5446989327301,
+      "specId": "4f8d0110db219802c361340d11d2c79d",
+      "specAttrs": "米色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 836075
+    },
+    {
+      "skuId": 5446989327296,
+      "specId": "8781cae99a2126668114bd3e0b487752",
+      "specAttrs": "混色;30*40",
+      "price": "0.61",
+      "discountPrice": "0.61",
+      "canBookCount": 1453
+    },
+    {
+      "skuId": 5446989327163,
+      "specId": "dcae4a25b42c159e8a0791eeed297be6",
+      "specAttrs": "金色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 546342
+    },
+    {
+      "skuId": 5446989327165,
+      "specId": "f6424fd1e6092fd0867b2dd4ae832a39",
+      "specAttrs": "黑色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 596277
+    },
+    {
+      "skuId": 5446989327332,
+      "specId": "dd9306ad60b2716ab6aa08654b1c5092",
+      "specAttrs": "米色;10*12",
+      "price": "0.14",
+      "discountPrice": "0.14",
+      "canBookCount": 1152
+    },
+    {
+      "skuId": 6094677339490,
+      "specId": "6caac72e3c45198d85108dc6e5f28f30",
+      "specAttrs": "金色;9*14",
+      "price": "0.14",
+      "discountPrice": "0.14",
+      "canBookCount": 360
+    },
+    {
+      "skuId": 5446989327375,
+      "specId": "dc92ed0e04f2aef0f2063220ad7cfd19",
+      "specAttrs": "酒红色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 596357
+    },
+    {
+      "skuId": 5446989327117,
+      "specId": "11670325ac74c3088fada7ddd6b01f12",
+      "specAttrs": "金色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1060159
+    },
+    {
+      "skuId": 5446989327382,
+      "specId": "847980d8bd1731c9b9896d3b84887e7b",
+      "specAttrs": "玫红色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 521804
+    },
+    {
+      "skuId": 5446989327240,
+      "specId": "fef79755bdb610fbf21a6a3eb5f59a42",
+      "specAttrs": "深紫色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 969980
+    },
+    {
+      "skuId": 5446989327325,
+      "specId": "7cae2ffdd1c146de5d4b4263c36a744a",
+      "specAttrs": "混色;35*50",
+      "price": "0.92",
+      "discountPrice": "0.92",
+      "canBookCount": 773
+    },
+    {
+      "skuId": 5446989327247,
+      "specId": "a49fea4810d43d9150241bdb5c5f4395",
+      "specAttrs": "灰色;11*16",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 1028393
+    },
+    {
+      "skuId": 5446989327093,
+      "specId": "c9df60315d891c9b116bc1fcc4e0e56b",
+      "specAttrs": "白色;30*40",
+      "price": "0.60",
+      "discountPrice": "0.60",
+      "canBookCount": 812304
+    },
+    {
+      "skuId": 5446989327333,
+      "specId": "8925abd0e02d19de68ad8cfbca3ff836",
+      "specAttrs": "米色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 743681
+    },
+    {
+      "skuId": 5446989327206,
+      "specId": "71bb5d1f9dda5bcd6aaecfacf3c4d58c",
+      "specAttrs": "黑色;35*50",
+      "price": "0.92",
+      "discountPrice": "0.92",
+      "canBookCount": 3212
+    },
+    {
+      "skuId": 5783058881264,
+      "specId": "d876bfe39b52a5c4273615456f303b48",
+      "specAttrs": "藏青色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 41
+    },
+    {
+      "skuId": 5783058881208,
+      "specId": "b72299faa0580cf8df49bf9c40819afd",
+      "specAttrs": "湖蓝色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 976086
+    },
+    {
+      "skuId": 5446989327173,
+      "specId": "bea6c02a3957e538b4d250d3387e838c",
+      "specAttrs": "橄榄绿;30*40",
+      "price": "0.60",
+      "discountPrice": "0.60",
+      "canBookCount": 108349
+    },
+    {
+      "skuId": 5783058881214,
+      "specId": "33898b75f7ac8dc00f7e627db74a48c5",
+      "specAttrs": "湖蓝色;10*12",
+      "price": "0.14",
+      "discountPrice": "0.14",
+      "canBookCount": 2430
+    },
+    {
+      "skuId": 5446989327101,
+      "specId": "f8d2af39de2875eeb758067a4a50993f",
+      "specAttrs": "黑色;30*40",
+      "price": "0.60",
+      "discountPrice": "0.60",
+      "canBookCount": 3922
+    },
+    {
+      "skuId": 5783058881229,
+      "specId": "6b18f3cca289a51a66ad667888e6463a",
+      "specAttrs": "湖蓝色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 1042100
+    },
+    {
+      "skuId": 5446989327098,
+      "specId": "066e73dd06b19ac000e368f3df3dc61b",
+      "specAttrs": "粉色;30*40",
+      "price": "0.60",
+      "discountPrice": "0.60",
+      "canBookCount": 1861
+    },
+    {
+      "skuId": 5446989327351,
+      "specId": "78a694af091274f574c6ba88c4993643",
+      "specAttrs": "桔色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1078843
+    },
+    {
+      "skuId": 5446989327096,
+      "specId": "f14ce520c4c417e3c3adfdd8ce4d7640",
+      "specAttrs": "粉色;35*50",
+      "price": "0.92",
+      "discountPrice": "0.92",
+      "canBookCount": 333
+    },
+    {
+      "skuId": 5446989327238,
+      "specId": "71a2e6b26156cdf075a54bc8e94bcaa9",
+      "specAttrs": "桔色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 1036277
+    },
+    {
+      "skuId": 5783058881260,
+      "specId": "8563a194cf94bd2c79ba9eb742f865f3",
+      "specAttrs": "藏青色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1098677
+    },
+    {
+      "skuId": 5446989327248,
+      "specId": "1bb41b0da6f08855eaf64cc3f02e8dcd",
+      "specAttrs": "金色;11*16",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 900456
+    },
+    {
+      "skuId": 5446989327103,
+      "specId": "058a9c27254cc306cbb35e23811c8c37",
+      "specAttrs": "白色;40*60",
+      "price": "1.30",
+      "discountPrice": "1.30",
+      "canBookCount": 33751
+    },
+    {
+      "skuId": 5446989327187,
+      "specId": "de01e740ff1c4c94f488fd6d80a855c3",
+      "specAttrs": "酒红色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 983715
+    },
+    {
+      "skuId": 5446989327143,
+      "specId": "c201b6702bf86c8f31215bbfa59e9d08",
+      "specAttrs": "红色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 1019329
+    },
+    {
+      "skuId": 5446989327414,
+      "specId": "cd1c87040126e75eb1eaef1b92496208",
+      "specAttrs": "米色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 245509
+    },
+    {
+      "skuId": 5446989327137,
+      "specId": "ea5f03802f2c99083bcce8200539a008",
+      "specAttrs": "灰色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1079526
+    },
+    {
+      "skuId": 5446989327276,
+      "specId": "4c78d52d064f3cb75100c4aae4bd2f2e",
+      "specAttrs": "天蓝色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1091415
+    },
+    {
+      "skuId": 5446989327219,
+      "specId": "11a74ac2fe0d815f9b52aa698ff7b952",
+      "specAttrs": "血牙色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 1071597
+    },
+    {
+      "skuId": 5446989327260,
+      "specId": "e0c237e1890ab0dc5c9f57eca446fe1b",
+      "specAttrs": "混色;11*16",
+      "price": "0.17",
+      "discountPrice": "0.17",
+      "canBookCount": 1065485
+    },
+    {
+      "skuId": 5446989327161,
+      "specId": "fcd09be8d50354604b300fb7534a6aa4",
+      "specAttrs": "红色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 430745
+    },
+    {
+      "skuId": 5446989327099,
+      "specId": "3478b12081fbd4e4f0dbe246eaecc3c8",
+      "specAttrs": "红色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1090813
+    },
+    {
+      "skuId": 5446989327261,
+      "specId": "1e4ed457694c8325d4b0361a2ef9d5b5",
+      "specAttrs": "深紫色;11*16",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 1068290
+    },
+    {
+      "skuId": 5446989327193,
+      "specId": "1ca5c3d73ee35f746d73def5a340e15c",
+      "specAttrs": "宝蓝色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 1041358
+    },
+    {
+      "skuId": 5981448974149,
+      "specId": "127742e99d6ee719f95c31d32af6d831",
+      "specAttrs": "薄荷绿;7x9cm",
+      "price": "0.10",
+      "discountPrice": "0.10",
+      "canBookCount": 78638
+    },
+    {
+      "skuId": 5446989327259,
+      "specId": "8c12924fbea757e8a759bb9c92d7ec2b",
+      "specAttrs": "玫红色;11*16",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 12210
+    },
+    {
+      "skuId": 5446989327309,
+      "specId": "9195f82827d347fcecde46f661719d2f",
+      "specAttrs": "深紫色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 980537
+    },
+    {
+      "skuId": 5446989327138,
+      "specId": "d033880d0873fd3f33e93ef2390bf158",
+      "specAttrs": "黑色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 967438
+    },
+    {
+      "skuId": 5446989327321,
+      "specId": "db9dbacffb8162fb3f10b43dc605871a",
+      "specAttrs": "桔色;35*50",
+      "price": "1.10",
+      "discountPrice": "1.10",
+      "canBookCount": 74
+    },
+    {
+      "skuId": 5446989327355,
+      "specId": "4e7df2dcfb47c49a82c49ae294404fc4",
+      "specAttrs": "深紫色;10*12",
+      "price": "0.14",
+      "discountPrice": "0.14",
+      "canBookCount": 0
+    },
+    {
+      "skuId": 5446989327140,
+      "specId": "b533fd2f8cdfb81415c56670a713c70d",
+      "specAttrs": "橄榄绿;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1054516
+    },
+    {
+      "skuId": 5446989327318,
+      "specId": "4801adbf56da4ba666400d69b66464cd",
+      "specAttrs": "酒红色;35*50",
+      "price": "0.92",
+      "discountPrice": "0.92",
+      "canBookCount": 1867
+    },
+    {
+      "skuId": 5783058881217,
+      "specId": "8d0ecd03b2da1eeb3bb5541d42f13021",
+      "specAttrs": "湖蓝色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1092353
+    },
+    {
+      "skuId": 5446989327277,
+      "specId": "f7c665521636673d47e3ac3553ff9ad5",
+      "specAttrs": "血牙色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 0
+    },
+    {
+      "skuId": 5446989327394,
+      "specId": "1302768477e621faf6157a70019fdf29",
+      "specAttrs": "金色;8x10cm",
+      "price": "0.12",
+      "discountPrice": "0.12",
+      "canBookCount": 11121
+    },
+    {
+      "skuId": 5446989327269,
+      "specId": "cb50600a56f85d909e7920eed9a1ce97",
+      "specAttrs": "草绿色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1084274
+    },
+    {
+      "skuId": 5446989327373,
+      "specId": "4942f0c3404450f3fd82bd3a0608386c",
+      "specAttrs": "草绿色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 56429
+    },
+    {
+      "skuId": 5446989327169,
+      "specId": "91414aa9475a4e9948d7a63d1e5fe062",
+      "specAttrs": "酒红色;30*40",
+      "price": "0.60",
+      "discountPrice": "0.60",
+      "canBookCount": 565
+    },
+    {
+      "skuId": 5446989327162,
+      "specId": "4a261484eaac5771b9fb33c1d6c6c51c",
+      "specAttrs": "酒红色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 871523
+    },
+    {
+      "skuId": 5783058881233,
+      "specId": "d1a25c609743ca8d53dbdd0f99dd95eb",
+      "specAttrs": "浅紫色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 1030548
+    },
+    {
+      "skuId": 5446989327292,
+      "specId": "d42ecf9fb9e8a31d9dfcd28eefb56f2e",
+      "specAttrs": "草绿色;30*40",
+      "price": "0.60",
+      "discountPrice": "0.60",
+      "canBookCount": 97254
+    },
+    {
+      "skuId": 5446989327419,
+      "specId": "da07f03bed58a87e03c8f26e6a4024e9",
+      "specAttrs": "红色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 709433
+    },
+    {
+      "skuId": 5446989327167,
+      "specId": "cae737b9857f998ef4bc4d9012fdd80a",
+      "specAttrs": "橄榄绿;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 941385
+    },
+    {
+      "skuId": 5981448974150,
+      "specId": "4575a19147bd47b184f65267e0c50505",
+      "specAttrs": "薄荷绿;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 8369
+    },
+    {
+      "skuId": 5446989327336,
+      "specId": "2bca4e7e31727b1c487899e2085733b9",
+      "specAttrs": "果绿色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 1060331
+    },
+    {
+      "skuId": 5446989327176,
+      "specId": "a1bcc5933e50f8f68c22cafeee271fb2",
+      "specAttrs": "红色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 963245
+    },
+    {
+      "skuId": 5783058881239,
+      "specId": "006d905809ae05a97f27569311529b97",
+      "specAttrs": "湖蓝色;11*16",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 30647
+    },
+    {
+      "skuId": 5783058881236,
+      "specId": "14034857908878566c1445de196f2ff1",
+      "specAttrs": "藏青色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 944853
+    },
+    {
+      "skuId": 5446989327423,
+      "specId": "36a15b30c742d345168ed02c20894036",
+      "specAttrs": "粉色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 21536
+    },
+    {
+      "skuId": 5783058881268,
+      "specId": "ab24af205933939aeba64130940ebb4c",
+      "specAttrs": "藏青色;8x10cm",
+      "price": "0.12",
+      "discountPrice": "0.12",
+      "canBookCount": 9999
+    },
+    {
+      "skuId": 5446989327139,
+      "specId": "db32ca3f526da6fbbfb84f91efaa8c34",
+      "specAttrs": "玫红色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1085964
+    },
+    {
+      "skuId": 5783058881227,
+      "specId": "7dbff0a3f285783a7f9f2c4f4b4134c4",
+      "specAttrs": "浅紫色;30*40",
+      "price": "0.60",
+      "discountPrice": "0.60",
+      "canBookCount": 1250
+    },
+    {
+      "skuId": 5446989327184,
+      "specId": "ddfbaaa67e4a699a930e33e7c7f9369c",
+      "specAttrs": "白色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 7150471
+    },
+    {
+      "skuId": 5446989327222,
+      "specId": "471e8076a480ff63ee3a92b7b4028f54",
+      "specAttrs": "草绿色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 977170
+    },
+    {
+      "skuId": 5446989327204,
+      "specId": "1299f16c5164000d470f0ca09c2e0f80",
+      "specAttrs": "粉色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 805130
+    },
+    {
+      "skuId": 5783058881219,
+      "specId": "3af8156e323be72bf744aab9230bf8bc",
+      "specAttrs": "咖啡色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1086287
+    },
+    {
+      "skuId": 5783058881247,
+      "specId": "fdb2629fbe0d2d72cc1b4d97da2ffa4c",
+      "specAttrs": "藏青色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 1093382
+    },
+    {
+      "skuId": 5446989327429,
+      "specId": "d1b5b3514f04fe5a05b013bc9e26ca27",
+      "specAttrs": "深紫色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 393434
+    },
+    {
+      "skuId": 5446989327379,
+      "specId": "f5807533efb73be158a5d651d1d386df",
+      "specAttrs": "桔色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 18
+    },
+    {
+      "skuId": 5446989327306,
+      "specId": "95023684a3bb0be784a33bb6d4ea40dd",
+      "specAttrs": "粉色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 84685
+    },
+    {
+      "skuId": 5981448974146,
+      "specId": "d4f5052aa7321090584c497448ce4341",
+      "specAttrs": "薄荷绿;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 89091
+    },
+    {
+      "skuId": 5446989327302,
+      "specId": "36b67a4493fa33d74b91e054d641b036",
+      "specAttrs": "果绿色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 278526
+    },
+    {
+      "skuId": 5446989327116,
+      "specId": "cae32ca6c884b6f782db05e457d4570b",
+      "specAttrs": "酒红色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1092116
+    },
+    {
+      "skuId": 5446989327353,
+      "specId": "b3e015cd7b0d77ed60449cf24a5454bc",
+      "specAttrs": "混色;15*20",
+      "price": "0.24",
+      "discountPrice": "0.24",
+      "canBookCount": 1069870
+    },
+    {
+      "skuId": 5446989327433,
+      "specId": "dd30c43d9e3a1b2dff0947ba13866ac1",
+      "specAttrs": "天蓝色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 781234
+    },
+    {
+      "skuId": 5446989327135,
+      "specId": "9b519f105da8676b6b0576605f17f778",
+      "specAttrs": "酒红色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1068193
+    },
+    {
+      "skuId": 5446989327218,
+      "specId": "a96dde81cf61ce4e951edfbb1e575935",
+      "specAttrs": "天蓝色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 1029283
+    },
+    {
+      "skuId": 5783058881254,
+      "specId": "5e9033865a409f1d95cb88f6811f9f4a",
+      "specAttrs": "柠檬黄;11*16",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 0
+    },
+    {
+      "skuId": 5446989327352,
+      "specId": "38a1bada0367c9b06dbb4dc3bb619e87",
+      "specAttrs": "混色;10*12",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 0
+    },
+    {
+      "skuId": 5446989327308,
+      "specId": "c9445a43f2f95faabb6be2c5b7028018",
+      "specAttrs": "混色;10*15",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 494647
+    },
+    {
+      "skuId": 5446989327416,
+      "specId": "3215af46f1ff4b5a6e83a73a06238e66",
+      "specAttrs": "金色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 204291
+    },
+    {
+      "skuId": 5446989327171,
+      "specId": "8f0bcb9f4df4a10d6c166fd687d374e2",
+      "specAttrs": "灰色;30*40",
+      "price": "0.60",
+      "discountPrice": "0.60",
+      "canBookCount": 18000
+    },
+    {
+      "skuId": 5783058881250,
+      "specId": "55098e6b10dab3ac90df070bc228c56c",
+      "specAttrs": "浅紫色;11*16",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 1085053
+    },
+    {
+      "skuId": 5446989327428,
+      "specId": "43699fb6bf02c242ecabd0786c4c44dd",
+      "specAttrs": "混色;7x9cm",
+      "price": "0.10",
+      "discountPrice": "0.10",
+      "canBookCount": 21890
+    },
+    {
+      "skuId": 5446989327225,
+      "specId": "4036e6124339779e01fb92ef0bbd34ac",
+      "specAttrs": "粉色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 566229
+    },
+    {
+      "skuId": 5783058881245,
+      "specId": "cbcacb2ab3e8b026b7456f59c442383f",
+      "specAttrs": "咖啡色;11*16",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 0
+    },
+    {
+      "skuId": 6094677339491,
+      "specId": "686473e0df7064da2776921a47f8a9cd",
+      "specAttrs": "粉色;9*14",
+      "price": "0.14",
+      "discountPrice": "0.14",
+      "canBookCount": 362
+    },
+    {
+      "skuId": 5446989327216,
+      "specId": "0aab4184313cd24a01448fbb3016c4d7",
+      "specAttrs": "深紫色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 1063508
+    },
+    {
+      "skuId": 5446989327186,
+      "specId": "f2bf9d998ae7b9f5c1c59d3566b68a07",
+      "specAttrs": "红色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 712956
+    },
+    {
+      "skuId": 5783058881232,
+      "specId": "d021e7150603d65127bf65b036abe087",
+      "specAttrs": "湖蓝色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 957613
+    },
+    {
+      "skuId": 5446989327367,
+      "specId": "d95127ccab0d77f57dcce0746b1fb226",
+      "specAttrs": "白色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 4659491
+    },
+    {
+      "skuId": 5446989327090,
+      "specId": "a34dd452c769b8dfc295879159c328d7",
+      "specAttrs": "红色;30*40",
+      "price": "0.60",
+      "discountPrice": "0.60",
+      "canBookCount": 1920
+    },
+    {
+      "skuId": 5446989327317,
+      "specId": "9f0b5302c3c4eba622ff737b61f0a315",
+      "specAttrs": "红色;35*50",
+      "price": "0.92",
+      "discountPrice": "0.92",
+      "canBookCount": 350
+    },
+    {
+      "skuId": 5446989327244,
+      "specId": "ea41e53de6a3dacf7d28c00a0cd6c0ad",
+      "specAttrs": "白色;11*16",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 657318
+    },
+    {
+      "skuId": 5446989327418,
+      "specId": "bf8bdeedfb21eae1e67903a6a24d0622",
+      "specAttrs": "草绿色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 689317
+    },
+    {
+      "skuId": 5446989327378,
+      "specId": "cdae21bed320fbdafc8e9813a313fe05",
+      "specAttrs": "粉色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 519944
+    },
+    {
+      "skuId": 5446989327231,
+      "specId": "be858a907166de85a007001b14d27e0e",
+      "specAttrs": "血牙色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 962477
+    },
+    {
+      "skuId": 5446989327348,
+      "specId": "6e6c6e59283543a2ce0ac445987d0ac8",
+      "specAttrs": "粉色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1042575
+    },
+    {
+      "skuId": 5446989327361,
+      "specId": "69cb183bb9999110d7a13ae92c4372e3",
+      "specAttrs": "天蓝色;10*12",
+      "price": "0.14",
+      "discountPrice": "0.14",
+      "canBookCount": 125
+    },
+    {
+      "skuId": 5446989327189,
+      "specId": "b377f4ff4d75f63bf0f59cdadb517d97",
+      "specAttrs": "灰色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 349505
+    },
+    {
+      "skuId": 5446989327362,
+      "specId": "d37ac46140cf03b224e6ea4f404d5c68",
+      "specAttrs": "天蓝色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 1044473
+    },
+    {
+      "skuId": 5446989327354,
+      "specId": "c0d72381072caccea4a7c320f434c7b3",
+      "specAttrs": "混色;17*23",
+      "price": "0.27",
+      "discountPrice": "0.27",
+      "canBookCount": 1089160
+    },
+    {
+      "skuId": 5446989327427,
+      "specId": "6e63ffbbc85dcbab54f25ae928eb1780",
+      "specAttrs": "玫红色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 749788
+    },
+    {
+      "skuId": 5446989327385,
+      "specId": "0ca15cf193e4214f86e7ea5387144e7c",
+      "specAttrs": "宝蓝色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 587310
+    },
+    {
+      "skuId": 5446989327234,
+      "specId": "88de56e757decba7fa5aa29b64564010",
+      "specAttrs": "草绿色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 1076351
+    },
+    {
+      "skuId": 5446989327121,
+      "specId": "eb4ba6ddb5b8e11f1c3a4bb49dae846b",
+      "specAttrs": "宝蓝色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1093557
+    },
+    {
+      "skuId": 5446989327221,
+      "specId": "348a05e76217f48da11dc5b0f3f86b64",
+      "specAttrs": "果绿色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 988155
+    },
+    {
+      "skuId": 5446989327311,
+      "specId": "636113060750115dbee8be8ce692be85",
+      "specAttrs": "天蓝色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 952177
+    },
+    {
+      "skuId": 5446989327210,
+      "specId": "6d1144ef7bf736da528670f7b33259b2",
+      "specAttrs": "果绿色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 988034
+    },
+    {
+      "skuId": 5446989327356,
+      "specId": "01a83c4f20116cae87a9a917df7cd115",
+      "specAttrs": "深紫色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 1085220
+    },
+    {
+      "skuId": 5783058881244,
+      "specId": "aa44f47a6452cd5e18a2a0b0c2535cf9",
+      "specAttrs": "柠檬黄;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1098088
+    },
+    {
+      "skuId": 5446989327312,
+      "specId": "00e56acb8a2b26ca86f7b297b237271e",
+      "specAttrs": "血牙色;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 1051980
+    },
+    {
+      "skuId": 5446989327384,
+      "specId": "08849fa5786fdb7c487824705f791554",
+      "specAttrs": "深紫色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 560614
+    },
+    {
+      "skuId": 5446989327132,
+      "specId": "21f791cddc5dae4f771438e2ca0287dd",
+      "specAttrs": "白色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 372471
+    },
+    {
+      "skuId": 5783058881224,
+      "specId": "b28144cf90b4096528d3f96b6a17edf1",
+      "specAttrs": "浅紫色;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 670718
+    },
+    {
+      "skuId": 5446989327232,
+      "specId": "d9763dfd3f15f5168d06bb2dbc180469",
+      "specAttrs": "米色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 665738
+    },
+    {
+      "skuId": 5446989327340,
+      "specId": "45ae12d55af946b98cef5e1dd70f9bb3",
+      "specAttrs": "草绿色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1021403
+    },
+    {
+      "skuId": 5446989327255,
+      "specId": "05c62bd374272aaba1737d2ed99ba4f6",
+      "specAttrs": "粉色;11*16",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 993818
+    },
+    {
+      "skuId": 5446989327365,
+      "specId": "8ac179151a5972ebcfac25670c8fa225",
+      "specAttrs": "血牙色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 1081132
+    },
+    {
+      "skuId": 5446989327245,
+      "specId": "fb22f73f141342cf8979702b2fcfde38",
+      "specAttrs": "黑色;11*16",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 877088
+    },
+    {
+      "skuId": 5783058881235,
+      "specId": "f8301bf455db397e4b68b43bd595b600",
+      "specAttrs": "湖蓝色;7x9cm",
+      "price": "0.09",
+      "discountPrice": "0.09",
+      "canBookCount": 733449
+    },
+    {
+      "skuId": 5446989327149,
+      "specId": "a5e0ab1ee556f4d5ba5c85ec84a0b5e0",
+      "specAttrs": "宝蓝色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 1052728
+    },
+    {
+      "skuId": 5783058881256,
+      "specId": "a5959698756918411c6d4276b62d0a58",
+      "specAttrs": "柠檬黄;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 1090097
+    },
+    {
+      "skuId": 5446989327265,
+      "specId": "98c89bd01d3650d49ec8ac77738a9d3c",
+      "specAttrs": "天蓝色;11*16",
+      "price": "0.16",
+      "discountPrice": "0.16",
+      "canBookCount": 1079353
+    },
+    {
+      "skuId": 5783058881253,
+      "specId": "0c1a705b6d0b738b2b013ba303387530",
+      "specAttrs": "柠檬黄;10*15",
+      "price": "0.15",
+      "discountPrice": "0.15",
+      "canBookCount": 1006016
+    },
+    {
+      "skuId": 5446989327268,
+      "specId": "077b21d1b1157bf7e280ea58eae5ac63",
+      "specAttrs": "果绿色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1050794
+    },
+    {
+      "skuId": 5783058881218,
+      "specId": "1a844ed4f7f0517317e6db43ef6a8c5d",
+      "specAttrs": "浅紫色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1076319
+    },
+    {
+      "skuId": 5446989327388,
+      "specId": "18d0484cafce69a6ad4f8304e3d7529e",
+      "specAttrs": "天蓝色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 43206
+    },
+    {
+      "skuId": 5783058881243,
+      "specId": "4c74013cfcfbbdc54899f439e1de1241",
+      "specAttrs": "咖啡色;5x7cm",
+      "price": "0.11",
+      "discountPrice": "0.11",
+      "canBookCount": 2793
+    },
+    {
+      "skuId": 5446989327391,
+      "specId": "ad42fd82dad1083a1d424a4bc4255d2f",
+      "specAttrs": "黑色;8x10cm",
+      "price": "0.12",
+      "discountPrice": "0.12",
+      "canBookCount": 663
+    },
+    {
+      "skuId": 5783058881240,
+      "specId": "afec39ce56b80dc06e694e8b4af319e9",
+      "specAttrs": "柠檬黄;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 1097553
+    },
+    {
+      "skuId": 5446989327405,
+      "specId": "895c434efa3615f005f9bc4c77b00001",
+      "specAttrs": "混色;8x10cm",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 0
+    },
+    {
+      "skuId": 5446989327272,
+      "specId": "976321496d131350df6d7ea531c49352",
+      "specAttrs": "桔色;25*35",
+      "price": "0.45",
+      "discountPrice": "0.45",
+      "canBookCount": 1098355
+    },
+    {
+      "skuId": 5783058881246,
+      "specId": "68a7994cbbdbb76299208c6721a8be84",
+      "specAttrs": "藏青色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 1079537
+    },
+    {
+      "skuId": 5446989327183,
+      "specId": "deeda9d534cac345ff27e64c57690527",
+      "specAttrs": "宝蓝色;15*20",
+      "price": "0.23",
+      "discountPrice": "0.23",
+      "canBookCount": 1077743
+    },
+    {
+      "skuId": 5446989327191,
+      "specId": "697e21c5315dece87345f0bddbbc6717",
+      "specAttrs": "玫红色;13*18",
+      "price": "0.18",
+      "discountPrice": "0.18",
+      "canBookCount": 1046142
+    },
+    {
+      "skuId": 5446989327214,
+      "specId": "18ab6ee2d1d03d1afb93e8841c960327",
+      "specAttrs": "桔色;20*30",
+      "price": "0.36",
+      "discountPrice": "0.36",
+      "canBookCount": 1056246
+    },
+    {
+      "skuId": 5783058881252,
+      "specId": "7a39b423a5917b1d3d542eb8ae7fb1ae",
+      "specAttrs": "柠檬黄;9*12",
+      "price": "0.13",
+      "discountPrice": "0.13",
+      "canBookCount": 987262
+    },
+    {
+      "skuId": 5446989327136,
+      "specId": "c420c61354e6b951faaed98bc0f53ebc",
+      "specAttrs": "金色;17*23",
+      "price": "0.26",
+      "discountPrice": "0.26",
+      "canBookCount": 1019226
+    }
+  ],
+  "attributes": [],
+  "images": [
+    "https://cbu01.alicdn.com/img/ibank/O1CN014TwmyT1IMAtMlfDTp_!!2032140878-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01t1dx3A1IMArRW1OBf_!!2032140878-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01JZ7Lws1IMArRPEE6b_!!2032140878-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01n0VKWt1IMArRDCNiI_!!2032140878-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01JIjoaH1IMArQsdd2P_!!2032140878-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/322/909/4356909223_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/454/939/4356939454_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/729/621/4352126927_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/114/639/4356936411_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/979/439/4353934979_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/684/312/4352213486_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/769/881/4356188967_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/311/819/4356918113_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/702/381/4352183207_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/161/849/4356948161_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/332/522/4352225233_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/515/159/4356951515_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/786/639/4356936687_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/210/381/4352183012_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/818/939/4356939818_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/950/759/4356957059_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/227/768/4356867722_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/352/348/4356843253_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/054/222/4352222450_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/223/711/4352117322_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/362/480/4352084263_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN016IOMqx1IMAjNlhD2c_!!2032140878-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/2017/044/088/4353880440_189038916.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01Nu0pFE1IMAOkbhddk_!!2032140878-0-cib.jpg"
+  ],
+  "video": {
+    "videoUrl": "https://cloud.video.taobao.com/play/u/2032140878/p/2/e/6/t/1/255348882750.mp4",
+    "coverUrl": "https://img.alicdn.com/imgextra/i2/6000000000393/O1CN01PPuCnX1Em2F6Ejkdp_!!6000000000393-0-tbvideo.jpg",
+    "videoId": 255348882750,
+    "title": "纱袋阿里视频.mp4"
+  },
+  "detailUrl": "https://itemcdn.tmall.com/1688offer/icoss266299879405971be486e7869c",
+  "leafCategoryId": 1035544,
+  "shipping": {
+    "location": "浙江省金华市",
+    "logisticsText": "预计18小时发货，承诺45天发货",
+    "unitWeight": 0
+  },
+  "seller": {
+    "companyName": "义乌市润织包装有限公司",
+    "authCompanyName": "义乌市润织包装有限公司",
+    "cardType": "factory",
+    "byrRepeatRate3m": "59.36%",
+    "sellerMemberId": "b2b-2032140878",
+    "sellerUserId": 2032140878,
+    "shopUrl": "https://runheng1188.1688.com",
+    "winportUrl": "https://winport.m.1688.com/page/index.html?memberId=b2b-2032140878"
+  },
+  "rate": {
+    "goodRates": 99.9,
+    "goodsGrade": 5,
+    "reviewCount": 4808,
+    "impressionTags": [
+      {
+        "name": "质量不错",
+        "count": 18
+      },
+      {
+        "name": "卖家非常耐心",
+        "count": 14
+      },
+      {
+        "name": "发货迅速",
+        "count": 11
+      },
+      {
+        "name": "价格很实惠",
+        "count": 8
+      },
+      {
+        "name": "下单推荐",
+        "count": 7
+      },
+      {
+        "name": "款式简洁",
+        "count": 7
+      },
+      {
+        "name": "性价比很高",
+        "count": 6
+      },
+      {
+        "name": "质量还可以",
+        "count": 5
+      },
+      {
+        "name": "信赖值得",
+        "count": 5
+      },
+      {
+        "name": "质量好",
+        "count": 5
+      }
+    ]
+  }
+}
