@@ -1,0 +1,456 @@
+{
+  "offerId": 769311154189,
+  "title": "3MM涤纶带手打蝴蝶结一分带内衣内裤小蝴蝶结辅料迷你丝带蝴蝶结",
+  "slug": "3MM涤纶带手打蝴蝶结一分带内衣内裤小蝴蝶结辅料迷你丝带蝴蝶结",
+  "saleNum": "10万+",
+  "unit": "个",
+  "price": {
+    "display": "0.02-0.04",
+    "min": "0.02",
+    "max": "0.04",
+    "moq": 100,
+    "tiers": [
+      {
+        "price": "0.04",
+        "beginAmount": 100
+      },
+      {
+        "price": "0.03",
+        "beginAmount": 1000
+      },
+      {
+        "price": "0.02",
+        "beginAmount": 5000
+      }
+    ]
+  },
+  "skus": [
+    {
+      "skuId": 5447831867474,
+      "specId": "7c03ad957acfb78f0bfa58a25dc49d9b",
+      "specAttrs": "19号果绿*一分带结2*3CM左右",
+      "canBookCount": 9995747
+    },
+    {
+      "skuId": 5447831867477,
+      "specId": "5d898becb26c9c86a0d0540cda71cfff",
+      "specAttrs": "22号湖蓝*一分带结2*3CM左右",
+      "canBookCount": 9984854
+    },
+    {
+      "skuId": 5447831867461,
+      "specId": "44119e20602e35e47f47d8d63730c81b",
+      "specAttrs": "6号金黄*一分带结2*3CM左右",
+      "canBookCount": 9988599
+    },
+    {
+      "skuId": 5447831867490,
+      "specId": "a32f0a01059a51dc4b2ba2ec9d86e8ee",
+      "specAttrs": "35号藏青色*一分带结2*3CM左右",
+      "canBookCount": 9992379
+    },
+    {
+      "skuId": 5447831867496,
+      "specId": "4b23156b02d6e99a27c50c7e968e5698",
+      "specAttrs": "双金边红*一分带结2*3CM左右",
+      "canBookCount": 9987698
+    },
+    {
+      "skuId": 5447831867500,
+      "specId": "7513fcf7a990245a1f502e1611a6acdd",
+      "specAttrs": "双金边123粉*一分带结2*3CM左右",
+      "canBookCount": 9990948
+    },
+    {
+      "skuId": 5447831867454,
+      "specId": "75c76f16e15bc2878640b3d2bf333ad9",
+      "specAttrs": "随机色混*一分带结2*3CM左右",
+      "canBookCount": 9982730
+    },
+    {
+      "skuId": 5447831867467,
+      "specId": "66ebc7d7dabbf3f31beab47b4d1f1a46",
+      "specAttrs": "12号深西瓜红*一分带结2*3CM左右",
+      "canBookCount": 9993199
+    },
+    {
+      "skuId": 5447831867492,
+      "specId": "6b22b612ed38b1ee4aa247d7f835c7eb",
+      "specAttrs": "金葱*一分带结2*3CM左右",
+      "canBookCount": 9964397
+    },
+    {
+      "skuId": 5447831867475,
+      "specId": "c371fc07199110bfd7b988852ad47d50",
+      "specAttrs": "20号深绿*一分带结2*3CM左右",
+      "canBookCount": 9991989
+    },
+    {
+      "skuId": 5447831867483,
+      "specId": "1ee886ef2c9c6a51a572a8ca80a4cfad",
+      "specAttrs": "28号桔色*一分带结2*3CM左右",
+      "canBookCount": 9992749
+    },
+    {
+      "skuId": 5447831867458,
+      "specId": "e6039ca48dd330647d1e3fabce1260d0",
+      "specAttrs": "3号米色*一分带结2*3CM左右",
+      "canBookCount": 9920839
+    },
+    {
+      "skuId": 5447831867482,
+      "specId": "b235f5b133f16da4aa568df67287b052",
+      "specAttrs": "27号桂圆黄*一分带结2*3CM左右",
+      "canBookCount": 9995899
+    },
+    {
+      "skuId": 5447831867459,
+      "specId": "0e7f0b5e390d9fd774b20a29e271a245",
+      "specAttrs": "4号浅黄*一分带结2*3CM左右",
+      "canBookCount": 9955719
+    },
+    {
+      "skuId": 5447831867493,
+      "specId": "8febcd5790d1aab842436799d83e2fae",
+      "specAttrs": "银葱*一分带结2*3CM左右",
+      "canBookCount": 9992047
+    },
+    {
+      "skuId": 5447831867470,
+      "specId": "8a743fe05b1d7563ed5c6934cc925413",
+      "specAttrs": "15号深紫*一分带结2*3CM左右",
+      "canBookCount": 9998095
+    },
+    {
+      "skuId": 5447831867485,
+      "specId": "9d74d6dd85e61918ca172aaf584f38ce",
+      "specAttrs": "30号大红*一分带结2*3CM左右",
+      "canBookCount": 9944249
+    },
+    {
+      "skuId": 5447831867452,
+      "specId": "cd0e53752c2ecdd35169b4b8012e4758",
+      "specAttrs": "绿色系*一分带结2*3CM左右",
+      "canBookCount": 9990979
+    },
+    {
+      "skuId": 5447831867491,
+      "specId": "e4930687790f52fcc877c67f18d6c19e",
+      "specAttrs": "36号黑色*一分带结2*3CM左右",
+      "canBookCount": 9886891
+    },
+    {
+      "skuId": 5447831867499,
+      "specId": "b958f7255458236b15a3a98e6298f975",
+      "specAttrs": "双金边本白*一分带结2*3CM左右",
+      "canBookCount": 9917398
+    },
+    {
+      "skuId": 5447831867480,
+      "specId": "ec536bdd85a2c7a380b9d4fc146b0b87",
+      "specAttrs": "25号宝蓝*一分带结2*3CM左右",
+      "canBookCount": 9995299
+    },
+    {
+      "skuId": 5447831867449,
+      "specId": "1c1a4750bcfd9506185289313f76980b",
+      "specAttrs": "黄色系*一分带结2*3CM左右",
+      "canBookCount": 10086374
+    },
+    {
+      "skuId": 5447831867468,
+      "specId": "70bb4d02f39fdf5c31fd1f1dd81f59ef",
+      "specAttrs": "13号浅紫*一分带结2*3CM左右",
+      "canBookCount": 9957025
+    },
+    {
+      "skuId": 5447831867478,
+      "specId": "fc27cc0a031733283ba88dc6d6d7a910",
+      "specAttrs": "23号天蓝*一分带结2*3CM左右",
+      "canBookCount": 9952339
+    },
+    {
+      "skuId": 5447831867481,
+      "specId": "40120c0d543e9482fd9b15eecdb52ad4",
+      "specAttrs": "26号卡其*一分带结2*3CM左右",
+      "canBookCount": 9948693
+    },
+    {
+      "skuId": 5447831867498,
+      "specId": "5ee52775efcdfe8ce9eaf929a038e451",
+      "specAttrs": "双银边漂白*一分带结2*3CM左右",
+      "canBookCount": 9958178
+    },
+    {
+      "skuId": 5447831867472,
+      "specId": "0b9c685ea763a8b1ac9010e5f2771b2c",
+      "specAttrs": "17号鲜绿*一分带结2*3CM左右",
+      "canBookCount": 9963464
+    },
+    {
+      "skuId": 5447831867457,
+      "specId": "6be666bf54639405197f9693e9cfc7ee",
+      "specAttrs": "2号本白*一分带结2*3CM左右",
+      "canBookCount": 9882139
+    },
+    {
+      "skuId": 5447831867484,
+      "specId": "9cbbc3a0451dc0513cc4e36566183809",
+      "specAttrs": "29号桔红*一分带结2*3CM左右",
+      "canBookCount": 9998299
+    },
+    {
+      "skuId": 5447831867487,
+      "specId": "7806be06938f10416615146934af1585",
+      "specAttrs": "32号浅灰*一分带结2*3CM左右",
+      "canBookCount": 9988373
+    },
+    {
+      "skuId": 5447831867471,
+      "specId": "a9102bdce467d6da25e321206c4a900c",
+      "specAttrs": "16号嫩绿*一分带结2*3CM左右",
+      "canBookCount": 9975474
+    },
+    {
+      "skuId": 5447831867502,
+      "specId": "d7f8c2008588d3833ed760465e901039",
+      "specAttrs": "双金边深紫*一分带结2*3CM左右",
+      "canBookCount": 9998998
+    },
+    {
+      "skuId": 5447831867489,
+      "specId": "820083c4ef672a67b6fec34bbd070a4a",
+      "specAttrs": "34号咖*一分带结2*3CM左右",
+      "canBookCount": 9987996
+    },
+    {
+      "skuId": 5447831867503,
+      "specId": "056555c9cc650edd6f435187b6b88029",
+      "specAttrs": "双金边玫红*一分带结2*3CM左右",
+      "canBookCount": 9998898
+    },
+    {
+      "skuId": 5447831867465,
+      "specId": "79ce9d4a2a9cfeccfadda00d033dfbe0",
+      "specAttrs": "10号西瓜红*一分带结2*3CM左右",
+      "canBookCount": 9994899
+    },
+    {
+      "skuId": 5447831867464,
+      "specId": "2df4c8d99193f0a7f97727cae5b73b4e",
+      "specAttrs": "9号橡皮粉*一分带结2*3CM左右",
+      "canBookCount": 9985364
+    },
+    {
+      "skuId": 5447831867488,
+      "specId": "a05927830c97b5e1c4b01331bc9e458d",
+      "specAttrs": "33号深灰*一分带结2*3CM左右",
+      "canBookCount": 9973173
+    },
+    {
+      "skuId": 5447831867462,
+      "specId": "a3317bf91b1b2c0471a4c23238d0163e",
+      "specAttrs": "7号浅粉*一分带结2*3CM左右",
+      "canBookCount": 9893904
+    },
+    {
+      "skuId": 5447831867466,
+      "specId": "31edefb43e7db061ed608ef4fd0f6cb6",
+      "specAttrs": "11号玫红*一分带结2*3CM左右",
+      "canBookCount": 9993199
+    },
+    {
+      "skuId": 5447831867494,
+      "specId": "61eac69c00950308410ea3c562e04118",
+      "specAttrs": "透明黑边*一分带结2*3CM左右",
+      "canBookCount": 9986589
+    },
+    {
+      "skuId": 5447831867455,
+      "specId": "46fd3381bd205c2eaeb7d1500a503fb9",
+      "specAttrs": "马卡龙色混*一分带结2*3CM左右",
+      "canBookCount": 9985979
+    },
+    {
+      "skuId": 5447831867463,
+      "specId": "f4ea03ffebe8da481a72d51e4e9fb8d2",
+      "specAttrs": "8号韩粉*一分带结2*3CM左右",
+      "canBookCount": 9977349
+    },
+    {
+      "skuId": 5447831867497,
+      "specId": "57b946ba1eac0a6b7150b20aa767b440",
+      "specAttrs": "双金边黑*一分带结2*3CM左右",
+      "canBookCount": 9994648
+    },
+    {
+      "skuId": 5447831867501,
+      "specId": "034c477ca81d15ac958df4ed486fe3c4",
+      "specAttrs": "双金边浅紫*一分带结2*3CM左右",
+      "canBookCount": 9986798
+    },
+    {
+      "skuId": 5447831867476,
+      "specId": "7c732f115f10522b2ae1783fc082d1a4",
+      "specAttrs": "21号浅蓝*一分带结2*3CM左右",
+      "canBookCount": 9952404
+    },
+    {
+      "skuId": 5447831867460,
+      "specId": "1c57ace49567f7086fc13004b377316b",
+      "specAttrs": "5号嫩黄*一分带结2*3CM左右",
+      "canBookCount": 9973754
+    },
+    {
+      "skuId": 5447831867453,
+      "specId": "e688ca9eebc3419b07ceb29b6e8891d5",
+      "specAttrs": "蓝色系*一分带结2*3CM左右",
+      "canBookCount": 9977269
+    },
+    {
+      "skuId": 5447831867486,
+      "specId": "d89ed797eb0e72bc613ab97c376d6c20",
+      "specAttrs": "31号艳玫红*一分带结2*3CM左右",
+      "canBookCount": 9995699
+    },
+    {
+      "skuId": 5447831867450,
+      "specId": "bc3769ef0da4d0bcf2506ce20c5186b4",
+      "specAttrs": "粉色系*一分带结2*3CM左右",
+      "canBookCount": 9984184
+    },
+    {
+      "skuId": 5447831867469,
+      "specId": "e7a59d9baef97b703158e523426f13c6",
+      "specAttrs": "14号中紫*一分带结2*3CM左右",
+      "canBookCount": 9992861
+    },
+    {
+      "skuId": 5447831867451,
+      "specId": "541153bfc6e2417ffb2d098d862b34d5",
+      "specAttrs": "紫色系*一分带结2*3CM左右",
+      "canBookCount": 9879094
+    },
+    {
+      "skuId": 5447831867456,
+      "specId": "934e964118a8c2c4a885a74ee4f1b010",
+      "specAttrs": "1号漂白*一分带结2*3CM左右",
+      "canBookCount": 9956234
+    },
+    {
+      "skuId": 5447831867479,
+      "specId": "ab3a4935f6ff0140c3bb978eee385336",
+      "specAttrs": "24号翠蓝*一分带结2*3CM左右",
+      "canBookCount": 9995799
+    },
+    {
+      "skuId": 5447831867495,
+      "specId": "32d014bb855d63bdd9d356a9bb6ebf0c",
+      "specAttrs": "透明白边*一分带结2*3CM左右",
+      "canBookCount": 9996598
+    },
+    {
+      "skuId": 5447831867473,
+      "specId": "4808417c24cfac2e287fdb93a01d9812",
+      "specAttrs": "18号蒂芙尼兰*一分带结2*3CM左右",
+      "canBookCount": 9980272
+    }
+  ],
+  "attributes": [],
+  "images": [
+    "https://cbu01.alicdn.com/img/ibank/O1CN01sXHRCO1RXSyjfc8ch_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01h4VYxk1RXSymN5h7w_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01Mv7IIJ1RXSylYk4BB_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01GKaNpm1RXSynKn1V4_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01JBrWE91RXSylYkKo3_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01NFwZFY1RXSyq7P045_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01ymEUDy1RXSymK1mDA_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01SI2uGd1RXSyjhSfe7_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01O52uoj1RXSylXTK0j_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN016DI8JH1RXSylabbdg_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01c4nJ0B1RXSylTkBZN_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN016DPPWU1RXSyjfaG9a_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01s8i9kL1RXSymICBSX_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01XqMUQO1RXSylYge5y_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01MfCRAe1RXSyouzmlr_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01sA8b9t1RXSylYjf8w_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN016gGttS1RXSymN392B_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01q79flX1RXSymN3PfY_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01RLVGL51RXSymN6Uxc_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01axIqzw1RXSyjCfZ5p_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01tCzaEV1RXSyqiUQPN_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01oJyhrZ1RXSyq5Tq0y_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01rmvOEH1RXSypJvDsH_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01xJ1ArY1RXSynoCawh_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01ol7PHc1RXSynoCWmt_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01D0kid61RXSyo2Xf97_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN014QcME71RXSyjfbOsf_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01oWrjOJ1RXSynKnxfa_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01Mxm0ps1RXSynoC7qT_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01m1BZ8g1RXSyiAGg4v_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01Dcl0Vq1RXSyo2ZCnW_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01pYzw5p1RXSyqiVdGS_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN011Tx9PN1RXSyov1nYc_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN018gcMIm1RXSyqiW6Nm_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01VBkDv41RXSypJu9LK_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01mN5wLZ1RXSymIDvZp_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN018pxaEL1RXSyqiX2aj_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01P8bZvs1RXSyouzzIR_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN0185q8v91RXSynKnUar_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01T4vnHP1RXSypJvUYp_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN016qlgzO1RXSyjfcsOl_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01i8aujI1RXSymIF8TQ_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN013GoWCB1RXSynKmghc_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01C56cKw1RXSylYivUd_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN013LqZSv1RXSymN5xjl_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01g1JWr81RXSynoCzxu_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01zxglUV1RXSyjCeDzp_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01DT91Yd1RXSynMWVCY_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN0112uMWZ1RXSymOpywK_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01mgZy1X1RXSynppVAA_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01lTlRmm1RXSymOq36Q_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01Q8vdAG1RXSynMTcPO_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN014NvJpo1RXSyowhn6A_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01UH7qrU1RXSynptBqI_!!2217218422121-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01NIcjFz1RXSylaUp6T_!!2217218422121-0-cib.jpg"
+  ],
+  "video": {
+    "videoId": 0
+  },
+  "detailUrl": "https://itemcdn.tmall.com/1688offer/icoss26426079784213d51195fbb8d3",
+  "leafCategoryId": 1031714,
+  "shipping": {
+    "location": "浙江省金华市",
+    "logisticsText": "常发中通快递",
+    "unitWeight": 0
+  },
+  "seller": {
+    "companyName": "义乌市富礼服装辅料有限公司",
+    "authCompanyName": "义乌市富礼服装辅料有限公司",
+    "cardType": "factory",
+    "byrRepeatRate3m": "62.05%",
+    "sellerMemberId": "b2b-2217218422121c8af2",
+    "sellerUserId": 2217218422121,
+    "shopUrl": "https://shop9u78639jx7068.1688.com",
+    "winportUrl": "https://winport.m.1688.com/page/index.html?memberId=b2b-2217218422121c8af2"
+  },
+  "rate": {
+    "goodRates": 100,
+    "goodsGrade": 5,
+    "reviewCount": 38,
+    "impressionTags": [
+      {
+        "name": "用起来老方便",
+        "count": 1
+      },
+      {
+        "name": "大小匀称",
+        "count": 1
+      },
+      {
+        "name": "做工挺好",
+        "count": 1
+      }
+    ]
+  }
+}
