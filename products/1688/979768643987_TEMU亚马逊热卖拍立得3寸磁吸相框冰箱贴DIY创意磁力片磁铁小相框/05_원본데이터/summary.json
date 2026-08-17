@@ -1,0 +1,288 @@
+{
+  "offerId": 979768643987,
+  "title": "TEMU亚马逊热卖拍立得3寸磁吸相框冰箱贴DIY创意磁力片磁铁小相框",
+  "slug": "TEMU亚马逊热卖拍立得3寸磁吸相框冰箱贴DIY创意磁力片磁铁小相框",
+  "saleNum": "10万+",
+  "unit": "个",
+  "price": {
+    "display": "1.12-1.20",
+    "min": "1.12",
+    "max": "1.20",
+    "moq": 1,
+    "tiers": [
+      {
+        "price": "1.20",
+        "beginAmount": 1
+      },
+      {
+        "price": "1.16",
+        "beginAmount": 500
+      },
+      {
+        "price": "1.12",
+        "beginAmount": 2000
+      }
+    ]
+  },
+  "skus": [
+    {
+      "skuId": 5944418209881,
+      "specId": "17a1cef02017529b7002d1be923b969c",
+      "specAttrs": "灰色&gt;3寸",
+      "canBookCount": 84351
+    },
+    {
+      "skuId": 5937820968599,
+      "specId": "d5dd6ee667f658694cf2e27c7675795a",
+      "specAttrs": "焦糖黄&gt;3寸",
+      "canBookCount": 76777
+    },
+    {
+      "skuId": 5937820968592,
+      "specId": "ec75169ce79e9f62d982aa2f4b724839",
+      "specAttrs": "少女粉&gt;3寸",
+      "canBookCount": 68746
+    },
+    {
+      "skuId": 5937820968597,
+      "specId": "6ff866b6ea8babfb55616be505fbb824",
+      "specAttrs": "墨绿色&gt;3寸",
+      "canBookCount": 81365
+    },
+    {
+      "skuId": 5937820968604,
+      "specId": "af6d5341ad3c7bcd667722219f4a25f4",
+      "specAttrs": "浅紫色&gt;3寸",
+      "canBookCount": 80119
+    },
+    {
+      "skuId": 5937820968595,
+      "specId": "121a0cb35ab0be834b8005bb82ebd04a",
+      "specAttrs": "冰川蓝&gt;3寸",
+      "canBookCount": 77526
+    },
+    {
+      "skuId": 5937820968598,
+      "specId": "0780457a2ac73366b1564afd7d9b30d0",
+      "specAttrs": "浅草绿&gt;3寸",
+      "canBookCount": 78284
+    },
+    {
+      "skuId": 5937820968602,
+      "specId": "8ed69687fba4800b920d9357880ab3a3",
+      "specAttrs": "白色&gt;3寸",
+      "canBookCount": 42907
+    },
+    {
+      "skuId": 5937820968603,
+      "specId": "bf403f4a003838fa1cebc27dcb10babc",
+      "specAttrs": "深紫色&gt;3寸",
+      "canBookCount": 82572
+    },
+    {
+      "skuId": 5937820968596,
+      "specId": "9570ae43e25abfa3b3d9860efcde5afb",
+      "specAttrs": "深蓝色&gt;3寸",
+      "canBookCount": 79959
+    },
+    {
+      "skuId": 5937820968594,
+      "specId": "13ad7c0a03198c2a087a1eb93da38659",
+      "specAttrs": "淡粉色&gt;3寸",
+      "canBookCount": 81674
+    },
+    {
+      "skuId": 5937820968591,
+      "specId": "e71d2dcf1d28ad2ec061c16feff86ed3",
+      "specAttrs": "透明色&gt;3寸",
+      "canBookCount": 28821
+    },
+    {
+      "skuId": 5937820968601,
+      "specId": "0264588c0bacc94fcc7bf8413744a226",
+      "specAttrs": "黑色&gt;3寸",
+      "canBookCount": 73209
+    },
+    {
+      "skuId": 5937820968593,
+      "specId": "928b7aec7182d4de6ad91b863b09d215",
+      "specAttrs": "玫粉色&gt;3寸",
+      "canBookCount": 80494
+    },
+    {
+      "skuId": 5937820968600,
+      "specId": "8475c2ec9a58b56e8d056eea3f994188",
+      "specAttrs": "桔色&gt;3寸",
+      "canBookCount": 82449
+    }
+  ],
+  "attributes": [
+    {
+      "name": "材质",
+      "values": [
+        "ABS"
+      ]
+    },
+    {
+      "name": "工艺",
+      "values": [
+        "注塑"
+      ]
+    },
+    {
+      "name": "形状",
+      "values": [
+        "长方形"
+      ]
+    },
+    {
+      "name": "风格",
+      "values": [
+        "ins风"
+      ]
+    },
+    {
+      "name": "品牌",
+      "values": [
+        "金友"
+      ]
+    },
+    {
+      "name": "加工定制",
+      "values": [
+        "是"
+      ]
+    },
+    {
+      "name": "货号",
+      "values": [
+        "001"
+      ]
+    },
+    {
+      "name": "内框尺寸",
+      "values": [
+        "透明色",
+        "少女粉",
+        "玫粉色",
+        "淡粉色",
+        "冰川蓝",
+        "深蓝色",
+        "墨绿色",
+        "浅草绿",
+        "焦糖黄",
+        "桔色",
+        "黑色",
+        "白色",
+        "深紫色",
+        "浅紫色",
+        "灰色"
+      ]
+    },
+    {
+      "name": "外框尺寸",
+      "values": [
+        "3寸"
+      ]
+    },
+    {
+      "name": "空间",
+      "values": [
+        "客厅",
+        "卧室",
+        "书房",
+        "商用场所"
+      ]
+    },
+    {
+      "name": "外观造型",
+      "values": [
+        "几何"
+      ]
+    },
+    {
+      "name": "是否带画片",
+      "values": [
+        "否"
+      ]
+    },
+    {
+      "name": "相框种类",
+      "values": [
+        "磁力相框"
+      ]
+    }
+  ],
+  "images": [
+    "https://cbu01.alicdn.com/img/ibank/O1CN01MDJFUf1OX3wwYi7FQ_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01LvHJJW1OX3wr0lFuh_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01D9goje1OX3wvmXE0i_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN0198BDTA1OX3wxUCZuS_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01QO4N9n1OX3wqz8xVK_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01YlOib41OX3wbLiDWy_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01PcoYbl1OX3wc10ayp_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01wPYTMh1OX3wV87bzl_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01J2YiTZ1OX3waUcKO4_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN019XbOH81OX3wbcI0Kp_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01HV2sHC1OX3waqqRt0_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN010spW461OX3wZsSQ3G_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01XcRpek1OX3walq5uQ_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN019Z4Wwk1OX3wc14LuP_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01bxMfF01OX3ufiv8c0_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01rBQHA71OX3wb12seE_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01EUjdUy1OX3wZsPbOr_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01HbZbpR1OX3vs4tz0T_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01Xd8aKy1OX3wZwk91S_!!2218792111714-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01W6Fd6W1OX3uhD1k7H_!!2218792111714-0-cib.jpg"
+  ],
+  "video": {
+    "videoUrl": "https://cloud.video.taobao.com/play/u/2218792111714/p/2/e/6/t/1/532370689315.mp4",
+    "coverUrl": "https://img.alicdn.com/imgextra/i2/6000000002124/O1CN01hOaV651RYqKaRvP4A_!!6000000002124-0-tbvideo.jpg",
+    "videoId": 532370689315,
+    "title": "冰箱贴"
+  },
+  "detailUrl": "https://itemcdn.tmall.com/1688offer/icoss15133562308f93af95944e47ca",
+  "leafCategoryId": 1031953,
+  "shipping": {
+    "location": "浙江省温州市",
+    "logisticsText": "常发圆通快递",
+    "unitWeight": 0
+  },
+  "seller": {
+    "companyName": "苍南县金友工艺品厂",
+    "authCompanyName": "苍南县金友工艺品厂(个体工商户)",
+    "cardType": "factory",
+    "byrRepeatRate3m": "70.03%",
+    "sellerMemberId": "b2b-221879211171484b7a",
+    "sellerUserId": 2218792111714,
+    "shopUrl": "https://shop1x273770x6423.1688.com",
+    "winportUrl": "https://winport.m.1688.com/page/index.html?memberId=b2b-221879211171484b7a"
+  },
+  "rate": {
+    "goodRates": 100,
+    "goodsGrade": 5,
+    "reviewCount": 29,
+    "impressionTags": [
+      {
+        "name": "质量不错",
+        "count": 6
+      },
+      {
+        "name": "采购继续",
+        "count": 4
+      },
+      {
+        "name": "物流很给力",
+        "count": 2
+      },
+      {
+        "name": "下手值得",
+        "count": 2
+      },
+      {
+        "name": "质量好",
+        "count": 2
+      }
+    ]
+  }
+}
