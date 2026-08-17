@@ -1,0 +1,2995 @@
+{
+  "result": {
+    "data": {
+      "productPackInfo": {
+        "fields": {
+          "unitWeight": 0.3,
+          "uiType": "od_product_pack_info",
+          "label": "商品件重尺"
+        },
+        "id": "productPackInfo",
+        "meta": {
+          "scriptFileName": "pcOfferDetailCrossAttributesViewcomposer"
+        },
+        "position": "body",
+        "tag": "productPackInfo",
+        "type": "od_product_pack_info"
+      },
+      "screen": {
+        "fields": {
+          "uiType": "od_region",
+          "className": "region region-screen",
+          "label": "主屏幕"
+        },
+        "id": "screen",
+        "meta": {},
+        "position": "body",
+        "tag": "screen",
+        "type": "od_region"
+      },
+      "description": {
+        "fields": {
+          "bigPromotionBanner": {
+            "hasBigPromotion": false,
+            "bannerUrl": "",
+            "bannerJumpUrl": "https://shop05m2803hm6841.1688.com/page/activity.htm?offerId=889272226600#promotion"
+          },
+          "uiType": "od_product_description",
+          "detailUrl": "https://itemcdn.tmall.com/1688offer/icoss11393219328010c375f77d0d6f",
+          "label": "详情描述",
+          "isControlKnifeOffer": false,
+          "leafCategoryId": 1034111
+        },
+        "id": "description",
+        "meta": {
+          "scriptFileName": "pcOfferDetailDscDetailViewcomposer"
+        },
+        "position": "body",
+        "tag": "description",
+        "type": "od_product_description"
+      },
+      "consign": {
+        "fields": {
+          "uiType": "od_consign",
+          "label": "分销组件"
+        },
+        "id": "consign",
+        "meta": {},
+        "position": "body",
+        "tag": "consign",
+        "type": "od_consign"
+      },
+      "shippingServices": {
+        "fields": {
+          "unitWeight": 0.3,
+          "buyerProtectionModel": [
+            {
+              "serviceCode": "qtwlybt",
+              "serviceShortCode": "qtwlybt",
+              "type": "protect",
+              "enabled": true,
+              "forceUseSubPtsCodes": false,
+              "serviceVersion": 2,
+              "bigLogo": "https://img.alicdn.com/imgextra/i2/O1CN01dNPHxv1UZhbWE3yPO_!!6000000002532-2-tps-32-32.png",
+              "packageBuyerDesc": "7天无理由退货",
+              "logo": "https://img.alicdn.com/imgextra/i2/O1CN01NyKX2m1pKgXu54Rve_!!6000000005342-2-tps-64-64.png",
+              "middleLogo": "https://img.alicdn.com/imgextra/i2/O1CN01H10f2n1gAJ1vgHRgN_!!6000000004101-2-tps-24-24.png",
+              "agreementPage": "https://rule.1688.com/?+tracelog=aliguize_wzdh01&type=detail&ruleId=20004568&cId=3044#/rule/detail?ruleId=20004568&cId=3044",
+              "hugeLogo": "https://img.alicdn.com/imgextra/i1/O1CN01qUUUwV1RIo98arRvQ_!!6000000002089-2-tps-58-58.png",
+              "littleLogo": "https://img.alicdn.com/imgextra/i1/O1CN01YIe8Lk1vxyDWgdkPQ_!!6000000006240-2-tps-16-16.png",
+              "shortSellerDesc": "卖家承诺买家签收货物后7天内，在“商品完好”的情形下，向买家提供退货服务。",
+              "shortBuyerDesc": "满足相应条件下，卖家需支持7天无理由，其中定制订单不支持“7天无理由退货”。",
+              "largeLogo": "https://img.alicdn.com/imgextra/i2/O1CN01iYPe5E1YGhdWMDnh8_!!6000000003032-2-tps-48-48.png",
+              "serviceName": "7天无理由退货",
+              "extendInfo": {
+                "popDescription": "卖家承诺买家签收货物后7天内，在“商品完好”的情形下，向买家提供退货服务。"
+              },
+              "userId": 2204120899300,
+              "moreHugeLogo": "https://img.alicdn.com/imgextra/i2/O1CN01NyKX2m1pKgXu54Rve_!!6000000005342-2-tps-64-64.png",
+              "instruction": "当前开放类目： 1）纺织、皮革 2）家用电器 3）数码、电脑 4）能源 5）交通运输 6）传媒、广电 7）橡塑 8）灯饰照明 9）五金、工具 10）环保 11）医药、保养 12）办公、文化 13）包装 14）商务服务 15）汽摩及配件 16）美容护肤/彩妆 17）玩具 18）男装 19）女装 20）仪器仪表 21）个护/家清 22）成人用品 23）建材 24）农业 25）食品酒水 26）电工电气 27）化工 28）冶金矿产 29）家装建材 30）居家日用品 31）运动户外 32）服饰配件、饰品 33）电子元器件 34）机械及行业设备 35）安全、防护 36）印刷 37）家纺家饰 38）童装 39）内衣 40）通信产品 41）机床 42）加工 43）二手设备转让 44）鞋 45）箱包皮具 46）宠物及园艺 47）汽车用品 48）钢铁 49）餐饮生鲜 50）日用餐厨饮具 51）收纳清洁用具",
+              "textDesc": "卖家承诺买家签收货物后7天内，在“商品完好”的情形下，向买家提供退货服务。",
+              "logicGroupId": "4"
+            },
+            {
+              "serviceCode": "ssbxsfh",
+              "serviceShortCode": "D",
+              "productPage": "https://air.1688.com/app/ctf-page/protection-air/claim-rule.html",
+              "type": "protect",
+              "enabled": true,
+              "forceUseSubPtsCodes": false,
+              "serviceVersion": 2,
+              "bigLogo": "https://cbu01.alicdn.com/cms/upload/2015/839/305/2503938_1964054271.png",
+              "packageBuyerDesc": "晚发必赔",
+              "logo": "https://cbu01.alicdn.com/cms/upload/2015/460/315/2513064_1964054271.png",
+              "middleLogo": "https://cbu01.alicdn.com/cms/upload/2015/867/805/2508768_1964054271.png",
+              "agreementPage": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_b2b/suit_bu1_b2b202104072140_25758.html",
+              "agreeDeliveryHours": 48,
+              "hugeLogo": "https://cbu01.alicdn.com/cms/upload/2015/008/705/2507800_1964054271.png",
+              "littleLogo": "https://cbu01.alicdn.com/cms/upload/2015/177/505/2505771_1964054271.png",
+              "shortSellerDesc": "开通此服务的卖家，优先获得专场曝光，醒目的标识展示，现货保障刺激买家下单。",
+              "shortBuyerDesc": "若商家未按订单约定的时间发货，您可以在订单详情申请赔付",
+              "largeLogo": "https://cbu01.alicdn.com/cms/upload/2015/610/615/2516016_1964054271.png",
+              "serviceName": "晚发必赔",
+              "extendInfo": {
+                "popDescription": "卖家在承诺买家保障服务的基础上，向买家提供“48小时发货延必赔”的服务。在买家通过支付宝担保交易完成付款或通过货到付款下单成功后，卖家承诺在买家支付成功起48小时内发货。如卖家未履行前述承诺，买家可在指定期限内发起维权，并申请赔付。",
+                "delivery_days": "2"
+              },
+              "userId": 2204120899300,
+              "moreHugeLogo": "https://cbu01.alicdn.com/cms/upload/2015/460/315/2513064_1964054271.png",
+              "currentStep": 1,
+              "instruction": "当前开放类目： 1）纺织、皮革 2）家用电器 3）数码、电脑 4）能源 5）交通运输 6）传媒、广电 7）橡塑 8）灯饰照明 9）五金、工具 10）环保 11）医药、保养 12）办公、文化 13）包装 14）商务服务 15）汽摩及配件 16）美容护肤/彩妆 17）玩具 18）男装 19）女装 20）仪器仪表 21）个护/家清 22）成人用品 23）建材 24）农业 25）食品酒水 26）电工电气 27）化工 28）冶金矿产 29）家装建材 30）居家日用品 31）运动户外 32）服饰配件、饰品 33）电子元器件 34）机械及行业设备 35）安全、防护 36）印刷 37）家纺家饰 38）童装 39）内衣 40）通信产品 41）机床 42）加工 43）二手设备转让 44）鞋 45）箱包皮具 46）宠物及园艺 47）汽车用品 48）钢铁 49）餐饮生鲜 50）日用餐厨饮具 51）收纳清洁用具 52）新能源",
+              "textDesc": "卖家在承诺买家保障服务的基础上，向买家提供“48小时发货延必赔”的服务。在买家通过支付宝担保交易完成付款或通过货到付款下单成功后，卖家承诺在买家支付成功起48小时内发货。如卖家未履行前述承诺，买家可在指定期限内发起维权，并申请赔付。",
+              "ptsOfferStepModels": [
+                {
+                  "selectedStartQuantity": 1,
+                  "selectedPtsOfferTagModel": {
+                    "serviceCode": "ssbxsfh",
+                    "serviceName": "48小时发货",
+                    "required": false,
+                    "disabled": false,
+                    "agreeDeliveryHours": 48,
+                    "selected": false
+                  },
+                  "selected": false
+                }
+              ],
+              "logicGroupId": "1"
+            }
+          ],
+          "showFreightBenefitTag": "",
+          "freeEndAmount": -1,
+          "hideDeliveryTime": false,
+          "postFeeValue": 6,
+          "minWeight": 0.3,
+          "logistics": "",
+          "officialLogistics": false,
+          "templateId": 14643718,
+          "targetLocation": "选择配送地址为您计算运费及送达时间",
+          "sendAddressCode": "32401592",
+          "price": "2.50",
+          "deliveryLimitText": "承诺48小时发货·常发圆通快递",
+          "text": "",
+          "freightInfo": {
+            "unitWeight": 0.3,
+            "freightDiagnosisResultModel": {
+              "showFreightBenefitTag": false,
+              "offerId": 889272226600
+            },
+            "freeEndAmount": -1,
+            "deliveryLimit": 2,
+            "officialLogistics": false,
+            "marketingFreePostage": false,
+            "locationDivisionCode": "330399",
+            "deliveryFulfillmentSolution": {
+              "offerId": 889272226600
+            },
+            "subTemplateId": 14643718,
+            "logisticsText": "承诺48小时发货·常发圆通快递",
+            "deliveryFee": {
+              "name": "TEMPLATED"
+            },
+            "freeDeliverFee": false,
+            "location": "浙江省温州市",
+            "locationCode": "32401592",
+            "totalCost": 6,
+            "skuWeight": {}
+          },
+          "isSkuTradeSupported": true,
+          "trackInfo": {},
+          "buyerProtectionScene": "dsc",
+          "label": "物流发货",
+          "isShowLogistics": true,
+          "deliveryLimitTimeModel": {
+            "attrs": {
+              "offerUnit": "套",
+              "ptsOfferStepModels": [
+                {
+                  "selectedStartQuantity": 1,
+                  "selectedPtsOfferTagModel": {
+                    "serviceCode": "ssbxsfh",
+                    "serviceName": "48小时发货",
+                    "required": false,
+                    "disabled": false,
+                    "agreeDeliveryHours": 48,
+                    "selected": false
+                  },
+                  "selected": false
+                }
+              ]
+            },
+            "limitTimeDay": 2,
+            "expectSendHour": 19,
+            "offerId": 889272226600,
+            "orderCntLevelText": "",
+            "limitTimeDesc": "承诺48小时发货·常发圆通快递",
+            "expectTimeDesc": ""
+          },
+          "volume": 0,
+          "unit": "套",
+          "deliveryFee": "TEMPLATED",
+          "startAmount": 1,
+          "postFree": false,
+          "uiType": "od_shipping_services",
+          "hideLogisticsClick": false,
+          "location": "浙江省温州市",
+          "freeDeliverFee": false,
+          "protectionInfos": [
+            {
+              "longDescription": "卖家承诺买家签收货物后7天内，在“商品完好”的情形下，向买家提供退货服务。",
+              "serviceCode": "qtwlybt",
+              "description": "满足相应条件下，卖家需支持7天无理由，其中定制订单不支持“7天无理由退货”。",
+              "serviceName": "7天无理由退货",
+              "type": "protect",
+              "logoUrl": "https://img.alicdn.com/imgextra/i2/O1CN01NyKX2m1pKgXu54Rve_!!6000000005342-2-tps-64-64.png",
+              "logoUrl_64_64": "https://img.alicdn.com/imgextra/i2/O1CN01NyKX2m1pKgXu54Rve_!!6000000005342-2-tps-64-64.png",
+              "logoUrl_16_16": "https://img.alicdn.com/imgextra/i1/O1CN01YIe8Lk1vxyDWgdkPQ_!!6000000006240-2-tps-16-16.png",
+              "buyerDescription": "7天无理由退货"
+            },
+            {
+              "longDescription": "卖家在承诺买家保障服务的基础上，向买家提供“48小时发货延必赔”的服务。在买家通过支付宝担保交易完成付款或通过货到付款下单成功后，卖家承诺在买家支付成功起48小时内发货。如卖家未履行前述承诺，买家可在指定期限内发起维权，并申请赔付。",
+              "serviceLink": "https://air.1688.com/app/ctf-page/protection-air/claim-rule.html",
+              "serviceCode": "ssbxsfh",
+              "description": "若商家未按订单约定的时间发货，您可以在订单详情申请赔付",
+              "serviceName": "晚发必赔",
+              "type": "protect",
+              "logoUrl": "https://cbu01.alicdn.com/cms/upload/2015/460/315/2513064_1964054271.png",
+              "logoUrl_64_64": "https://cbu01.alicdn.com/cms/upload/2015/460/315/2513064_1964054271.png",
+              "logoUrl_16_16": "https://cbu01.alicdn.com/cms/upload/2015/177/505/2505771_1964054271.png",
+              "buyerDescription": "晚发必赔",
+              "agreeDeliveryHours": 48
+            }
+          ],
+          "totalCost": 6,
+          "skuWeight": {
+            "$ref": "$.result.data.shippingServices.fields.freightInfo.skuWeight"
+          }
+        },
+        "id": "shippingServices",
+        "meta": {
+          "scriptFileName": "pcOfferDetailDscLogisticsViewcomposer"
+        },
+        "position": "body",
+        "tag": "shippingServices",
+        "type": "od_shipping_services"
+      },
+      "widgets": {
+        "fields": {
+          "uiType": "od_widgets",
+          "label": "边角工具插件"
+        },
+        "id": "widgets",
+        "meta": {},
+        "position": "body",
+        "tag": "widgets",
+        "type": "od_widgets"
+      },
+      "cart": {
+        "fields": {
+          "partition": [
+            2,
+            1
+          ],
+          "uiType": "od_cart_sider",
+          "label": "选款区"
+        },
+        "id": "cart",
+        "meta": {},
+        "position": "body",
+        "tag": "cart",
+        "type": "od_cart_sider"
+      },
+      "chromePlugin": {
+        "fields": {
+          "uiType": "od_chrome_plugin",
+          "label": "chrome插件"
+        },
+        "id": "chromePlugin",
+        "meta": {},
+        "position": "body",
+        "tag": "chromePlugin",
+        "type": "od_chrome_plugin"
+      },
+      "shopProductCombine": {
+        "fields": {
+          "uiType": "od_shop_product_combine",
+          "label": "商家搭配组货"
+        },
+        "id": "shopProductCombine",
+        "meta": {},
+        "position": "body",
+        "tag": "shopProductCombine",
+        "type": "od_shop_product_combine"
+      },
+      "shopProductRecommend": {
+        "fields": {
+          "uiType": "od_shop_product_recommend",
+          "label": "商家自营销推荐"
+        },
+        "id": "shopProductRecommend",
+        "meta": {},
+        "position": "body",
+        "tag": "shopProductRecommend",
+        "type": "od_shop_product_recommend"
+      },
+      "userRights": {
+        "fields": {
+          "hidePlusMonthCard": false,
+          "trackInfo": {},
+          "testParam": "test",
+          "operateType": "QUERY_BENEFIT",
+          "uiType": "od_user_rights",
+          "label": "月卡、权益",
+          "isShow": false
+        },
+        "id": "userRights",
+        "meta": {
+          "scriptFileName": "pcOfferDetailDscFinaceServiceViewcomposer"
+        },
+        "position": "body",
+        "tag": "userRights",
+        "type": "od_user_rights"
+      },
+      "customMade": {
+        "fields": {
+          "uiType": "od_custom_made",
+          "label": "定制项"
+        },
+        "id": "customMade",
+        "meta": {},
+        "position": "body",
+        "tag": "customMade",
+        "type": "od_custom_made"
+      },
+      "mainServices": {
+        "fields": {
+          "trackInfo": {},
+          "guaranteeList": [
+            {
+              "serviceName": "7天无理由退货",
+              "description": "满足相应条件下，卖家需支持7天无理由，其中定制订单不支持“7天无理由退货”。",
+              "serviceCode": "qtwlybt",
+              "textColor": "#222222"
+            },
+            {
+              "serviceName": "晚发必赔",
+              "description": "若商家未按订单约定的时间发货，您可以在订单详情申请赔付",
+              "serviceCode": "ssbxsfh",
+              "serviceLink": "https://air.1688.com/app/ctf-page/protection-air/claim-rule.html",
+              "textColor": "#222222"
+            }
+          ],
+          "uiType": "od_services",
+          "label": "服务"
+        },
+        "id": "mainServices",
+        "meta": {
+          "scriptFileName": "pcOfferDetailDscBuyerServiceViewcomposer"
+        },
+        "position": "body",
+        "tag": "mainServices",
+        "type": "od_services"
+      },
+      "sizeChart": {
+        "fields": {
+          "uiType": "od_size_chart",
+          "label": "商品尺码表"
+        },
+        "id": "sizeChart",
+        "meta": {},
+        "position": "body",
+        "tag": "sizeChart",
+        "type": "od_size_chart"
+      },
+      "submitOrder": {
+        "fields": {
+          "isSkuOffer": true,
+          "marketScene": "default",
+          "isAddCartPromotion": false,
+          "pstatus": "remind",
+          "remindSceneKey": "",
+          "channelType": "dsc",
+          "componentVersion": "93",
+          "label": "下单",
+          "isPicPrivate": false,
+          "isPricePrivate": false,
+          "remindText": "",
+          "uiType": "od_submit_order",
+          "businessType": "default",
+          "operateItems": [
+            {
+              "operateType": "ORDER",
+              "operateDisplayStatus": "ORDER_NOW",
+              "disType": "TEXT",
+              "imgUrl": "",
+              "data": {},
+              "name": "立即下单"
+            },
+            {
+              "operateType": "ADD_CART",
+              "operateDisplayStatus": "ADD_CART",
+              "disType": "TEXT",
+              "imgUrl": "",
+              "data": {},
+              "name": "加采购车"
+            }
+          ],
+          "freightInfo": {
+            "officialLogistics": false,
+            "subTemplateId": 14643718,
+            "unitWeight": 0.3,
+            "skuWeight": {},
+            "queryFlag": true
+          }
+        },
+        "id": "submitOrder",
+        "meta": {
+          "scriptFileName": "pcOfferDetailDscOrderViewcomposer"
+        },
+        "position": "body",
+        "tag": "submitOrder",
+        "type": "od_submit_order"
+      },
+      "navTabs": {
+        "fields": {
+          "uiType": "od_nav_tabs",
+          "label": "详情区域页签"
+        },
+        "id": "navTabs",
+        "meta": {},
+        "position": "body",
+        "tag": "navTabs",
+        "type": "od_nav_tabs"
+      },
+      "promotionBanner": {
+        "fields": {
+          "bannerImage": "",
+          "uiType": "od_promotion_banner",
+          "label": "营销氛围"
+        },
+        "id": "promotionBanner",
+        "meta": {
+          "scriptFileName": "pcOfferDetailDscDacubannerViewcomposer"
+        },
+        "position": "body",
+        "tag": "promotionBanner",
+        "type": "od_promotion_banner"
+      },
+      "gallery": {
+        "fields": {
+          "offerImgList": [
+            "https://cbu01.alicdn.com/img/ibank/O1CN01n6VrVk2IZSRhuu2qb_!!2204120899300-0-cib.jpg",
+            "https://cbu01.alicdn.com/img/ibank/O1CN01XUOeKN2IZSRkECm9i_!!2204120899300-0-cib.jpg",
+            "https://cbu01.alicdn.com/img/ibank/O1CN01yh6Dzm2IZSRi9UCuQ_!!2204120899300-0-cib.jpg",
+            "https://cbu01.alicdn.com/img/ibank/O1CN01t3reEZ2IZSRkeKb82_!!2204120899300-0-cib.jpg",
+            "https://cbu01.alicdn.com/img/ibank/O1CN01lua9v72IZSRijrJRz_!!2204120899300-0-cib.jpg",
+            "https://cbu01.alicdn.com/img/ibank/O1CN01ExTSj52IZSSTdF7zZ_!!2204120899300-0-cib.jpg",
+            "https://cbu01.alicdn.com/img/ibank/O1CN01pdDElD2IZSSVqzSBh_!!2204120899300-0-cib.jpg"
+          ],
+          "isBestOffer": false,
+          "subject": "ins6寸相册明信片书签混合按扣收纳册人生四格追星卡册大头照收纳",
+          "isBestOfferUrl": "https://img.alicdn.com/tfs/TB1ZwSvqG6qK1RjSZFmXXX0PFXa-100-100.png",
+          "consignAiMate": false,
+          "video": {
+            "coverUrl": "https://img.alicdn.com/imgextra/i4/6000000003931/O1CN01cRSQyB1euRn3Kw5ND_!!6000000003931-0-tbvideo.jpg",
+            "videoId": 417731221893,
+            "state": 6,
+            "title": "相册视频",
+            "videoUrl": "https://cloud.video.taobao.com/play/u/2204120899300/p/2/e/6/t/1/417731221893.mp4"
+          },
+          "componentVersion": "1",
+          "label": "商品主图",
+          "canShowAllImage": true,
+          "mainImage": [
+            "https://cbu01.alicdn.com/img/ibank/O1CN01n6VrVk2IZSRhuu2qb_!!2204120899300-0-cib.jpg",
+            "https://cbu01.alicdn.com/img/ibank/O1CN01XUOeKN2IZSRkECm9i_!!2204120899300-0-cib.jpg",
+            "https://cbu01.alicdn.com/img/ibank/O1CN01yh6Dzm2IZSRi9UCuQ_!!2204120899300-0-cib.jpg",
+            "https://cbu01.alicdn.com/img/ibank/O1CN01t3reEZ2IZSRkeKb82_!!2204120899300-0-cib.jpg",
+            "https://cbu01.alicdn.com/img/ibank/O1CN01lua9v72IZSRijrJRz_!!2204120899300-0-cib.jpg"
+          ],
+          "uiType": "od_picture_gallery",
+          "offerId": 889272226600,
+          "CpvEnhance": {
+            "decisionCpv": [
+              {
+                "name": "款式",
+                "values": [
+                  "卡通相册"
+                ]
+              },
+              {
+                "name": "封面材质",
+                "values": [
+                  "PP"
+                ]
+              },
+              {
+                "name": "内页页数",
+                "values": [
+                  "40"
+                ]
+              },
+              {
+                "name": "用途",
+                "values": [
+                  "普通相册"
+                ]
+              }
+            ],
+            "normalCpv": [
+              {
+                "name": "品牌",
+                "values": [
+                  "无"
+                ]
+              },
+              {
+                "name": "封面颜色",
+                "values": [
+                  "左两格右一格：20页60张/按扣",
+                  "左两格右一格：40页120张/按扣",
+                  "6寸1格：20页40张/按扣侧开11x15.9cm",
+                  "6寸1格：40页80张/按扣侧开11X15.9cm",
+                  "6寸1格：50页100张/按扣侧开11X15.9cm",
+                  "A6收纳册1宫格：20页/本/无扣11.5X15.5cm",
+                  "A6收纳册1宫格：40页/本/无扣11.5X15.5cm",
+                  "A6收纳册1宫格：50页/本/无扣11.5X15.5cm"
+                ]
+              },
+              {
+                "name": "货号",
+                "values": [
+                  "QH265"
+                ]
+              },
+              {
+                "name": "加印LOGO",
+                "values": [
+                  "可以"
+                ]
+              },
+              {
+                "name": "加工定制",
+                "values": [
+                  "是"
+                ]
+              },
+              {
+                "name": "是否跨境出口专供货源",
+                "values": [
+                  "否"
+                ]
+              },
+              {
+                "name": "是否属于礼品",
+                "values": [
+                  "否"
+                ]
+              },
+              {
+                "name": "是否IP授权",
+                "values": [
+                  "否"
+                ]
+              }
+            ]
+          }
+        },
+        "id": "gallery",
+        "meta": {
+          "scriptFileName": "pcOfferDetailDscImageViewcomposer"
+        },
+        "position": "body",
+        "tag": "gallery",
+        "type": "od_picture_gallery"
+      },
+      "headers": {
+        "fields": {
+          "uiType": "od_header",
+          "label": "顶部header",
+          "experimentGroup": 1
+        },
+        "id": "headers",
+        "meta": {},
+        "position": "body",
+        "tag": "headers",
+        "type": "od_header"
+      },
+      "product": {
+        "fields": {
+          "uiType": "od_region",
+          "className": "region region-screen-product",
+          "label": "产品"
+        },
+        "id": "product",
+        "meta": {},
+        "position": "body",
+        "tag": "product",
+        "type": "od_region"
+      },
+      "shopNavigation": {
+        "fields": {
+          "uiType": "od_shop_navigation",
+          "label": "旺铺导航"
+        },
+        "id": "shopNavigation",
+        "meta": {},
+        "position": "body",
+        "tag": "shopNavigation",
+        "type": "od_shop_navigation"
+      },
+      "Root": {
+        "fields": {
+          "isRoot": true,
+          "uiType": "od_region",
+          "label": "商品详情页",
+          "dataJson": {
+            "isSourcePromotion": false,
+            "channelType": "dsc",
+            "needSkuHide": false,
+            "qrCode": "https://m.1688.com/offer/889272226600.html?sk=order",
+            "detailModel": [],
+            "hasPurcharseMark": false,
+            "showOldOD": false,
+            "abTestInfo": {
+              "exposeClickInfo": {},
+              "pvTrackInfo": {
+                "AbIds": "2515414#2517407#2518968"
+              },
+              "abTestValueInfo": {
+                "od_new_black_brand_txt": "1",
+                "showOfferSizeTable": "1",
+                "gypsanweisku": "1",
+                "newton_bar": "0",
+                "zeus_gyp_onhand_price": "1",
+                "sku_short_title": "base",
+                "page_zgc_dimension": "0",
+                "page_yanxuan_qualityCert": "Y",
+                "page_dsc_xhdz_upgrade": "1",
+                "page_add_custom_service": "1",
+                "version": "2"
+              }
+            },
+            "images": [
+              {
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01n6VrVk2IZSRhuu2qb_!!2204120899300-0-cib.220x220.jpg",
+                "imageURI": "img/ibank/O1CN01n6VrVk2IZSRhuu2qb_!!2204120899300-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01n6VrVk2IZSRhuu2qb_!!2204120899300-0-cib.search.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01n6VrVk2IZSRhuu2qb_!!2204120899300-0-cib.summ.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01n6VrVk2IZSRhuu2qb_!!2204120899300-0-cib.310x310.jpg",
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01n6VrVk2IZSRhuu2qb_!!2204120899300-0-cib.jpg"
+              },
+              {
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01XUOeKN2IZSRkECm9i_!!2204120899300-0-cib.220x220.jpg",
+                "imageURI": "img/ibank/O1CN01XUOeKN2IZSRkECm9i_!!2204120899300-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01XUOeKN2IZSRkECm9i_!!2204120899300-0-cib.search.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01XUOeKN2IZSRkECm9i_!!2204120899300-0-cib.summ.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01XUOeKN2IZSRkECm9i_!!2204120899300-0-cib.310x310.jpg",
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01XUOeKN2IZSRkECm9i_!!2204120899300-0-cib.jpg"
+              },
+              {
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01yh6Dzm2IZSRi9UCuQ_!!2204120899300-0-cib.220x220.jpg",
+                "imageURI": "img/ibank/O1CN01yh6Dzm2IZSRi9UCuQ_!!2204120899300-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01yh6Dzm2IZSRi9UCuQ_!!2204120899300-0-cib.search.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01yh6Dzm2IZSRi9UCuQ_!!2204120899300-0-cib.summ.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01yh6Dzm2IZSRi9UCuQ_!!2204120899300-0-cib.310x310.jpg",
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01yh6Dzm2IZSRi9UCuQ_!!2204120899300-0-cib.jpg"
+              },
+              {
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01t3reEZ2IZSRkeKb82_!!2204120899300-0-cib.220x220.jpg",
+                "imageURI": "img/ibank/O1CN01t3reEZ2IZSRkeKb82_!!2204120899300-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01t3reEZ2IZSRkeKb82_!!2204120899300-0-cib.search.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01t3reEZ2IZSRkeKb82_!!2204120899300-0-cib.summ.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01t3reEZ2IZSRkeKb82_!!2204120899300-0-cib.310x310.jpg",
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01t3reEZ2IZSRkeKb82_!!2204120899300-0-cib.jpg"
+              },
+              {
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01lua9v72IZSRijrJRz_!!2204120899300-0-cib.220x220.jpg",
+                "imageURI": "img/ibank/O1CN01lua9v72IZSRijrJRz_!!2204120899300-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01lua9v72IZSRijrJRz_!!2204120899300-0-cib.search.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01lua9v72IZSRijrJRz_!!2204120899300-0-cib.summ.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01lua9v72IZSRijrJRz_!!2204120899300-0-cib.310x310.jpg",
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01lua9v72IZSRijrJRz_!!2204120899300-0-cib.jpg"
+              },
+              {
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01ExTSj52IZSSTdF7zZ_!!2204120899300-0-cib.220x220.jpg",
+                "imageURI": "img/ibank/O1CN01ExTSj52IZSSTdF7zZ_!!2204120899300-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01ExTSj52IZSSTdF7zZ_!!2204120899300-0-cib.search.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01ExTSj52IZSSTdF7zZ_!!2204120899300-0-cib.summ.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01ExTSj52IZSSTdF7zZ_!!2204120899300-0-cib.310x310.jpg",
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01ExTSj52IZSSTdF7zZ_!!2204120899300-0-cib.jpg"
+              },
+              {
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01pdDElD2IZSSVqzSBh_!!2204120899300-0-cib.220x220.jpg",
+                "imageURI": "img/ibank/O1CN01pdDElD2IZSSVqzSBh_!!2204120899300-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01pdDElD2IZSSVqzSBh_!!2204120899300-0-cib.search.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01pdDElD2IZSSVqzSBh_!!2204120899300-0-cib.summ.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01pdDElD2IZSSVqzSBh_!!2204120899300-0-cib.310x310.jpg",
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01pdDElD2IZSSVqzSBh_!!2204120899300-0-cib.jpg"
+              }
+            ],
+            "offerModelSign": {
+              "isBuyerProtection": true,
+              "isCrossBorderOffer": true,
+              "isSupportMix": true,
+              "isSupplyStockOffer": true,
+              "isAeretailOffer": true,
+              "hasFreightTemplate": true,
+              "isSsbxsfh": true,
+              "isGovCouponOfferInOD": false,
+              "hasSearchPicture": true,
+              "hasWhitePicInOffer": true,
+              "sevenDaysRefund": true,
+              "isDistributionBuffer": true,
+              "hasOrder": true,
+              "fx48hPickupAssr": true,
+              "isAegisTrade": true,
+              "isHtqqItem": true,
+              "isKJFreeShipping": true,
+              "isHTQQOffer": true,
+              "isSkuTradeSupported": true,
+              "isSearchOffer": true,
+              "isAiPostOffer": true,
+              "isCBDistribution": true,
+              "isAeJit": true,
+              "isAlipaySupported": true,
+              "isGpfOffer": true,
+              "isInFxLevelTwoBlackList": true,
+              "huiyuanhaokaidanyanxuan": true,
+              "isSupportStock": true,
+              "isSupportVideo": true,
+              "hasSendGoodsAddress": true
+            },
+            "mixModel": {
+              "isSupportMix": false,
+              "mixOneForSale": false
+            },
+            "easeBuyDealer": {
+              "isEaseBuyDealer": true,
+              "showText": [
+                "延期必赔",
+                "品质保障",
+                "资金安全"
+              ],
+              "image": "https://gw.alicdn.com/imgextra/i4/O1CN011mMQtb1FeXSdkkzba_!!6000000000512-2-tps-180-58.png",
+              "bgImage": "https://gw.alicdn.com/imgextra/i4/O1CN01PSCyn71m4hnAGoMEY_!!6000000004901-2-tps-1428-226.png",
+              "link": "https://factory.1688.com/zgc/page/2hlo2m80.html?__pageId__=167928&cms_id=167928&wh_pha=true&__existtitle__=1"
+            },
+            "sellerSign": {
+              "isIndustrySeller": false,
+              "isSlsj": false,
+              "signs": {
+                "isIndustrySeller": false,
+                "isSlsj": false,
+                "isChtMember": false,
+                "isTp": true,
+                "isEaseBuyDealer": true,
+                "isFactoryDealer": true
+              },
+              "isTp": true,
+              "isChtMember": false
+            },
+            "canIgnoreConsignRelation": false,
+            "isSkuOffer": true,
+            "hasBigPromotion": false,
+            "tempModel": {
+              "offerUnit": "套",
+              "offerId": 889272226600,
+              "offerTitle": "ins6寸相册明信片书签混合按扣收纳册人生四格追星卡册大头照收纳",
+              "defaultOfferImg": "",
+              "topCategoryId": 67,
+              "postCategoryId": 1034111,
+              "companyName": "温州艾佳得塑业有限公司",
+              "sellerUserId": 2204120899300,
+              "sellerLoginId": "温州艾佳得塑业有限公司",
+              "sellerMemberId": "b2b-220412089930012503",
+              "winportUrl": "https://winport.m.1688.com/page/index.html?memberId=b2b-220412089930012503",
+              "saledCount": 2133
+            },
+            "exposeInfo": {
+              "exposeArgs": {
+                "isYanxuanOffer": "false",
+                "sceneType": "default",
+                "ipvId": "0bf89a7417869839148616110e0bcf",
+                "isPlusMember": "false",
+                "verticalType": "default",
+                "offerId": "889272226600",
+                "channelType": "dsc"
+              }
+            },
+            "offerMemberTags": [
+              140032,
+              218112,
+              242432,
+              480002,
+              475650,
+              519170,
+              476930,
+              481538,
+              387074,
+              668418,
+              676098,
+              4845121,
+              626690,
+              649218,
+              595970,
+              654594,
+              654850,
+              627202,
+              5095745,
+              5208129,
+              5189441,
+              5219905,
+              5189697,
+              5139777,
+              5117249,
+              5351489,
+              5346625,
+              5277505,
+              5261121,
+              5247553,
+              5277761,
+              5390145,
+              2937603,
+              3882753,
+              3833857,
+              4136449,
+              4109313,
+              161600,
+              209216,
+              232000,
+              213568,
+              449090,
+              442434,
+              406338,
+              439106,
+              412482,
+              484674,
+              481346,
+              364098,
+              657986,
+              660291,
+              527682,
+              646466,
+              654914,
+              624706,
+              654146,
+              573507,
+              5056257,
+              5023233,
+              5215745,
+              5216257,
+              5189633,
+              5232385,
+              5321729,
+              5338113,
+              5272577,
+              5277441,
+              5261313,
+              5259777,
+              5248001,
+              5390081,
+              23424,
+              4249025,
+              4247489,
+              215680,
+              220544,
+              234368,
+              449154,
+              448642,
+              425858,
+              426882,
+              424578,
+              501378,
+              516738,
+              479874,
+              4505537,
+              4815041,
+              572034,
+              554370,
+              627074,
+              626562,
+              624770,
+              624258,
+              654210,
+              5059009,
+              5091265,
+              5237185,
+              5183681,
+              5329857,
+              5356225,
+              5367745,
+              5291713,
+              5256129,
+              5385409,
+              2068355,
+              3705729,
+              3842177,
+              3824001,
+              4189569,
+              153024,
+              181440,
+              170944,
+              209600,
+              414146,
+              396482,
+              4480641,
+              493506,
+              4502657,
+              626882,
+              627138,
+              626626,
+              624578,
+              592578,
+              584387,
+              644290,
+              654786,
+              654530,
+              654274,
+              649154,
+              5023105,
+              5189761,
+              5224833,
+              5234049,
+              5117313,
+              5326721,
+              5271681,
+              5292417,
+              5386113
+            ],
+            "hasConsignReation": false,
+            "isPicPrivate": false,
+            "supportPuhuo": true,
+            "isPricePrivate": false,
+            "offerType": "defaultOffer",
+            "orderParamModel": {
+              "orderParam": {
+                "saledCount": 2133,
+                "beginNum": 1,
+                "canBookedAmount": 73877,
+                "skuParam": {
+                  "skuPriceType": "skuPrice",
+                  "skuRangePrices": [
+                    {
+                      "price": "2.50",
+                      "beginAmount": "1"
+                    },
+                    {
+                      "price": "5.20",
+                      "beginAmount": "1"
+                    }
+                  ]
+                },
+                "flow": "general",
+                "addCartParam": {
+                  "cartType": ""
+                }
+              }
+            },
+            "overseaPeople": false,
+            "sevenDaysRefund": true,
+            "offerCrossBorderModel": {
+              "foreignLanguagePackageImages": []
+            },
+            "frontSellerMemberModel": {
+              "frontSellerLoginId": "温州艾佳得塑业有限公司",
+              "frontSellerMemberId": "b2b-220412089930012503",
+              "frontSellerUserId": 2204120899300,
+              "frontOfferId": 889272226600,
+              "sellerType": "default"
+            },
+            "offerSign": {
+              "isSkuOffer": true,
+              "isPreSell": false,
+              "isConsignMarketOffer": false,
+              "isOnlyNPorcessingOffer": false,
+              "isOfferSupportOnlineTrade": true,
+              "isDistribution": false,
+              "hasBusinessPrice": false,
+              "hasJoinBusinessPrice": false,
+              "isPreSaleOffer": false,
+              "isVirtualCategory": false,
+              "preHeatOfferCanTrade": true,
+              "isChtSingleOffer": false,
+              "isDetailForbidden": false
+            },
+            "componentType": "page",
+            "marketScene": "default",
+            "isActHottimingOffer": false,
+            "filterModel": [],
+            "topBarModel": [],
+            "activityModel": {
+              "activityStartTimestamps": 0,
+              "activityEndTimestamps": 0
+            },
+            "shareModel": [],
+            "operateDisplayStatus": "ORDER_NOW",
+            "reserveData": {},
+            "tmPickScene": false,
+            "skuModel": {
+              "skuProps": [
+                {
+                  "fid": 100019517,
+                  "prop": "封面颜色",
+                  "value": [
+                    {
+                      "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01ExTSj52IZSSTdF7zZ_!!2204120899300-0-cib.jpg",
+                      "name": "左两格右一格：20页60张/按扣"
+                    },
+                    {
+                      "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01pdDElD2IZSSVqzSBh_!!2204120899300-0-cib.jpg",
+                      "name": "左两格右一格：40页120张/按扣"
+                    },
+                    {
+                      "name": "6寸1格：20页40张/按扣侧开11x15.9cm"
+                    },
+                    {
+                      "name": "6寸1格：40页80张/按扣侧开11X15.9cm"
+                    },
+                    {
+                      "name": "6寸1格：50页100张/按扣侧开11X15.9cm"
+                    },
+                    {
+                      "name": "A6收纳册1宫格：20页/本/无扣11.5X15.5cm"
+                    },
+                    {
+                      "name": "A6收纳册1宫格：40页/本/无扣11.5X15.5cm"
+                    },
+                    {
+                      "name": "A6收纳册1宫格：50页/本/无扣11.5X15.5cm"
+                    }
+                  ]
+                }
+              ],
+              "skuInfoMap": {
+                "A6收纳册1宫格：40页/本/无扣11.5X15.5cm": {
+                  "specId": "5df90ec768a91519e75c41b056591804",
+                  "specAttrs": "A6收纳册1宫格：40页/本/无扣11.5X15.5cm",
+                  "price": "3.50",
+                  "saleCount": 0,
+                  "discountPrice": "3.50",
+                  "canBookCount": 9688,
+                  "skuId": 5935453126514,
+                  "isPromotionSku": false
+                },
+                "左两格右一格：20页60张/按扣": {
+                  "specId": "1875d9a0df0f7f326cd39bfe2411fd5c",
+                  "specAttrs": "左两格右一格：20页60张/按扣",
+                  "price": "3.20",
+                  "saleCount": 0,
+                  "discountPrice": "3.20",
+                  "canBookCount": 9002,
+                  "skuId": 5901356074803,
+                  "isPromotionSku": false
+                },
+                "A6收纳册1宫格：20页/本/无扣11.5X15.5cm": {
+                  "specId": "5026857c7f20c02204d5f310600cfdda",
+                  "specAttrs": "A6收纳册1宫格：20页/本/无扣11.5X15.5cm",
+                  "price": "2.50",
+                  "saleCount": 0,
+                  "discountPrice": "2.50",
+                  "canBookCount": 8175,
+                  "skuId": 5935453126513,
+                  "isPromotionSku": false
+                },
+                "6寸1格：50页100张/按扣侧开11X15.9cm": {
+                  "specId": "65d1a3c1cd0a615bc83f66bf0863d774",
+                  "specAttrs": "6寸1格：50页100张/按扣侧开11X15.9cm",
+                  "price": "5.20",
+                  "saleCount": 0,
+                  "discountPrice": "5.20",
+                  "canBookCount": 8816,
+                  "skuId": 5770140657645,
+                  "isPromotionSku": false
+                },
+                "左两格右一格：40页120张/按扣": {
+                  "specId": "c8b07e7cc15415666fe46347db789dc1",
+                  "specAttrs": "左两格右一格：40页120张/按扣",
+                  "price": "4.20",
+                  "saleCount": 0,
+                  "discountPrice": "4.20",
+                  "canBookCount": 9418,
+                  "skuId": 5901356074804,
+                  "isPromotionSku": false
+                },
+                "6寸1格：20页40张/按扣侧开11x15.9cm": {
+                  "specId": "bd7235ba4cf87fcf10f12d11a405effb",
+                  "specAttrs": "6寸1格：20页40张/按扣侧开11x15.9cm",
+                  "price": "3.70",
+                  "saleCount": 0,
+                  "discountPrice": "3.70",
+                  "canBookCount": 9394,
+                  "skuId": 5935453126511,
+                  "isPromotionSku": false
+                },
+                "6寸1格：40页80张/按扣侧开11X15.9cm": {
+                  "specId": "021362943ec76cb14b8878a3dae72f3b",
+                  "specAttrs": "6寸1格：40页80张/按扣侧开11X15.9cm",
+                  "price": "4.50",
+                  "saleCount": 0,
+                  "discountPrice": "4.50",
+                  "canBookCount": 9406,
+                  "skuId": 5935453126512,
+                  "isPromotionSku": false
+                },
+                "A6收纳册1宫格：50页/本/无扣11.5X15.5cm": {
+                  "specId": "93a0d7de52587e1afddc3e7c641cbcc9",
+                  "specAttrs": "A6收纳册1宫格：50页/本/无扣11.5X15.5cm",
+                  "price": "4.20",
+                  "saleCount": 0,
+                  "discountPrice": "4.20",
+                  "canBookCount": 9978,
+                  "skuId": 5935453126515,
+                  "isPromotionSku": false
+                }
+              },
+              "skuPriceScale": "2.50-5.20",
+              "skuInfoMapOriginal": {
+                "A6收纳册1宫格：40页/本/无扣11.5X15.5cm": {
+                  "specId": "5df90ec768a91519e75c41b056591804",
+                  "specAttrs": "A6收纳册1宫格：40页/本/无扣11.5X15.5cm",
+                  "price": "3.50",
+                  "saleCount": 0,
+                  "discountPrice": "3.50",
+                  "canBookCount": 9688,
+                  "skuId": 5935453126514,
+                  "isPromotionSku": false
+                },
+                "左两格右一格：20页60张/按扣": {
+                  "specId": "1875d9a0df0f7f326cd39bfe2411fd5c",
+                  "specAttrs": "左两格右一格：20页60张/按扣",
+                  "price": "3.20",
+                  "saleCount": 0,
+                  "discountPrice": "3.20",
+                  "canBookCount": 9002,
+                  "skuId": 5901356074803,
+                  "isPromotionSku": false
+                },
+                "A6收纳册1宫格：20页/本/无扣11.5X15.5cm": {
+                  "specId": "5026857c7f20c02204d5f310600cfdda",
+                  "specAttrs": "A6收纳册1宫格：20页/本/无扣11.5X15.5cm",
+                  "price": "2.50",
+                  "saleCount": 0,
+                  "discountPrice": "2.50",
+                  "canBookCount": 8175,
+                  "skuId": 5935453126513,
+                  "isPromotionSku": false
+                },
+                "6寸1格：50页100张/按扣侧开11X15.9cm": {
+                  "specId": "65d1a3c1cd0a615bc83f66bf0863d774",
+                  "specAttrs": "6寸1格：50页100张/按扣侧开11X15.9cm",
+                  "price": "5.20",
+                  "saleCount": 0,
+                  "discountPrice": "5.20",
+                  "canBookCount": 8816,
+                  "skuId": 5770140657645,
+                  "isPromotionSku": false
+                },
+                "左两格右一格：40页120张/按扣": {
+                  "specId": "c8b07e7cc15415666fe46347db789dc1",
+                  "specAttrs": "左两格右一格：40页120张/按扣",
+                  "price": "4.20",
+                  "saleCount": 0,
+                  "discountPrice": "4.20",
+                  "canBookCount": 9418,
+                  "skuId": 5901356074804,
+                  "isPromotionSku": false
+                },
+                "6寸1格：20页40张/按扣侧开11x15.9cm": {
+                  "specId": "bd7235ba4cf87fcf10f12d11a405effb",
+                  "specAttrs": "6寸1格：20页40张/按扣侧开11x15.9cm",
+                  "price": "3.70",
+                  "saleCount": 0,
+                  "discountPrice": "3.70",
+                  "canBookCount": 9394,
+                  "skuId": 5935453126511,
+                  "isPromotionSku": false
+                },
+                "6寸1格：40页80张/按扣侧开11X15.9cm": {
+                  "specId": "021362943ec76cb14b8878a3dae72f3b",
+                  "specAttrs": "6寸1格：40页80张/按扣侧开11X15.9cm",
+                  "price": "4.50",
+                  "saleCount": 0,
+                  "discountPrice": "4.50",
+                  "canBookCount": 9406,
+                  "skuId": 5935453126512,
+                  "isPromotionSku": false
+                },
+                "A6收纳册1宫格：50页/本/无扣11.5X15.5cm": {
+                  "specId": "93a0d7de52587e1afddc3e7c641cbcc9",
+                  "specAttrs": "A6收纳册1宫格：50页/本/无扣11.5X15.5cm",
+                  "price": "4.20",
+                  "saleCount": 0,
+                  "discountPrice": "4.20",
+                  "canBookCount": 9978,
+                  "skuId": 5935453126515,
+                  "isPromotionSku": false
+                }
+              },
+              "skuPriceScaleOriginal": "2.5-5.2"
+            },
+            "offerBaseInfo": {
+              "sellerUserId": 2204120899300,
+              "sellerLoginId": "温州艾佳得塑业有限公司",
+              "sellerMemberId": "b2b-220412089930012503",
+              "offerId": 889272226600,
+              "buyerUserId": 0,
+              "buyerLoginId": 0,
+              "sellerWinportUrl": "https://shop05m2803hm6841.1688.com",
+              "catId": 1034111,
+              "tradeTemplateId": "[0]",
+              "wholeNetworkEvaluation": false,
+              "shieldPcOfferDetail": false
+            },
+            "businessType": "default"
+          }
+        },
+        "id": "Root",
+        "meta": {
+          "scriptFileName": "pcOfferDetailDscGlobalDataViewcomposer"
+        },
+        "position": "body",
+        "tag": "Root",
+        "type": "od_region"
+      },
+      "mainPrice": {
+        "fields": {
+          "wholesalePriceQualified": false,
+          "isBmPrice": false,
+          "channel": "dsc",
+          "pricePreText": "",
+          "isVipPrice": false,
+          "bigPromotionInfo": {
+            "bigPromotionCountdown": -1,
+            "preheatTime": -1,
+            "promotionResources": {},
+            "burstEndTime": -1,
+            "bigPromotionStatus": "NONE",
+            "burstBeginTime": -1
+          },
+          "finalPriceModel": {
+            "tradeWithoutPromotion": {
+              "skuMapOriginal": [
+                {
+                  "specId": "5df90ec768a91519e75c41b056591804",
+                  "specAttrs": "A6收纳册1宫格：40页/本/无扣11.5X15.5cm",
+                  "price": "3.50",
+                  "saleCount": 0,
+                  "discountPrice": "3.50",
+                  "canBookCount": 9688,
+                  "skuId": 5935453126514,
+                  "isPromotionSku": false
+                },
+                {
+                  "specId": "1875d9a0df0f7f326cd39bfe2411fd5c",
+                  "specAttrs": "左两格右一格：20页60张/按扣",
+                  "price": "3.20",
+                  "saleCount": 0,
+                  "discountPrice": "3.20",
+                  "canBookCount": 9002,
+                  "skuId": 5901356074803,
+                  "isPromotionSku": false
+                },
+                {
+                  "specId": "5026857c7f20c02204d5f310600cfdda",
+                  "specAttrs": "A6收纳册1宫格：20页/本/无扣11.5X15.5cm",
+                  "price": "2.50",
+                  "saleCount": 0,
+                  "discountPrice": "2.50",
+                  "canBookCount": 8175,
+                  "skuId": 5935453126513,
+                  "isPromotionSku": false
+                },
+                {
+                  "specId": "65d1a3c1cd0a615bc83f66bf0863d774",
+                  "specAttrs": "6寸1格：50页100张/按扣侧开11X15.9cm",
+                  "price": "5.20",
+                  "saleCount": 0,
+                  "discountPrice": "5.20",
+                  "canBookCount": 8816,
+                  "skuId": 5770140657645,
+                  "isPromotionSku": false
+                },
+                {
+                  "specId": "c8b07e7cc15415666fe46347db789dc1",
+                  "specAttrs": "左两格右一格：40页120张/按扣",
+                  "price": "4.20",
+                  "saleCount": 0,
+                  "discountPrice": "4.20",
+                  "canBookCount": 9418,
+                  "skuId": 5901356074804,
+                  "isPromotionSku": false
+                },
+                {
+                  "specId": "bd7235ba4cf87fcf10f12d11a405effb",
+                  "specAttrs": "6寸1格：20页40张/按扣侧开11x15.9cm",
+                  "price": "3.70",
+                  "saleCount": 0,
+                  "discountPrice": "3.70",
+                  "canBookCount": 9394,
+                  "skuId": 5935453126511,
+                  "isPromotionSku": false
+                },
+                {
+                  "specId": "021362943ec76cb14b8878a3dae72f3b",
+                  "specAttrs": "6寸1格：40页80张/按扣侧开11X15.9cm",
+                  "price": "4.50",
+                  "saleCount": 0,
+                  "discountPrice": "4.50",
+                  "canBookCount": 9406,
+                  "skuId": 5935453126512,
+                  "isPromotionSku": false
+                },
+                {
+                  "specId": "93a0d7de52587e1afddc3e7c641cbcc9",
+                  "specAttrs": "A6收纳册1宫格：50页/本/无扣11.5X15.5cm",
+                  "price": "4.20",
+                  "saleCount": 0,
+                  "discountPrice": "4.20",
+                  "canBookCount": 9978,
+                  "skuId": 5935453126515,
+                  "isPromotionSku": false
+                }
+              ],
+              "OfferIsSkuTradeSupported": true,
+              "offerMaxPrice": "5.20",
+              "offerBeginAmount": 1,
+              "offerPriceDisplay": "2.50-5.20",
+              "canBookedAmountOriginal": 73877,
+              "offerMinPrice": "2.50"
+            },
+            "priceBeforeText": "券后"
+          },
+          "marketScene": "default",
+          "trackInfo": {},
+          "isPrivatePrice": false,
+          "originPriceType": "skuPrice",
+          "activityModel": {
+            "beforePro": false,
+            "privilegesType": "default"
+          },
+          "priceModel": {
+            "currentPrices": [
+              {
+                "price": "2.50",
+                "beginAmount": 1
+              },
+              {
+                "price": "5.20",
+                "beginAmount": 1
+              }
+            ],
+            "priceDisplayType": "skuPrice",
+            "priceLabel": ""
+          },
+          "bigPromotion": false,
+          "componentVersion": "99",
+          "label": "价格",
+          "displayType": "normal-sku",
+          "unit": "套",
+          "secondaryAtmosphere": {},
+          "uiType": "od_main_price",
+          "isPlusPrice": false,
+          "originalPricesWithoutPromotion": [
+            {
+              "price": "2.50",
+              "beginAmount": "1"
+            },
+            {
+              "price": "5.20",
+              "beginAmount": "1"
+            }
+          ]
+        },
+        "id": "mainPrice",
+        "meta": {
+          "scriptFileName": "pcOfferDetailDscPrice25Viewcomposer"
+        },
+        "position": "body",
+        "tag": "mainPrice",
+        "type": "od_main_price"
+      },
+      "bottom": {
+        "fields": {
+          "uiType": "od_region",
+          "className": "region region-bottom",
+          "label": "页面尾部"
+        },
+        "id": "bottom",
+        "meta": {},
+        "position": "body",
+        "tag": "bottom",
+        "type": "od_region"
+      },
+      "productWarning": {
+        "fields": {
+          "isCautionOffer": false,
+          "uiType": "od_product_warning",
+          "cautionText": "1688提醒您：",
+          "label": "警示证书",
+          "officialDocInfos": []
+        },
+        "id": "productWarning",
+        "meta": {
+          "scriptFileName": "pcOfferDetailDscOfficialDocViewcomposer"
+        },
+        "position": "body",
+        "tag": "productWarning",
+        "type": "od_product_warning"
+      },
+      "productAttributes": {
+        "fields": {
+          "uiType": "od_product_attributes",
+          "label": "商品参数"
+        },
+        "id": "productAttributes",
+        "meta": {
+          "errorMessage": "class com.alibaba.fastjson.JSONArray cannot be cast to class com.alibaba.fastjson.JSONObject (com.alibaba.fastjson.JSONArray and com.alibaba.fastjson.JSONObject are in unnamed module of loader com.taobao.pandora.boot.loader.LaunchedURLClassLoader @6104fc)",
+          "scriptFileName": "pcOfferDetailProcessingAttributesViewcomposer"
+        },
+        "position": "body",
+        "tag": "productAttributes",
+        "type": "od_product_attributes"
+      },
+      "officialInspection": {
+        "fields": {
+          "uiType": "od_official_inspection",
+          "label": "官方验货"
+        },
+        "id": "officialInspection",
+        "meta": {},
+        "position": "body",
+        "tag": "officialInspection",
+        "type": "od_official_inspection"
+      },
+      "orderPanel": {
+        "fields": {
+          "uiType": "od_order_panel",
+          "label": "下单面板"
+        },
+        "id": "orderPanel",
+        "meta": {},
+        "position": "body",
+        "tag": "orderPanel",
+        "type": "od_order_panel"
+      },
+      "productTitle": {
+        "fields": {
+          "isBestOffer": false,
+          "shopInfo": {
+            "isPmPlus": false,
+            "isFollow": false,
+            "authCompanyName": "温州艾佳得塑业有限公司",
+            "sellerSlrServiceScore": "4.0分",
+            "isPmSource": false,
+            "isPm": false,
+            "companyName": "温州艾佳得塑业有限公司",
+            "cardType": "factory",
+            "byrRepeatRate3m": "58.60%"
+          },
+          "rateInfo": {
+            "commonTagNodeList": [
+              {
+                "name": "全部",
+                "count": 2423,
+                "type": "common"
+              },
+              {
+                "name": "有图",
+                "count": 5,
+                "type": "common"
+              },
+              {
+                "name": "好评",
+                "count": 2423,
+                "type": "common"
+              },
+              {
+                "name": "最新#null",
+                "count": 1,
+                "type": "common"
+              }
+            ],
+            "goodRates": 99.9,
+            "switchRedirect": true,
+            "goodsGrade": 5,
+            "mixTbRate": false,
+            "impressionTagNodeList": [
+              {
+                "name": "客服很耐心",
+                "count": 860,
+                "type": "impr"
+              },
+              {
+                "name": "物流很快",
+                "count": 333,
+                "type": "impr"
+              },
+              {
+                "name": "质量很好",
+                "count": 327,
+                "type": "impr"
+              },
+              {
+                "name": "性价比高",
+                "count": 289,
+                "type": "impr"
+              },
+              {
+                "name": "购物体验愉快",
+                "count": 276,
+                "type": "impr"
+              },
+              {
+                "name": "质量上乘",
+                "count": 258,
+                "type": "impr"
+              },
+              {
+                "name": "做工精细",
+                "count": 242,
+                "type": "impr"
+              },
+              {
+                "name": "购买值得",
+                "count": 228,
+                "type": "impr"
+              },
+              {
+                "name": "质量非常好",
+                "count": 191,
+                "type": "impr"
+              },
+              {
+                "name": "推荐强烈",
+                "count": 187,
+                "type": "impr"
+              },
+              {
+                "name": "设计独特",
+                "count": 167,
+                "type": "impr"
+              },
+              {
+                "name": "包装不错",
+                "count": 159,
+                "type": "impr"
+              },
+              {
+                "name": "细节处理到位",
+                "count": 126,
+                "type": "impr"
+              },
+              {
+                "name": "体验超出预期",
+                "count": 120,
+                "type": "impr"
+              },
+              {
+                "name": "解答疑问不厌其烦",
+                "count": 101,
+                "type": "impr"
+              }
+            ],
+            "showUserHisRec": false
+          },
+          "saleCountDate": "一年内",
+          "label": "产品标题",
+          "title": "ins6寸相册明信片书签混合按扣收纳册人生四格追星卡册大头照收纳",
+          "saleNum": "2100+",
+          "labels": [],
+          "isShowEdit": false,
+          "tagList": [],
+          "unit": "套",
+          "editUrl": "https://offer.1688.com/offer/post/fillProductInfo.htm?operator=edit&offerId=889272226600&pageSrc=fusion&frontVersion=2017",
+          "scrollInfo": [
+            {
+              "prefix": "已售",
+              "text": "2100+",
+              "suffix": "套"
+            }
+          ],
+          "uiType": "od_title",
+          "newSaleCount": "已售",
+          "officialActivityIcon": ""
+        },
+        "id": "productTitle",
+        "meta": {
+          "scriptFileName": "pcOfferDetailDscTitleViewcomposer"
+        },
+        "position": "body",
+        "tag": "productTitle",
+        "type": "od_title"
+      },
+      "skuSelection": {
+        "fields": {
+          "uiType": "od_sku_selection",
+          "label": "规格选择器"
+        },
+        "id": "skuSelection",
+        "meta": {},
+        "position": "body",
+        "tag": "skuSelection",
+        "type": "od_sku_selection"
+      },
+      "productEvaluation": {
+        "fields": {
+          "uiType": "od_product_evaluation",
+          "label": "商品评价"
+        },
+        "id": "productEvaluation",
+        "meta": {},
+        "position": "body",
+        "tag": "productEvaluation",
+        "type": "od_product_evaluation"
+      },
+      "sameProduct": {
+        "fields": {
+          "uiType": "od_same_product",
+          "label": "同款商品推荐"
+        },
+        "id": "sameProduct",
+        "meta": {},
+        "position": "body",
+        "tag": "sameProduct",
+        "type": "od_same_product"
+      },
+      "Row": {
+        "fields": {
+          "uiType": "od_row",
+          "label": "横向组价"
+        },
+        "id": "Row",
+        "meta": {},
+        "position": "body",
+        "tag": "Row",
+        "type": "od_row"
+      },
+      "orderGallery": {
+        "fields": {
+          "uiType": "od_order_gallery",
+          "label": "下单面板主图"
+        },
+        "id": "orderGallery",
+        "meta": {},
+        "position": "body",
+        "tag": "orderGallery",
+        "type": "od_order_gallery"
+      },
+      "discountCoupon": {
+        "fields": {
+          "uiType": "od_discount_coupon",
+          "label": "折扣优惠"
+        },
+        "id": "discountCoupon",
+        "meta": {
+          "scriptFileName": "pcOfferDetailDscPromotionViewcomposer"
+        },
+        "position": "body",
+        "tag": "discountCoupon",
+        "type": "od_discount_coupon"
+      }
+    },
+    "endpoint": {
+      "mode": "PC",
+      "osVersion": "9.9.9",
+      "protocolVersion": "3.0",
+      "standard": true,
+      "ultronage": true
+    },
+    "global": {
+      "globalData": {
+        "traceId": "0bf89a7417869839148616110e0bcf",
+        "parametersMap": {
+          "offerLoginId": "\\u6E29\\u5DDE\\u827E\\u4F73\\u5F97\\u5851\\u4E1A\\u6709\\u9650\\u516C\\u53F8",
+          "offerId": "889272226600"
+        },
+        "model": {
+          "buyerModel": {
+            "buyerExtendInfo": {
+              "shieldPcOfferDetail": "false"
+            },
+            "buyerSign": {
+              "businessBuyer": false,
+              "hasAuth": true,
+              "privateBuyer": false,
+              "self": false,
+              "sellerPartner": false,
+              "signs": {
+                "hasAuth": true,
+                "visitorPicAuth": true,
+                "isSellerPartner": false,
+                "isBusinessBuyer": false,
+                "isSelf": false,
+                "visitorPriceAuth": true
+              },
+              "visitorPicAuth": true,
+              "visitorPriceAuth": true
+            },
+            "gradeLevel": "0",
+            "vipBuyer": false
+          },
+          "channelBizType": "DSC",
+          "channelType": "dsc",
+          "consignModel": {
+            "consignOffer": false,
+            "consignSign": {
+              "canIgnoreConsignRelation": false,
+              "signs": {
+                "supportDistribution": true,
+                "isCanIgnoreConsignRelation": false,
+                "isSupportConsignIssuing": false,
+                "hasConsignReation": false
+              },
+              "supportConsignIssuing": false,
+              "supportDistribution": true
+            },
+            "distributeChannels": [
+              {
+                "name": "Lazada",
+                "typeCode": "lazada"
+              },
+              {
+                "name": "Amazon",
+                "typeCode": "amazon"
+              },
+              {
+                "name": "Shopify",
+                "typeCode": "shopify"
+              },
+              {
+                "name": "Shopee",
+                "typeCode": "shopee"
+              }
+            ],
+            "hasConsignPrice": false
+          },
+          "detailBusiness": {
+            "buyerProtectionModel": [
+              {
+                "agreementPage": "https://rule.1688.com/?+tracelog=aliguize_wzdh01&type=detail&ruleId=20004568&cId=3044#/rule/detail?ruleId=20004568&cId=3044",
+                "bigLogo": "https://img.alicdn.com/imgextra/i2/O1CN01dNPHxv1UZhbWE3yPO_!!6000000002532-2-tps-32-32.png",
+                "enabled": true,
+                "extendInfo": {
+                  "popDescription": "卖家承诺买家签收货物后7天内，在“商品完好”的情形下，向买家提供退货服务。"
+                },
+                "forceUseSubPtsCodes": false,
+                "hugeLogo": "https://img.alicdn.com/imgextra/i1/O1CN01qUUUwV1RIo98arRvQ_!!6000000002089-2-tps-58-58.png",
+                "instruction": "当前开放类目： 1）纺织、皮革 2）家用电器 3）数码、电脑 4）能源 5）交通运输 6）传媒、广电 7）橡塑 8）灯饰照明 9）五金、工具 10）环保 11）医药、保养 12）办公、文化 13）包装 14）商务服务 15）汽摩及配件 16）美容护肤/彩妆 17）玩具 18）男装 19）女装 20）仪器仪表 21）个护/家清 22）成人用品 23）建材 24）农业 25）食品酒水 26）电工电气 27）化工 28）冶金矿产 29）家装建材 30）居家日用品 31）运动户外 32）服饰配件、饰品 33）电子元器件 34）机械及行业设备 35）安全、防护 36）印刷 37）家纺家饰 38）童装 39）内衣 40）通信产品 41）机床 42）加工 43）二手设备转让 44）鞋 45）箱包皮具 46）宠物及园艺 47）汽车用品 48）钢铁 49）餐饮生鲜 50）日用餐厨饮具 51）收纳清洁用具",
+                "largeLogo": "https://img.alicdn.com/imgextra/i2/O1CN01iYPe5E1YGhdWMDnh8_!!6000000003032-2-tps-48-48.png",
+                "littleLogo": "https://img.alicdn.com/imgextra/i1/O1CN01YIe8Lk1vxyDWgdkPQ_!!6000000006240-2-tps-16-16.png",
+                "logicGroupId": "4",
+                "logo": "https://img.alicdn.com/imgextra/i2/O1CN01NyKX2m1pKgXu54Rve_!!6000000005342-2-tps-64-64.png",
+                "middleLogo": "https://img.alicdn.com/imgextra/i2/O1CN01H10f2n1gAJ1vgHRgN_!!6000000004101-2-tps-24-24.png",
+                "moreHugeLogo": "https://img.alicdn.com/imgextra/i2/O1CN01NyKX2m1pKgXu54Rve_!!6000000005342-2-tps-64-64.png",
+                "packageBuyerDesc": "7天无理由退货",
+                "serviceCode": "qtwlybt",
+                "serviceName": "7天无理由退货",
+                "serviceShortCode": "qtwlybt",
+                "serviceVersion": 2,
+                "shortBuyerDesc": "满足相应条件下，卖家需支持7天无理由，其中定制订单不支持“7天无理由退货”。",
+                "shortSellerDesc": "卖家承诺买家签收货物后7天内，在“商品完好”的情形下，向买家提供退货服务。",
+                "textDesc": "卖家承诺买家签收货物后7天内，在“商品完好”的情形下，向买家提供退货服务。",
+                "type": "protect",
+                "userId": 2204120899300
+              },
+              {
+                "agreeDeliveryHours": 48,
+                "agreementPage": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_b2b/suit_bu1_b2b202104072140_25758.html",
+                "bigLogo": "https://cbu01.alicdn.com/cms/upload/2015/839/305/2503938_1964054271.png",
+                "currentStep": 1,
+                "enabled": true,
+                "extendInfo": {
+                  "popDescription": "卖家在承诺买家保障服务的基础上，向买家提供“48小时发货延必赔”的服务。在买家通过支付宝担保交易完成付款或通过货到付款下单成功后，卖家承诺在买家支付成功起48小时内发货。如卖家未履行前述承诺，买家可在指定期限内发起维权，并申请赔付。",
+                  "delivery_days": "2"
+                },
+                "forceUseSubPtsCodes": false,
+                "hugeLogo": "https://cbu01.alicdn.com/cms/upload/2015/008/705/2507800_1964054271.png",
+                "instruction": "当前开放类目： 1）纺织、皮革 2）家用电器 3）数码、电脑 4）能源 5）交通运输 6）传媒、广电 7）橡塑 8）灯饰照明 9）五金、工具 10）环保 11）医药、保养 12）办公、文化 13）包装 14）商务服务 15）汽摩及配件 16）美容护肤/彩妆 17）玩具 18）男装 19）女装 20）仪器仪表 21）个护/家清 22）成人用品 23）建材 24）农业 25）食品酒水 26）电工电气 27）化工 28）冶金矿产 29）家装建材 30）居家日用品 31）运动户外 32）服饰配件、饰品 33）电子元器件 34）机械及行业设备 35）安全、防护 36）印刷 37）家纺家饰 38）童装 39）内衣 40）通信产品 41）机床 42）加工 43）二手设备转让 44）鞋 45）箱包皮具 46）宠物及园艺 47）汽车用品 48）钢铁 49）餐饮生鲜 50）日用餐厨饮具 51）收纳清洁用具 52）新能源",
+                "largeLogo": "https://cbu01.alicdn.com/cms/upload/2015/610/615/2516016_1964054271.png",
+                "littleLogo": "https://cbu01.alicdn.com/cms/upload/2015/177/505/2505771_1964054271.png",
+                "logicGroupId": "1",
+                "logo": "https://cbu01.alicdn.com/cms/upload/2015/460/315/2513064_1964054271.png",
+                "middleLogo": "https://cbu01.alicdn.com/cms/upload/2015/867/805/2508768_1964054271.png",
+                "moreHugeLogo": "https://cbu01.alicdn.com/cms/upload/2015/460/315/2513064_1964054271.png",
+                "packageBuyerDesc": "晚发必赔",
+                "productPage": "https://air.1688.com/app/ctf-page/protection-air/claim-rule.html",
+                "ptsOfferStepModels": [
+                  {
+                    "selected": false,
+                    "selectedPtsOfferTagModel": {
+                      "agreeDeliveryHours": 48,
+                      "disabled": false,
+                      "required": false,
+                      "selected": false,
+                      "serviceCode": "ssbxsfh",
+                      "serviceName": "48小时发货"
+                    },
+                    "selectedStartQuantity": 1
+                  }
+                ],
+                "serviceCode": "ssbxsfh",
+                "serviceName": "晚发必赔",
+                "serviceShortCode": "D",
+                "serviceVersion": 2,
+                "shortBuyerDesc": "若商家未按订单约定的时间发货，您可以在订单详情申请赔付",
+                "shortSellerDesc": "开通此服务的卖家，优先获得专场曝光，醒目的标识展示，现货保障刺激买家下单。",
+                "textDesc": "卖家在承诺买家保障服务的基础上，向买家提供“48小时发货延必赔”的服务。在买家通过支付宝担保交易完成付款或通过货到付款下单成功后，卖家承诺在买家支付成功起48小时内发货。如卖家未履行前述承诺，买家可在指定期限内发起维权，并申请赔付。",
+                "type": "protect",
+                "userId": 2204120899300
+              }
+            ],
+            "shopBaseInfo": {
+              "isPmPlus": false,
+              "isFollow": false,
+              "authCompanyName": "温州艾佳得塑业有限公司",
+              "sellerSlrServiceScore": "4.0分",
+              "isPmSource": false,
+              "isPm": false,
+              "companyName": "温州艾佳得塑业有限公司",
+              "cardType": "factory",
+              "byrRepeatRate3m": "58.60%"
+            },
+            "otherDiamondDataMap": {
+              "knife": [
+                "201813603",
+                "201222102",
+                "201161708",
+                "201161204",
+                "201161002",
+                "201975905",
+                "201163404",
+                "201157505",
+                "125744004",
+                "125740006",
+                "201310206",
+                "201161205",
+                "201996402",
+                "201160307",
+                "1044994",
+                "1032721",
+                "201155704",
+                "127764003",
+                "201159508",
+                "201156806",
+                "201163203",
+                "1035511",
+                "1035397",
+                "1035508",
+                "1035512",
+                "1035514"
+              ]
+            },
+            "rateInfo": {
+              "commonTagNodeList": [
+                {
+                  "count": 2423,
+                  "name": "全部",
+                  "type": "common"
+                },
+                {
+                  "count": 5,
+                  "name": "有图",
+                  "type": "common"
+                },
+                {
+                  "count": 2423,
+                  "name": "好评",
+                  "type": "common"
+                },
+                {
+                  "count": 1,
+                  "name": "最新#null",
+                  "type": "common"
+                }
+              ],
+              "goodRates": 99.9,
+              "goodsGrade": 5,
+              "impressionTagNodeList": [
+                {
+                  "count": 860,
+                  "name": "客服很耐心",
+                  "type": "impr"
+                },
+                {
+                  "count": 333,
+                  "name": "物流很快",
+                  "type": "impr"
+                },
+                {
+                  "count": 327,
+                  "name": "质量很好",
+                  "type": "impr"
+                },
+                {
+                  "count": 289,
+                  "name": "性价比高",
+                  "type": "impr"
+                },
+                {
+                  "count": 276,
+                  "name": "购物体验愉快",
+                  "type": "impr"
+                },
+                {
+                  "count": 258,
+                  "name": "质量上乘",
+                  "type": "impr"
+                },
+                {
+                  "count": 242,
+                  "name": "做工精细",
+                  "type": "impr"
+                },
+                {
+                  "count": 228,
+                  "name": "购买值得",
+                  "type": "impr"
+                },
+                {
+                  "count": 191,
+                  "name": "质量非常好",
+                  "type": "impr"
+                },
+                {
+                  "count": 187,
+                  "name": "推荐强烈",
+                  "type": "impr"
+                },
+                {
+                  "count": 167,
+                  "name": "设计独特",
+                  "type": "impr"
+                },
+                {
+                  "count": 159,
+                  "name": "包装不错",
+                  "type": "impr"
+                },
+                {
+                  "count": 126,
+                  "name": "细节处理到位",
+                  "type": "impr"
+                },
+                {
+                  "count": 120,
+                  "name": "体验超出预期",
+                  "type": "impr"
+                },
+                {
+                  "count": 101,
+                  "name": "解答疑问不厌其烦",
+                  "type": "impr"
+                }
+              ],
+              "mixTbRate": false,
+              "showUserHisRec": false,
+              "switchRedirect": true
+            },
+            "showCpvCategory": true,
+            "buyerProtectionScene": "dsc",
+            "offerCrossBorderModel": {
+              "foreignLanguagePackageImages": []
+            },
+            "favorCount": 64,
+            "offerSupply": "xh",
+            "deliveryLimitTimeModel": {
+              "attrs": {
+                "offerUnit": "套",
+                "ptsOfferStepModels": [
+                  {
+                    "selected": false,
+                    "selectedPtsOfferTagModel": {
+                      "agreeDeliveryHours": 48,
+                      "disabled": false,
+                      "required": false,
+                      "selected": false,
+                      "serviceCode": "ssbxsfh",
+                      "serviceName": "48小时发货"
+                    },
+                    "selectedStartQuantity": 1
+                  }
+                ]
+              },
+              "expectSendHour": 19,
+              "expectTimeDesc": "",
+              "limitTimeDay": 2,
+              "limitTimeDesc": "承诺48小时发货·常发圆通快递",
+              "offerId": 889272226600,
+              "orderCntLevelText": ""
+            },
+            "matchAiMateCategory": false
+          },
+          "detailDescription": {
+            "abTestInfo": {
+              "abTestValueInfo": {
+                "od_new_black_brand_txt": "1",
+                "showOfferSizeTable": "1",
+                "gypsanweisku": "1",
+                "newton_bar": "0",
+                "zeus_gyp_onhand_price": "1",
+                "sku_short_title": "base",
+                "page_zgc_dimension": "0",
+                "page_yanxuan_qualityCert": "Y",
+                "page_dsc_xhdz_upgrade": "1",
+                "page_add_custom_service": "1",
+                "version": "2"
+              },
+              "exposeClickInfo": {},
+              "pvTrackInfo": {
+                "AbIds": "2515414#2517407#2518968"
+              }
+            },
+            "banners": {
+              "aliPayOfferDetailBanner": {
+                "bannerJumpUrl": "",
+                "bannerUrl": ""
+              },
+              "offerDetailBanner24V1": {
+                "bannerJumpUrl": "",
+                "bannerUrl": ""
+              },
+              "bigPromotionBanner": {
+                "bannerJumpUrl": "https://shop05m2803hm6841.1688.com/page/activity.htm?offerId=889272226600#promotion",
+                "bannerUrl": ""
+              },
+              "offerDetailBanner": {
+                "bannerJumpUrl": "",
+                "bannerUrl": ""
+              },
+              "dacuBanner": {
+                "bannerJumpUrl": "",
+                "bannerUrl": ""
+              }
+            },
+            "crossBorderInfos": {},
+            "dataDesc": {
+              "payOrder30DayStr": "0"
+            },
+            "deliveryLimit": 2,
+            "exposeInfo": {
+              "exposeArgs": {
+                "isYanxuanOffer": "false",
+                "sceneType": "default",
+                "ipvId": "0bf89a7417869839148616110e0bcf",
+                "isPlusMember": "false",
+                "verticalType": "default",
+                "offerId": "889272226600",
+                "channelType": "dsc"
+              }
+            },
+            "freightInfo": {
+              "deliveryFee": "TEMPLATED",
+              "deliveryFulfillmentSolution": {
+                "offerId": 889272226600
+              },
+              "deliveryLimit": 2,
+              "freeDeliverFee": false,
+              "freeEndAmount": -1,
+              "freightDiagnosisResultModel": {
+                "offerId": 889272226600,
+                "showFreightBenefitTag": false
+              },
+              "location": "浙江省温州市",
+              "locationCode": "32401592",
+              "locationDivisionCode": "330399",
+              "logisticsText": "承诺48小时发货·常发圆通快递",
+              "marketingFreePostage": false,
+              "officialLogistics": false,
+              "skuWeight": {},
+              "subTemplateId": 14643718,
+              "totalCost": 6,
+              "unitWeight": 0.3
+            },
+            "images": {
+              "activityBackColor": "",
+              "cautionImageUrl": "",
+              "shareWithGiftIcon": "https://gw.alicdn.com/tfs/TB1YYyRuhTpK1RjSZFMXXbG_VXa-36-36.png",
+              "wirelessCorner": "",
+              "activityUrl": "",
+              "wirelessLabel": "",
+              "background": "",
+              "backgroundIcon": "",
+              "iconUrl": "",
+              "officialActivityIcon": ""
+            },
+            "officialDocInfos": [],
+            "protectionInfoList": [
+              {
+                "buyerDescription": "7天无理由退货",
+                "description": "满足相应条件下，卖家需支持7天无理由，其中定制订单不支持“7天无理由退货”。",
+                "logoUrl": "https://img.alicdn.com/imgextra/i2/O1CN01NyKX2m1pKgXu54Rve_!!6000000005342-2-tps-64-64.png",
+                "logoUrl_16_16": "https://img.alicdn.com/imgextra/i1/O1CN01YIe8Lk1vxyDWgdkPQ_!!6000000006240-2-tps-16-16.png",
+                "logoUrl_64_64": "https://img.alicdn.com/imgextra/i2/O1CN01NyKX2m1pKgXu54Rve_!!6000000005342-2-tps-64-64.png",
+                "longDescription": "卖家承诺买家签收货物后7天内，在“商品完好”的情形下，向买家提供退货服务。",
+                "serviceCode": "qtwlybt",
+                "serviceName": "7天无理由退货",
+                "type": "protect"
+              },
+              {
+                "agreeDeliveryHours": 48,
+                "buyerDescription": "晚发必赔",
+                "description": "若商家未按订单约定的时间发货，您可以在订单详情申请赔付",
+                "logoUrl": "https://cbu01.alicdn.com/cms/upload/2015/460/315/2513064_1964054271.png",
+                "logoUrl_16_16": "https://cbu01.alicdn.com/cms/upload/2015/177/505/2505771_1964054271.png",
+                "logoUrl_64_64": "https://cbu01.alicdn.com/cms/upload/2015/460/315/2513064_1964054271.png",
+                "longDescription": "卖家在承诺买家保障服务的基础上，向买家提供“48小时发货延必赔”的服务。在买家通过支付宝担保交易完成付款或通过货到付款下单成功后，卖家承诺在买家支付成功起48小时内发货。如卖家未履行前述承诺，买家可在指定期限内发起维权，并申请赔付。",
+                "serviceCode": "ssbxsfh",
+                "serviceLink": "https://air.1688.com/app/ctf-page/protection-air/claim-rule.html",
+                "serviceName": "晚发必赔",
+                "type": "protect"
+              }
+            ],
+            "shareActivityInfo": {},
+            "texts": {
+              "brandRelationType": "",
+              "brandName": "",
+              "tradeTemplateId": "[0]",
+              "cautionText": "",
+              "wirelessLabelText": ""
+            },
+            "urls": {}
+          },
+          "offerDetail": {
+            "detailUrl": "https://itemcdn.tmall.com/1688offer/icoss11393219328010c375f77d0d6f",
+            "featureAttributes": [
+              {
+                "decisionValues": [
+                  "卡通相册"
+                ],
+                "fid": 1811,
+                "isSpecial": false,
+                "itemCpvDecision": true,
+                "lectotype": false,
+                "name": "款式",
+                "outputType": 0,
+                "value": "卡通相册",
+                "values": [
+                  "卡通相册"
+                ]
+              },
+              {
+                "decisionValues": [
+                  "PP"
+                ],
+                "fid": 4481,
+                "isSpecial": false,
+                "itemCpvDecision": true,
+                "lectotype": false,
+                "name": "封面材质",
+                "outputType": 0,
+                "value": "PP",
+                "values": [
+                  "PP"
+                ]
+              },
+              {
+                "decisionValues": [
+                  "40"
+                ],
+                "fid": 8862,
+                "isSpecial": false,
+                "itemCpvDecision": true,
+                "lectotype": false,
+                "name": "内页页数",
+                "outputType": 0,
+                "value": "40",
+                "values": [
+                  "40"
+                ]
+              },
+              {
+                "decisionValues": [
+                  "普通相册"
+                ],
+                "fid": 3310,
+                "isSpecial": false,
+                "itemCpvDecision": true,
+                "lectotype": false,
+                "name": "用途",
+                "outputType": 0,
+                "value": "普通相册",
+                "values": [
+                  "普通相册"
+                ]
+              },
+              {
+                "fid": 2176,
+                "isSpecial": false,
+                "itemCpvDecision": false,
+                "lectotype": false,
+                "name": "品牌",
+                "outputType": 0,
+                "value": "无",
+                "values": [
+                  "无"
+                ]
+              },
+              {
+                "fid": 100019517,
+                "isSpecial": false,
+                "itemCpvDecision": false,
+                "lectotype": false,
+                "name": "封面颜色",
+                "outputType": 0,
+                "value": "左两格右一格：20页60张/按扣,左两格右一格：40页120张/按扣,6寸1格：20页40张/按扣侧开11x15.9cm,6寸1格：40页80张/按扣侧开11X15.9cm,6寸1格：50页100张/按扣侧开11X15.9cm,A6收纳册1宫格：20页/本/无扣11.5X15.5cm,A6收纳册1宫格：40页/本/无扣11.5X15.5cm,A6收纳册1宫格：50页/本/无扣11.5X15.5cm",
+                "values": [
+                  "左两格右一格：20页60张/按扣",
+                  "左两格右一格：40页120张/按扣",
+                  "6寸1格：20页40张/按扣侧开11x15.9cm",
+                  "6寸1格：40页80张/按扣侧开11X15.9cm",
+                  "6寸1格：50页100张/按扣侧开11X15.9cm",
+                  "A6收纳册1宫格：20页/本/无扣11.5X15.5cm",
+                  "A6收纳册1宫格：40页/本/无扣11.5X15.5cm",
+                  "A6收纳册1宫格：50页/本/无扣11.5X15.5cm"
+                ]
+              },
+              {
+                "fid": 1398,
+                "isSpecial": false,
+                "itemCpvDecision": false,
+                "lectotype": false,
+                "name": "货号",
+                "outputType": 0,
+                "value": "QH265",
+                "values": [
+                  "QH265"
+                ]
+              },
+              {
+                "fid": 1498,
+                "isSpecial": false,
+                "itemCpvDecision": false,
+                "lectotype": false,
+                "name": "加印LOGO",
+                "outputType": 0,
+                "value": "可以",
+                "values": [
+                  "可以"
+                ]
+              },
+              {
+                "fid": 100000729,
+                "isSpecial": false,
+                "itemCpvDecision": false,
+                "lectotype": false,
+                "name": "加工定制",
+                "outputType": 0,
+                "value": "是",
+                "values": [
+                  "是"
+                ]
+              },
+              {
+                "fid": 182282223,
+                "isSpecial": false,
+                "itemCpvDecision": false,
+                "lectotype": false,
+                "name": "是否跨境出口专供货源",
+                "outputType": 0,
+                "value": "否",
+                "values": [
+                  "否"
+                ]
+              },
+              {
+                "fid": 233195015,
+                "isSpecial": false,
+                "itemCpvDecision": false,
+                "lectotype": false,
+                "name": "是否属于礼品",
+                "outputType": 0,
+                "value": "否",
+                "values": [
+                  "否"
+                ]
+              },
+              {
+                "fid": 246192626,
+                "isSpecial": false,
+                "itemCpvDecision": false,
+                "lectotype": false,
+                "name": "是否IP授权",
+                "outputType": 0,
+                "value": "否",
+                "values": [
+                  "否"
+                ]
+              }
+            ],
+            "imageList": [
+              {
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01n6VrVk2IZSRhuu2qb_!!2204120899300-0-cib.jpg",
+                "imageURI": "img/ibank/O1CN01n6VrVk2IZSRhuu2qb_!!2204120899300-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01n6VrVk2IZSRhuu2qb_!!2204120899300-0-cib.search.jpg",
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01n6VrVk2IZSRhuu2qb_!!2204120899300-0-cib.220x220.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01n6VrVk2IZSRhuu2qb_!!2204120899300-0-cib.310x310.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01n6VrVk2IZSRhuu2qb_!!2204120899300-0-cib.summ.jpg"
+              },
+              {
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01XUOeKN2IZSRkECm9i_!!2204120899300-0-cib.jpg",
+                "imageURI": "img/ibank/O1CN01XUOeKN2IZSRkECm9i_!!2204120899300-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01XUOeKN2IZSRkECm9i_!!2204120899300-0-cib.search.jpg",
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01XUOeKN2IZSRkECm9i_!!2204120899300-0-cib.220x220.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01XUOeKN2IZSRkECm9i_!!2204120899300-0-cib.310x310.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01XUOeKN2IZSRkECm9i_!!2204120899300-0-cib.summ.jpg"
+              },
+              {
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01yh6Dzm2IZSRi9UCuQ_!!2204120899300-0-cib.jpg",
+                "imageURI": "img/ibank/O1CN01yh6Dzm2IZSRi9UCuQ_!!2204120899300-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01yh6Dzm2IZSRi9UCuQ_!!2204120899300-0-cib.search.jpg",
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01yh6Dzm2IZSRi9UCuQ_!!2204120899300-0-cib.220x220.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01yh6Dzm2IZSRi9UCuQ_!!2204120899300-0-cib.310x310.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01yh6Dzm2IZSRi9UCuQ_!!2204120899300-0-cib.summ.jpg"
+              },
+              {
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01t3reEZ2IZSRkeKb82_!!2204120899300-0-cib.jpg",
+                "imageURI": "img/ibank/O1CN01t3reEZ2IZSRkeKb82_!!2204120899300-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01t3reEZ2IZSRkeKb82_!!2204120899300-0-cib.search.jpg",
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01t3reEZ2IZSRkeKb82_!!2204120899300-0-cib.220x220.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01t3reEZ2IZSRkeKb82_!!2204120899300-0-cib.310x310.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01t3reEZ2IZSRkeKb82_!!2204120899300-0-cib.summ.jpg"
+              },
+              {
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01lua9v72IZSRijrJRz_!!2204120899300-0-cib.jpg",
+                "imageURI": "img/ibank/O1CN01lua9v72IZSRijrJRz_!!2204120899300-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01lua9v72IZSRijrJRz_!!2204120899300-0-cib.search.jpg",
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01lua9v72IZSRijrJRz_!!2204120899300-0-cib.220x220.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01lua9v72IZSRijrJRz_!!2204120899300-0-cib.310x310.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01lua9v72IZSRijrJRz_!!2204120899300-0-cib.summ.jpg"
+              },
+              {
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01ExTSj52IZSSTdF7zZ_!!2204120899300-0-cib.jpg",
+                "imageURI": "img/ibank/O1CN01ExTSj52IZSSTdF7zZ_!!2204120899300-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01ExTSj52IZSSTdF7zZ_!!2204120899300-0-cib.search.jpg",
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01ExTSj52IZSSTdF7zZ_!!2204120899300-0-cib.220x220.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01ExTSj52IZSSTdF7zZ_!!2204120899300-0-cib.310x310.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01ExTSj52IZSSTdF7zZ_!!2204120899300-0-cib.summ.jpg"
+              },
+              {
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01pdDElD2IZSSVqzSBh_!!2204120899300-0-cib.jpg",
+                "imageURI": "img/ibank/O1CN01pdDElD2IZSSVqzSBh_!!2204120899300-0-cib.jpg",
+                "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01pdDElD2IZSSVqzSBh_!!2204120899300-0-cib.search.jpg",
+                "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01pdDElD2IZSSVqzSBh_!!2204120899300-0-cib.220x220.jpg",
+                "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01pdDElD2IZSSVqzSBh_!!2204120899300-0-cib.310x310.jpg",
+                "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01pdDElD2IZSSVqzSBh_!!2204120899300-0-cib.summ.jpg"
+              }
+            ],
+            "leafCategoryId": 1034111,
+            "leafCategoryName": "相册",
+            "mainImageList": [
+              {
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01n6VrVk2IZSRhuu2qb_!!2204120899300-0-cib.jpg",
+                "imageURI": "img/ibank/O1CN01n6VrVk2IZSRhuu2qb_!!2204120899300-0-cib.jpg"
+              },
+              {
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01XUOeKN2IZSRkECm9i_!!2204120899300-0-cib.jpg",
+                "imageURI": "img/ibank/O1CN01XUOeKN2IZSRkECm9i_!!2204120899300-0-cib.jpg"
+              },
+              {
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01yh6Dzm2IZSRi9UCuQ_!!2204120899300-0-cib.jpg",
+                "imageURI": "img/ibank/O1CN01yh6Dzm2IZSRi9UCuQ_!!2204120899300-0-cib.jpg"
+              },
+              {
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01t3reEZ2IZSRkeKb82_!!2204120899300-0-cib.jpg",
+                "imageURI": "img/ibank/O1CN01t3reEZ2IZSRkeKb82_!!2204120899300-0-cib.jpg"
+              },
+              {
+                "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01lua9v72IZSRijrJRz_!!2204120899300-0-cib.jpg",
+                "imageURI": "img/ibank/O1CN01lua9v72IZSRijrJRz_!!2204120899300-0-cib.jpg"
+              }
+            ],
+            "offerId": 889272226600,
+            "offerMemberTags": [
+              140032,
+              218112,
+              242432,
+              480002,
+              475650,
+              519170,
+              476930,
+              481538,
+              387074,
+              668418,
+              676098,
+              4845121,
+              595970,
+              649218,
+              654594,
+              654850,
+              627202,
+              626690,
+              5095745,
+              5208129,
+              5189441,
+              5219905,
+              5189697,
+              5139777,
+              5117249,
+              5351489,
+              5346625,
+              5277505,
+              5261121,
+              5247553,
+              5277761,
+              5390145,
+              2937603,
+              3882753,
+              3833857,
+              4136449,
+              4109313,
+              161600,
+              209216,
+              232000,
+              213568,
+              449090,
+              442434,
+              406338,
+              439106,
+              412482,
+              484674,
+              481346,
+              364098,
+              657986,
+              660291,
+              527682,
+              646466,
+              654914,
+              624706,
+              654146,
+              573507,
+              5056257,
+              5023233,
+              5215745,
+              5216257,
+              5189633,
+              5232385,
+              5321729,
+              5338113,
+              5272577,
+              5277441,
+              5261313,
+              5259777,
+              5248001,
+              5390081,
+              23424,
+              4249025,
+              4247489,
+              215680,
+              220544,
+              234368,
+              449154,
+              448642,
+              425858,
+              426882,
+              424578,
+              501378,
+              516738,
+              479874,
+              4505537,
+              4815041,
+              572034,
+              554370,
+              626562,
+              624258,
+              654210,
+              624770,
+              627074,
+              5059009,
+              5091265,
+              5237185,
+              5183681,
+              5329857,
+              5356225,
+              5367745,
+              5291713,
+              5256129,
+              5385409,
+              2068355,
+              3705729,
+              3842177,
+              3824001,
+              4189569,
+              153024,
+              181440,
+              170944,
+              209600,
+              414146,
+              396482,
+              4480641,
+              493506,
+              4502657,
+              627138,
+              626882,
+              626626,
+              624578,
+              592578,
+              584387,
+              644290,
+              654786,
+              654274,
+              649154,
+              654530,
+              5023105,
+              5189761,
+              5224833,
+              5234049,
+              5117313,
+              5326721,
+              5271681,
+              5292417,
+              5386113
+            ],
+            "offerSign": {
+              "chtSingleOffer": false,
+              "consignMarketOffer": false,
+              "detailForbidden": false,
+              "distribution": false,
+              "hasBusinessPrice": false,
+              "hasJoinBusinessPrice": false,
+              "hasRelationOffer": false,
+              "offerModelSign": {
+                "isBuyerProtection": true,
+                "isCrossBorderOffer": true,
+                "isSupportMix": true,
+                "isSupplyStockOffer": true,
+                "isAeretailOffer": true,
+                "hasFreightTemplate": true,
+                "isSsbxsfh": true,
+                "isGovCouponOfferInOD": false,
+                "hasSearchPicture": true,
+                "hasWhitePicInOffer": true,
+                "sevenDaysRefund": true,
+                "isDistributionBuffer": true,
+                "hasOrder": true,
+                "fx48hPickupAssr": true,
+                "isAegisTrade": true,
+                "isHtqqItem": true,
+                "isKJFreeShipping": true,
+                "isHTQQOffer": true,
+                "isSkuTradeSupported": true,
+                "isSearchOffer": true,
+                "isAiPostOffer": true,
+                "isCBDistribution": true,
+                "isAeJit": true,
+                "isAlipaySupported": true,
+                "isGpfOffer": true,
+                "isInFxLevelTwoBlackList": true,
+                "huiyuanhaokaidanyanxuan": true,
+                "isSupportStock": true,
+                "isSupportVideo": true,
+                "hasSendGoodsAddress": true
+              },
+              "offerSupportOnlineTrade": true,
+              "onlyNPorcessingOffer": false,
+              "preSaleOffer": false,
+              "preSell": false,
+              "signs": {
+                "isSkuOffer": true,
+                "isPreSell": false,
+                "isConsignMarketOffer": false,
+                "isOnlyNPorcessingOffer": false,
+                "isOfferSupportOnlineTrade": true,
+                "isDistribution": false,
+                "hasBusinessPrice": false,
+                "hasJoinBusinessPrice": false,
+                "isPreSaleOffer": false,
+                "isVirtualCategory": false,
+                "preHeatOfferCanTrade": true,
+                "isChtSingleOffer": false,
+                "isDetailForbidden": false
+              },
+              "skuOffer": true,
+              "stockProcessingLightOffer": false,
+              "stockReserveLightOffer": false,
+              "virtualCategory": false
+            },
+            "offerSystemAttributes": {
+              "approveDate": 1775634699000,
+              "clientLastOperateDate": 1775634699000,
+              "createDate": 1739853177000,
+              "expireDate": 2090994699000,
+              "modifyDate": 1786678331000,
+              "postDate": 1775634699000,
+              "sellStarts": -28800000,
+              "sellStartsTime": 19700101,
+              "selling": true
+            },
+            "offerType": "fashion",
+            "preHeatStartTime": "1970-01-01 00:00:00",
+            "secondCategoryId": 2122,
+            "skuFeatures": {},
+            "skuProps": [
+              {
+                "fid": 100019517,
+                "prop": "封面颜色",
+                "value": [
+                  {
+                    "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01ExTSj52IZSSTdF7zZ_!!2204120899300-0-cib.jpg",
+                    "name": "左两格右一格：20页60张/按扣"
+                  },
+                  {
+                    "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01pdDElD2IZSSVqzSBh_!!2204120899300-0-cib.jpg",
+                    "name": "左两格右一格：40页120张/按扣"
+                  },
+                  {
+                    "name": "6寸1格：20页40张/按扣侧开11x15.9cm"
+                  },
+                  {
+                    "name": "6寸1格：40页80张/按扣侧开11X15.9cm"
+                  },
+                  {
+                    "name": "6寸1格：50页100张/按扣侧开11X15.9cm"
+                  },
+                  {
+                    "name": "A6收纳册1宫格：20页/本/无扣11.5X15.5cm"
+                  },
+                  {
+                    "name": "A6收纳册1宫格：40页/本/无扣11.5X15.5cm"
+                  },
+                  {
+                    "name": "A6收纳册1宫格：50页/本/无扣11.5X15.5cm"
+                  }
+                ]
+              }
+            ],
+            "status": "PUBLISHED",
+            "subject": "ins6寸相册明信片书签混合按扣收纳册人生四格追星卡册大头照收纳",
+            "topCategoryId": 67,
+            "wirelessVideo": {
+              "coverUrl": "https://img.alicdn.com/imgextra/i4/6000000003931/O1CN01cRSQyB1euRn3Kw5ND_!!6000000003931-0-tbvideo.jpg",
+              "state": 6,
+              "title": "相册视频",
+              "videoId": 417731221893,
+              "videoUrls": {
+                "ios": "https://cloud.video.taobao.com/play/u/2204120899300/p/2/e/6/t/1/417731221893.mp4",
+                "android": "https://cloud.video.taobao.com/play/u/2204120899300/p/2/e/6/t/1/417731221893.mp4"
+              }
+            },
+            "xoneMaterial": {}
+          },
+          "promotionModel": {
+            "aggregateNewPromotionInfo": [
+              {
+                "features": {
+                  "calSkuCartFromMkc": "false"
+                },
+                "groupType": "DEFAULT_GROUP",
+                "singlePromotionInfoModels": []
+              }
+            ],
+            "aggregatePromotionInfo": [],
+            "bigPromotionInfo": {
+              "bigPromotionCountdown": -1,
+              "bigPromotionStatus": "NONE",
+              "burstBeginTime": -1,
+              "burstEndTime": -1,
+              "preheatTime": -1,
+              "promotionResources": {}
+            },
+            "endTime": 0,
+            "hotTime": 0,
+            "promotionExtendInfo": {
+              "offerDetailUrgeBarModel": "null"
+            },
+            "promotionExtends": {
+              "majorMemberInfo": {},
+              "wholesalePriceQualified": false
+            },
+            "promotionSign": {
+              "cross2buy": false,
+              "freePostage": false,
+              "freshmanActivity": false,
+              "fxOfficialTimeLimitActivity": false,
+              "fxSellerTimeLimitActivity": false,
+              "hasBigPromotion": false,
+              "hasMarketPromotion": false,
+              "hasPurcharseMark": false,
+              "hpAdditionalDiscount": false,
+              "limitedTimePromotion": false,
+              "promotionRemoteCal": false,
+              "shareWithGift": false,
+              "signs": {
+                "isHpAdditionalDiscount": false,
+                "hasBigPromotion": false,
+                "isFreshmanActivity": false,
+                "promotionRemoteCal": false,
+                "skuFixPromotion": false,
+                "isFreePostage": false,
+                "isShareWithGift": false,
+                "isFxSellerTimeLimitActivity": false,
+                "isLimitedTimePromotion": false,
+                "isDisPricePromotion": false,
+                "isFxOfficialTimeLimitActivity": false,
+                "hasPurcharseMark": false,
+                "isFixedPricePromotion": false
+              },
+              "skuFixPromotion": false
+            },
+            "startTime": 0
+          },
+          "sceneBizType": "DEFAULT",
+          "sceneType": "default",
+          "sellerModel": {
+            "companyName": "温州艾佳得塑业有限公司",
+            "loginId": "温州艾佳得塑业有限公司",
+            "memberId": "b2b-220412089930012503",
+            "sellerFeature": {
+              "brandShopTypeName": "",
+              "features": {
+                "brandShopTypeName": ""
+              }
+            },
+            "sellerIdentity": "default",
+            "sellerSign": {
+              "chtMember": false,
+              "industrySeller": false,
+              "signs": {
+                "isIndustrySeller": false,
+                "isSlsj": false,
+                "isChtMember": false,
+                "isTp": true,
+                "isEaseBuyDealer": true,
+                "isFactoryDealer": true
+              },
+              "slsj": false,
+              "tp": true
+            },
+            "sellerWinportUrlMap": {
+              "offerlistUrl": "https://shop05m2803hm6841.1688.com/page/offerlist.html",
+              "newofferlistUrl": "https://shop05m2803hm6841.1688.com/page/newofferlist.html",
+              "contactinfoUrl": "https://shop05m2803hm6841.1688.com/page/contactinfo.html",
+              "creditdetailUrl": "https://shop05m2803hm6841.1688.com/page/creditdetail.html",
+              "indexUrl": "https://shop05m2803hm6841.1688.com/page/index.html",
+              "shopdynamicUrl": "https://shop05m2803hm6841.1688.com/page/shopdynamic.html",
+              "defaultUrl": "https://shop05m2803hm6841.1688.com"
+            },
+            "userId": 2204120899300,
+            "winportUrl": "https://shop05m2803hm6841.1688.com"
+          },
+          "tradeModel": {
+            "beginAmount": 1,
+            "canBookedAmount": 73877,
+            "hasPromotion": false,
+            "maxPrice": "2.50",
+            "minPrice": "2.50",
+            "mixModel": {
+              "mixOneForSale": false,
+              "supportMix": false
+            },
+            "offerIDatacenterSellInfo": {
+              "款式": "按扣相册",
+              "用途": "普通相册",
+              "sellPointModel": "{\"id\":35,\"name\":\"专业化CPV(15)\",\"show\":\"款式_卡通相册_algo,用途_普通相册_algo,款式_四宫格相册_algo,款式_按扣相册_algo\",\"type\":\"test_idatacenter_sell\"}"
+            },
+            "offerId": 889272226600,
+            "offerPriceModel": {
+              "currentPrices": [
+                {
+                  "beginAmount": 1,
+                  "price": "2.50"
+                }
+              ],
+              "priceDisplayType": "skuPrice"
+            },
+            "priceDisplay": "2.50",
+            "skuMap": [
+              {
+                "canBookCount": 9688,
+                "promotionSku": false,
+                "saleCount": 0,
+                "skuId": 5935453126514,
+                "specAttrs": "A6收纳册1宫格：40页/本/无扣11.5X15.5cm",
+                "specId": "5df90ec768a91519e75c41b056591804"
+              },
+              {
+                "canBookCount": 9002,
+                "promotionSku": false,
+                "saleCount": 0,
+                "skuId": 5901356074803,
+                "specAttrs": "左两格右一格：20页60张/按扣",
+                "specId": "1875d9a0df0f7f326cd39bfe2411fd5c"
+              },
+              {
+                "canBookCount": 8175,
+                "promotionSku": false,
+                "saleCount": 0,
+                "skuId": 5935453126513,
+                "specAttrs": "A6收纳册1宫格：20页/本/无扣11.5X15.5cm",
+                "specId": "5026857c7f20c02204d5f310600cfdda"
+              },
+              {
+                "canBookCount": 8816,
+                "promotionSku": false,
+                "saleCount": 0,
+                "skuId": 5770140657645,
+                "specAttrs": "6寸1格：50页100张/按扣侧开11X15.9cm",
+                "specId": "65d1a3c1cd0a615bc83f66bf0863d774"
+              },
+              {
+                "canBookCount": 9418,
+                "promotionSku": false,
+                "saleCount": 0,
+                "skuId": 5901356074804,
+                "specAttrs": "左两格右一格：40页120张/按扣",
+                "specId": "c8b07e7cc15415666fe46347db789dc1"
+              },
+              {
+                "canBookCount": 9394,
+                "promotionSku": false,
+                "saleCount": 0,
+                "skuId": 5935453126511,
+                "specAttrs": "6寸1格：20页40张/按扣侧开11x15.9cm",
+                "specId": "bd7235ba4cf87fcf10f12d11a405effb"
+              },
+              {
+                "canBookCount": 9406,
+                "promotionSku": false,
+                "saleCount": 0,
+                "skuId": 5935453126512,
+                "specAttrs": "6寸1格：40页80张/按扣侧开11X15.9cm",
+                "specId": "021362943ec76cb14b8878a3dae72f3b"
+              },
+              {
+                "canBookCount": 9978,
+                "promotionSku": false,
+                "saleCount": 0,
+                "skuId": 5935453126515,
+                "specAttrs": "A6收纳册1宫格：50页/本/无扣11.5X15.5cm",
+                "specId": "93a0d7de52587e1afddc3e7c641cbcc9"
+              }
+            ],
+            "skuTradeSupported": true,
+            "supportWirelessOnly": false,
+            "tradeWithoutPromotion": {
+              "canBookedAmountOriginal": 73877,
+              "offerBeginAmount": 1,
+              "offerIsSkuTradeSupported": true,
+              "offerMaxPrice": "2.50",
+              "offerMinPrice": "2.50",
+              "offerPriceDisplay": "2.50",
+              "skuMapOriginal": [
+                {
+                  "$ref": "$.result.global.globalData.model.tradeModel.skuMap[0]"
+                },
+                {
+                  "$ref": "$.result.global.globalData.model.tradeModel.skuMap[1]"
+                },
+                {
+                  "$ref": "$.result.global.globalData.model.tradeModel.skuMap[2]"
+                },
+                {
+                  "$ref": "$.result.global.globalData.model.tradeModel.skuMap[3]"
+                },
+                {
+                  "$ref": "$.result.global.globalData.model.tradeModel.skuMap[4]"
+                },
+                {
+                  "$ref": "$.result.global.globalData.model.tradeModel.skuMap[5]"
+                },
+                {
+                  "$ref": "$.result.global.globalData.model.tradeModel.skuMap[6]"
+                },
+                {
+                  "$ref": "$.result.global.globalData.model.tradeModel.skuMap[7]"
+                }
+              ]
+            },
+            "unit": "套"
+          },
+          "verticalBizType": "DEFAULT",
+          "verticalType": "default"
+        }
+      },
+      "name": "default",
+      "renderData": {},
+      "systemParam": {},
+      "version": "1.0.0"
+    },
+    "hierarchy": {
+      "root": "Root",
+      "structure": {
+        "product": [
+          "shopNavigation",
+          "gallery",
+          "navTabs"
+        ],
+        "Root": [
+          "headers",
+          "screen",
+          "bottom"
+        ],
+        "bottom": [
+          "sameProduct",
+          "shopProductCombine",
+          "shopProductRecommend",
+          "widgets"
+        ],
+        "screen": [
+          "product",
+          "cart"
+        ],
+        "navTabs": [
+          "chromePlugin",
+          "productEvaluation",
+          "officialInspection",
+          "productAttributes",
+          "productWarning",
+          "sizeChart",
+          "productPackInfo",
+          "description"
+        ],
+        "Row": [
+          "discountCoupon",
+          "userRights"
+        ],
+        "cart": [
+          "productTitle",
+          "promotionBanner",
+          "mainPrice",
+          "Row",
+          "shippingServices",
+          "mainServices",
+          "skuSelection",
+          "customMade",
+          "submitOrder",
+          "consign"
+        ]
+      }
+    },
+    "reload": false
+  },
+  "panelConfig": {
+    "appVersion": "1.0.8",
+    "appBaseVersion": "18.0.1",
+    "module": {
+      "@ali/od-order-gallery": "0.0.2",
+      "@ali/od-custom-panel": "0.0.1",
+      "@ali/od-custom-made": "0.1.3",
+      "@ali/od-order-panel": "0.0.1",
+      "@ali/od-shipping-services": "0.2.11",
+      "@ali/od-submit-order": "0.2.16",
+      "@ali/od-main-price": "0.1.8",
+      "@ali/od-sku-selection": "0.1.5"
+    }
+  },
+  "module": {
+    "@ali/od-product-pack-info": "0.0.6",
+    "@ali/od-size-chart": "0.0.2",
+    "@ali/od-processing-price": "0.0.1",
+    "@ali/od-user-rights": "0.1.5",
+    "@ali/od-shop-navigation": "0.26.4",
+    "@ali/od-custom-made": "0.1.3",
+    "@ali/od-shop-product-combine": "0.1.5",
+    "@ali/od-region": "0.0.1",
+    "@ali/od-shipping-services": "0.26.2",
+    "@ali/od-submit-order": "0.26.6",
+    "@ali/od-kj-services": "0.0.1",
+    "@ali/od-product-warning": "0.0.11",
+    "@ali/od-widgets": "0.1.12",
+    "@ali/od-chrome-plugin": "0.0.1",
+    "@ali/od-official-inspection": "0.0.7",
+    "@ali/od-title": "0.26.8",
+    "@ali/od-nav-tabs": "0.26.3",
+    "@ali/od-main-price": "0.26.1",
+    "@ali/od-product-description": "0.1.12",
+    "@ali/od-sku-selection": "0.26.6",
+    "@ali/od-product-evaluation": "0.26.1",
+    "@ali/od-same-product": "0.0.1",
+    "@ali/od-picture-gallery": "0.26.6",
+    "@ali/od-discount-coupon": "0.1.3",
+    "@ali/od-side-recommend": "0.0.3",
+    "@ali/od-scene-key": "0.0.3",
+    "@ali/od-cart-sider": "0.26.9",
+    "@ali/od-promotion-banner": "0.26.2",
+    "@ali/od-shop-product-recommend": "0.26.3",
+    "@ali/od-row": "0.0.2",
+    "@ali/od-header": "0.0.10",
+    "@ali/od-services": "0.0.7",
+    "@ali/od-custom-panel": "0.0.5",
+    "@ali/od-sku-preview": "0.0.4",
+    "@ali/od-consign": "0.26.3",
+    "@ali/od-product-attributes": "0.0.4",
+    "@ali/od-processing": "0.0.1"
+  },
+  "version": "0.26.12"
+}

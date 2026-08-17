@@ -1,0 +1,269 @@
+{
+  "offerId": 889272226600,
+  "title": "ins6寸相册明信片书签混合按扣收纳册人生四格追星卡册大头照收纳",
+  "slug": "ins6寸相册明信片书签混合按扣收纳册人生四格追星卡册大头照收纳",
+  "saleNum": "2100+",
+  "unit": "套",
+  "price": {
+    "display": "2.50-5.20",
+    "min": "2.50",
+    "max": "5.20",
+    "moq": 1,
+    "tiers": [
+      {
+        "price": "2.50",
+        "beginAmount": 1
+      },
+      {
+        "price": "5.20",
+        "beginAmount": 1
+      }
+    ]
+  },
+  "skus": [
+    {
+      "skuId": 5935453126514,
+      "specId": "5df90ec768a91519e75c41b056591804",
+      "specAttrs": "A6收纳册1宫格：40页/本/无扣11.5X15.5cm",
+      "price": "3.50",
+      "discountPrice": "3.50",
+      "canBookCount": 9688
+    },
+    {
+      "skuId": 5901356074803,
+      "specId": "1875d9a0df0f7f326cd39bfe2411fd5c",
+      "specAttrs": "左两格右一格：20页60张/按扣",
+      "price": "3.20",
+      "discountPrice": "3.20",
+      "canBookCount": 9002
+    },
+    {
+      "skuId": 5935453126513,
+      "specId": "5026857c7f20c02204d5f310600cfdda",
+      "specAttrs": "A6收纳册1宫格：20页/本/无扣11.5X15.5cm",
+      "price": "2.50",
+      "discountPrice": "2.50",
+      "canBookCount": 8175
+    },
+    {
+      "skuId": 5770140657645,
+      "specId": "65d1a3c1cd0a615bc83f66bf0863d774",
+      "specAttrs": "6寸1格：50页100张/按扣侧开11X15.9cm",
+      "price": "5.20",
+      "discountPrice": "5.20",
+      "canBookCount": 8816
+    },
+    {
+      "skuId": 5901356074804,
+      "specId": "c8b07e7cc15415666fe46347db789dc1",
+      "specAttrs": "左两格右一格：40页120张/按扣",
+      "price": "4.20",
+      "discountPrice": "4.20",
+      "canBookCount": 9418
+    },
+    {
+      "skuId": 5935453126511,
+      "specId": "bd7235ba4cf87fcf10f12d11a405effb",
+      "specAttrs": "6寸1格：20页40张/按扣侧开11x15.9cm",
+      "price": "3.70",
+      "discountPrice": "3.70",
+      "canBookCount": 9394
+    },
+    {
+      "skuId": 5935453126512,
+      "specId": "021362943ec76cb14b8878a3dae72f3b",
+      "specAttrs": "6寸1格：40页80张/按扣侧开11X15.9cm",
+      "price": "4.50",
+      "discountPrice": "4.50",
+      "canBookCount": 9406
+    },
+    {
+      "skuId": 5935453126515,
+      "specId": "93a0d7de52587e1afddc3e7c641cbcc9",
+      "specAttrs": "A6收纳册1宫格：50页/本/无扣11.5X15.5cm",
+      "price": "4.20",
+      "discountPrice": "4.20",
+      "canBookCount": 9978
+    }
+  ],
+  "attributes": [
+    {
+      "name": "款式",
+      "values": [
+        "卡通相册"
+      ]
+    },
+    {
+      "name": "封面材质",
+      "values": [
+        "PP"
+      ]
+    },
+    {
+      "name": "内页页数",
+      "values": [
+        "40"
+      ]
+    },
+    {
+      "name": "用途",
+      "values": [
+        "普通相册"
+      ]
+    },
+    {
+      "name": "品牌",
+      "values": [
+        "无"
+      ]
+    },
+    {
+      "name": "封面颜色",
+      "values": [
+        "左两格右一格：20页60张/按扣",
+        "左两格右一格：40页120张/按扣",
+        "6寸1格：20页40张/按扣侧开11x15.9cm",
+        "6寸1格：40页80张/按扣侧开11X15.9cm",
+        "6寸1格：50页100张/按扣侧开11X15.9cm",
+        "A6收纳册1宫格：20页/本/无扣11.5X15.5cm",
+        "A6收纳册1宫格：40页/本/无扣11.5X15.5cm",
+        "A6收纳册1宫格：50页/本/无扣11.5X15.5cm"
+      ]
+    },
+    {
+      "name": "货号",
+      "values": [
+        "QH265"
+      ]
+    },
+    {
+      "name": "加印LOGO",
+      "values": [
+        "可以"
+      ]
+    },
+    {
+      "name": "加工定制",
+      "values": [
+        "是"
+      ]
+    },
+    {
+      "name": "是否跨境出口专供货源",
+      "values": [
+        "否"
+      ]
+    },
+    {
+      "name": "是否属于礼品",
+      "values": [
+        "否"
+      ]
+    },
+    {
+      "name": "是否IP授权",
+      "values": [
+        "否"
+      ]
+    }
+  ],
+  "images": [
+    "https://cbu01.alicdn.com/img/ibank/O1CN01n6VrVk2IZSRhuu2qb_!!2204120899300-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01XUOeKN2IZSRkECm9i_!!2204120899300-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01yh6Dzm2IZSRi9UCuQ_!!2204120899300-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01t3reEZ2IZSRkeKb82_!!2204120899300-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01lua9v72IZSRijrJRz_!!2204120899300-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01ExTSj52IZSSTdF7zZ_!!2204120899300-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01pdDElD2IZSSVqzSBh_!!2204120899300-0-cib.jpg"
+  ],
+  "video": {
+    "videoUrl": "https://cloud.video.taobao.com/play/u/2204120899300/p/2/e/6/t/1/417731221893.mp4",
+    "coverUrl": "https://img.alicdn.com/imgextra/i4/6000000003931/O1CN01cRSQyB1euRn3Kw5ND_!!6000000003931-0-tbvideo.jpg",
+    "videoId": 417731221893,
+    "title": "相册视频"
+  },
+  "detailUrl": "https://itemcdn.tmall.com/1688offer/icoss11393219328010c375f77d0d6f",
+  "leafCategoryId": 1034111,
+  "shipping": {
+    "location": "浙江省温州市",
+    "logisticsText": "承诺48小时发货·常发圆通快递",
+    "unitWeight": 0.3
+  },
+  "seller": {
+    "companyName": "温州艾佳得塑业有限公司",
+    "authCompanyName": "温州艾佳得塑业有限公司",
+    "cardType": "factory",
+    "byrRepeatRate3m": "58.60%",
+    "sellerMemberId": "b2b-220412089930012503",
+    "sellerUserId": 2204120899300,
+    "shopUrl": "https://shop05m2803hm6841.1688.com",
+    "winportUrl": "https://winport.m.1688.com/page/index.html?memberId=b2b-220412089930012503"
+  },
+  "rate": {
+    "goodRates": 99.9,
+    "goodsGrade": 5,
+    "reviewCount": 2423,
+    "impressionTags": [
+      {
+        "name": "客服很耐心",
+        "count": 860
+      },
+      {
+        "name": "物流很快",
+        "count": 333
+      },
+      {
+        "name": "质量很好",
+        "count": 327
+      },
+      {
+        "name": "性价比高",
+        "count": 289
+      },
+      {
+        "name": "购物体验愉快",
+        "count": 276
+      },
+      {
+        "name": "质量上乘",
+        "count": 258
+      },
+      {
+        "name": "做工精细",
+        "count": 242
+      },
+      {
+        "name": "购买值得",
+        "count": 228
+      },
+      {
+        "name": "质量非常好",
+        "count": 191
+      },
+      {
+        "name": "推荐强烈",
+        "count": 187
+      },
+      {
+        "name": "设计独特",
+        "count": 167
+      },
+      {
+        "name": "包装不错",
+        "count": 159
+      },
+      {
+        "name": "细节处理到位",
+        "count": 126
+      },
+      {
+        "name": "体验超出预期",
+        "count": 120
+      },
+      {
+        "name": "解答疑问不厌其烦",
+        "count": 101
+      }
+    ]
+  }
+}
