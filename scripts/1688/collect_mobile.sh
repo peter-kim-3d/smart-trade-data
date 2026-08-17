@@ -28,6 +28,10 @@ if [ -z "$OFFER" ]; then echo "❌ offer id 를 찾지 못함: $INPUT" >&2; exit
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PARSER="$SCRIPT_DIR/parse_mobile.js"
 if [ ! -f "$PARSER" ]; then echo "❌ parse_mobile.js 없음: $PARSER" >&2; exit 2; fi
+DETAIL_FETCHER="$SCRIPT_DIR/fetch_detail.sh"
+if [ ! -f "$DETAIL_FETCHER" ]; then echo "❌ fetch_detail.sh 없음: $DETAIL_FETCHER" >&2; exit 2; fi
+# shellcheck source=fetch_detail.sh
+source "$DETAIL_FETCHER"
 
 # 모바일 페이지는 iPhone UA 로 받아야 __INIT_DATA 페이지가 나온다.
 UA="Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1"
@@ -113,26 +117,22 @@ node "$PARSER" skucsv    "$TMP/summary.json" > "$OUTDIR/01_상품정보/SKU_가�
 echo "--- 메인 이미지 다운로드 ---"
 SEEN="$TMP/seen_md5"; : > "$SEEN"
 SEEN_D="$TMP/seen_md5_detail"; : > "$SEEN_D"
-dl_img(){ # $1 url  $2 dest  →  http_code 출력(성공 시 "200"). HTTP/2 스트림 리셋(curl 92) 시 --http1.1 재시도.
-  # 주의: H2 리셋은 curl 이 http_code 200 을 찍고도 비정상 종료(rc≠0)하며 파일을 잘라버리므로,
-  #       code 만으로 성공을 판정하면 깨진 파일을 저장하게 된다 → rc 와 파일 크기까지 검사한다.
-  local code rc opt
-  for opt in "" "--http1.1"; do
-    code="$(curl -sL $opt -A "$UA" -H "Referer: https://detail.1688.com/" \
-      -o "$2" -w "%{http_code}" --max-time 40 "$1")"; rc=$?
-    if [ $rc -eq 0 ] && [ "$code" = "200" ] && [ -s "$2" ]; then printf '%s' "$code"; return 0; fi
-  done
-  # 두 시도 모두 실패 → 호출부가 skip 하도록 비200 값을 반환(curl 실패면 ERR+코드)
-  if [ $rc -ne 0 ]; then printf 'ERR%s' "$rc"; else printf '%s' "$code"; fi
-  return 0
+dl_img(){ # $1 url  $2 dest
+  fetch_resource "$2" "$1" "$UA" "$TMP/asset_curl.err" 40 1 --http1.1
 }
 i=0
 node "$PARSER" images "$TMP/summary.json" | while IFS= read -r url || [ -n "$url" ]; do
   [ -z "$url" ] && continue
   i=$((i+1)); n="$(printf '%02d' "$i")"
   tmpf="$TMP/main_$n.jpg"
-  code="$(dl_img "$url" "$tmpf")"
-  if [ "$code" != "200" ]; then echo "  메인_$n HTTP:$code (skip)"; continue; fi
+  dl_img "$url" "$tmpf"; code="$FETCH_HTTP_CODE"
+  if [ "$FETCH_IPV4_FALLBACK" -eq 1 ]; then
+    echo "  메인_$n 1차 실패 HTTP:$FETCH_PRIMARY_HTTP_CODE curl_rc:$FETCH_PRIMARY_CURL_RC SIZE:${FETCH_PRIMARY_SIZE}B — curl -4 --http1.1 폴백"
+  fi
+  if [ "$code" != "200" ] || [ "$FETCH_CURL_RC" -ne 0 ] || [ "$FETCH_SIZE" -lt 1 ]; then
+    warn "메인_$n 실패(skip) URL:$url HTTP:$code curl_rc:$FETCH_CURL_RC SIZE:${FETCH_SIZE}B stderr:${FETCH_CURL_STDERR:-<없음>}"
+    continue
+  fi
   h="$(MD5 "$tmpf")"
   if grep -q "^$h$" "$SEEN"; then echo "  메인_$n 중복(md5) → skip"; continue; fi
   echo "$h" >> "$SEEN"
@@ -143,9 +143,13 @@ done
 # ---- 7) 상세페이지 fetch + 상세 이미지 ----
 if [ -n "$DETAIL_URL" ]; then
   echo "--- 상세페이지 다운로드 ---"
-  # 상세페이지(JSONP)도 dl_img 로 받아 H2 리셋 시 --http1.1 재시도 (상세 이미지가 여기서 나온다)
-  code="$(dl_img "$DETAIL_URL" "$OUTDIR/05_원본데이터/상세페이지_원본응답.js")"
-  if [ "$code" = "200" ]; then
+  fetch_detail "$OUTDIR/05_원본데이터/상세페이지_원본응답.js" "$DETAIL_URL" "$UA" "$TMP/detail_curl.err" --http1.1
+  code="$DETAIL_HTTP_CODE"
+  if [ "$DETAIL_IPV4_FALLBACK" -eq 1 ]; then
+    echo "  상세페이지 1차 실패 HTTP:$DETAIL_PRIMARY_HTTP_CODE curl_rc:$DETAIL_PRIMARY_CURL_RC SIZE:${DETAIL_PRIMARY_SIZE}B — curl -4 --http1.1 폴백"
+  fi
+  echo "  상세페이지 요청 HTTP:$code curl_rc:$DETAIL_CURL_RC"
+  if [ "$code" = "200" ] && [ "$DETAIL_CURL_RC" -eq 0 ] && [ "$DETAIL_SIZE" -ge 1 ]; then
     if node "$PARSER" detail-html "$OUTDIR/05_원본데이터/상세페이지_원본응답.js" \
          > "$OUTDIR/02_상세페이지/상세페이지_원본.html" 2>/dev/null; then
       echo "  상세 HTML 추출 OK"
@@ -154,8 +158,14 @@ if [ -n "$DETAIL_URL" ]; then
     node "$PARSER" detail-images "$OUTDIR/05_원본데이터/상세페이지_원본응답.js" 2>/dev/null | while IFS= read -r url || [ -n "$url" ]; do
       [ -z "$url" ] && continue
       tmpf="$TMP/detail_dl.jpg"
-      c="$(dl_img "$url" "$tmpf")"
-      if [ "$c" != "200" ]; then echo "  상세 HTTP:$c (skip)"; continue; fi
+      dl_img "$url" "$tmpf"; c="$FETCH_HTTP_CODE"
+      if [ "$FETCH_IPV4_FALLBACK" -eq 1 ]; then
+        echo "  상세 이미지 1차 실패 HTTP:$FETCH_PRIMARY_HTTP_CODE curl_rc:$FETCH_PRIMARY_CURL_RC SIZE:${FETCH_PRIMARY_SIZE}B — curl -4 --http1.1 폴백"
+      fi
+      if [ "$c" != "200" ] || [ "$FETCH_CURL_RC" -ne 0 ] || [ "$FETCH_SIZE" -lt 1 ]; then
+        warn "상세 이미지 실패(skip) URL:$url HTTP:$c curl_rc:$FETCH_CURL_RC SIZE:${FETCH_SIZE}B stderr:${FETCH_CURL_STDERR:-<없음>}"
+        continue
+      fi
       h="$(MD5 "$tmpf")"
       if grep -q "^$h$" "$SEEN_D"; then echo "  상세 중복(md5) → skip"; continue; fi
       echo "$h" >> "$SEEN_D"
@@ -163,7 +173,7 @@ if [ -n "$DETAIL_URL" ]; then
       mv "$tmpf" "$OUTDIR/03_이미지/02_상세이미지/상세_$n.jpg"
       echo "  상세_$n OK"
     done
-  else warn "상세페이지 HTTP:$code"; fi
+  else warn "상세페이지 실패(skip) URL:$DETAIL_URL HTTP:$code curl_rc:$DETAIL_CURL_RC SIZE:${DETAIL_SIZE}B stderr:${DETAIL_CURL_STDERR:-<없음>}"; fi
 else
   echo "상세페이지 URL 없음 (detailUrl 비어있음)"
 fi
@@ -171,8 +181,16 @@ fi
 # ---- 8) 동영상 커버 + 동영상 (302 → 서명 URL, collect.sh 와 동일) ----
 if [ -n "$VIDEO_COVER" ]; then
   echo "--- 동영상 커버 ---"
-  c="$(dl_img "$VIDEO_COVER" "$OUTDIR/03_이미지/03_동영상커버/동영상_커버.jpg")"
-  [ "$c" = "200" ] && echo "  커버 OK" || echo "  커버 HTTP:$c"
+  cover_file="$OUTDIR/03_이미지/03_동영상커버/동영상_커버.jpg"
+  dl_img "$VIDEO_COVER" "$cover_file"; c="$FETCH_HTTP_CODE"
+  if [ "$FETCH_IPV4_FALLBACK" -eq 1 ]; then
+    echo "  커버 1차 실패 HTTP:$FETCH_PRIMARY_HTTP_CODE curl_rc:$FETCH_PRIMARY_CURL_RC SIZE:${FETCH_PRIMARY_SIZE}B — curl -4 --http1.1 폴백"
+  fi
+  if [ "$c" = "200" ] && [ "$FETCH_CURL_RC" -eq 0 ] && [ "$FETCH_SIZE" -ge 1 ]; then
+    echo "  커버 OK"
+  else
+    warn "동영상 커버 실패(skip) URL:$VIDEO_COVER HTTP:$c curl_rc:$FETCH_CURL_RC SIZE:${FETCH_SIZE}B stderr:${FETCH_CURL_STDERR:-<없음>}"
+  fi
 fi
 if [ -n "$VIDEO_URL" ]; then
   echo "--- 동영상 다운로드 (302 → 서명 URL) ---"
@@ -182,17 +200,16 @@ if [ -n "$VIDEO_URL" ]; then
   LOC="$(vid_loc '')"; [ -z "$LOC" ] && LOC="$(vid_loc --http1.1)"
   TARGET="${LOC:-$VIDEO_URL}"
   MP4="$OUTDIR/04_동영상/상품동영상.mp4"
-  # 다운로드 (HTTP/2 스트림 리셋 시 --http1.1 재시도; H2 리셋은 200 을 찍고도 파일을 자른다)
-  c=""; vs=0
-  for vopt in "" "--http1.1"; do
-    c="$(curl -sL $vopt -A "$UA" -H "Referer: https://detail.1688.com/" \
-          -o "$MP4" -w "%{http_code}" --max-time 90 "$TARGET")"; rc=$?
-    # 연결 실패(HTTP:000)면 mp4 가 아예 안 생기므로 존재 확인 후 크기 측정
-    if [ -f "$MP4" ]; then vs="$(wc -c < "$MP4" | tr -d ' ')"; else vs=0; fi
-    if [ $rc -eq 0 ] && [ "$c" = "200" ] && [ "${vs:-0}" -gt 10000 ]; then break; fi
-    [ "$vopt" = "" ] && echo "  동영상 1차 실패(HTTP:$c SIZE:$vs rc:$rc) — --http1.1 재시도"
-  done
-  if [ "$c" = "200" ] && [ "${vs:-0}" -gt 10000 ]; then echo "  동영상 OK (${vs}B)"; else warn "동영상 실패 HTTP:$c SIZE:$vs"; fi
+  fetch_resource "$MP4" "$TARGET" "$UA" "$TMP/video_curl.err" 90 10001 --http1.1
+  c="$FETCH_HTTP_CODE"; vs="$FETCH_SIZE"
+  if [ "$FETCH_IPV4_FALLBACK" -eq 1 ]; then
+    echo "  동영상 1차 실패 HTTP:$FETCH_PRIMARY_HTTP_CODE curl_rc:$FETCH_PRIMARY_CURL_RC SIZE:${FETCH_PRIMARY_SIZE}B — curl -4 --http1.1 폴백"
+  fi
+  if [ "$c" = "200" ] && [ "$FETCH_CURL_RC" -eq 0 ] && [ "${vs:-0}" -gt 10000 ]; then
+    echo "  동영상 OK (${vs}B)"
+  else
+    warn "동영상 실패(skip) URL:$TARGET HTTP:$c curl_rc:$FETCH_CURL_RC SIZE:${vs}B stderr:${FETCH_CURL_STDERR:-<없음>}"
+  fi
 fi
 
 # ---- 9) README.md ----

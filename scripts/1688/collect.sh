@@ -34,6 +34,10 @@ if [ -z "$OFFER" ]; then echo "❌ offer id 를 찾지 못함: $INPUT" >&2; exit
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PARSER="$SCRIPT_DIR/parse_context.js"
 if [ ! -f "$PARSER" ]; then echo "❌ parse_context.js 없음: $PARSER" >&2; exit 2; fi
+DETAIL_FETCHER="$SCRIPT_DIR/fetch_detail.sh"
+if [ ! -f "$DETAIL_FETCHER" ]; then echo "❌ fetch_detail.sh 없음: $DETAIL_FETCHER" >&2; exit 2; fi
+# shellcheck source=fetch_detail.sh
+source "$DETAIL_FETCHER"
 
 UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 OFFER_URL="https://detail.1688.com/offer/${OFFER}.html"
@@ -107,17 +111,22 @@ node "$PARSER" skucsv    "$TMP/summary.json" > "$OUTDIR/01_상품정보/SKU_가�
 echo "--- 메인 이미지 다운로드 ---"
 SEEN="$TMP/seen_md5"; : > "$SEEN"
 SEEN_D="$TMP/seen_md5_detail"; : > "$SEEN_D"
-dl_img(){ # url dest
-  curl -sL -A "$UA" -H "Referer: https://detail.1688.com/" \
-    -o "$2" -w "%{http_code}" --max-time 40 "$1"
+dl_img(){ # $1 url  $2 dest
+  fetch_resource "$2" "$1" "$UA" "$TMP/asset_curl.err" 40 1
 }
 i=0
 node "$PARSER" images "$TMP/summary.json" | while IFS= read -r url || [ -n "$url" ]; do
   [ -z "$url" ] && continue
   i=$((i+1)); n="$(printf '%02d' "$i")"
   tmpf="$TMP/main_$n.jpg"
-  code="$(dl_img "$url" "$tmpf")"
-  if [ "$code" != "200" ]; then echo "  메인_$n HTTP:$code (skip)"; continue; fi
+  dl_img "$url" "$tmpf"; code="$FETCH_HTTP_CODE"
+  if [ "$FETCH_IPV4_FALLBACK" -eq 1 ]; then
+    echo "  메인_$n 1차 실패 HTTP:$FETCH_PRIMARY_HTTP_CODE curl_rc:$FETCH_PRIMARY_CURL_RC SIZE:${FETCH_PRIMARY_SIZE}B — curl -4 폴백"
+  fi
+  if [ "$code" != "200" ] || [ "$FETCH_CURL_RC" -ne 0 ] || [ "$FETCH_SIZE" -lt 1 ]; then
+    warn "메인_$n 실패(skip) URL:$url HTTP:$code curl_rc:$FETCH_CURL_RC SIZE:${FETCH_SIZE}B stderr:${FETCH_CURL_STDERR:-<없음>}"
+    continue
+  fi
   h="$(MD5 "$tmpf")"
   if grep -q "^$h$" "$SEEN"; then echo "  메인_$n 중복(md5) → skip"; continue; fi
   echo "$h" >> "$SEEN"
@@ -128,9 +137,13 @@ done
 # ---- 7) 상세페이지 fetch + 상세 이미지 ----
 if [ -n "$DETAIL_URL" ]; then
   echo "--- 상세페이지 다운로드 ---"
-  code="$(curl -sL -A "$UA" -H "Referer: https://detail.1688.com/" \
-    -o "$OUTDIR/05_원본데이터/상세페이지_원본응답.js" -w "%{http_code}" --max-time 40 "$DETAIL_URL")"
-  if [ "$code" = "200" ]; then
+  fetch_detail "$OUTDIR/05_원본데이터/상세페이지_원본응답.js" "$DETAIL_URL" "$UA" "$TMP/detail_curl.err"
+  code="$DETAIL_HTTP_CODE"
+  if [ "$DETAIL_IPV4_FALLBACK" -eq 1 ]; then
+    echo "  상세페이지 1차 실패 HTTP:$DETAIL_PRIMARY_HTTP_CODE curl_rc:$DETAIL_PRIMARY_CURL_RC SIZE:${DETAIL_PRIMARY_SIZE}B — curl -4 폴백"
+  fi
+  echo "  상세페이지 요청 HTTP:$code curl_rc:$DETAIL_CURL_RC"
+  if [ "$code" = "200" ] && [ "$DETAIL_CURL_RC" -eq 0 ] && [ "$DETAIL_SIZE" -ge 1 ]; then
     if node "$PARSER" detail-html "$OUTDIR/05_원본데이터/상세페이지_원본응답.js" \
          > "$OUTDIR/02_상세페이지/상세페이지_원본.html" 2>/dev/null; then
       echo "  상세 HTML 추출 OK"
@@ -139,8 +152,14 @@ if [ -n "$DETAIL_URL" ]; then
     node "$PARSER" detail-images "$OUTDIR/05_원본데이터/상세페이지_원본응답.js" 2>/dev/null | while IFS= read -r url || [ -n "$url" ]; do
       [ -z "$url" ] && continue
       tmpf="$TMP/detail_dl.jpg"
-      c="$(dl_img "$url" "$tmpf")"
-      if [ "$c" != "200" ]; then echo "  상세 HTTP:$c (skip)"; continue; fi
+      dl_img "$url" "$tmpf"; c="$FETCH_HTTP_CODE"
+      if [ "$FETCH_IPV4_FALLBACK" -eq 1 ]; then
+        echo "  상세 이미지 1차 실패 HTTP:$FETCH_PRIMARY_HTTP_CODE curl_rc:$FETCH_PRIMARY_CURL_RC SIZE:${FETCH_PRIMARY_SIZE}B — curl -4 폴백"
+      fi
+      if [ "$c" != "200" ] || [ "$FETCH_CURL_RC" -ne 0 ] || [ "$FETCH_SIZE" -lt 1 ]; then
+        warn "상세 이미지 실패(skip) URL:$url HTTP:$c curl_rc:$FETCH_CURL_RC SIZE:${FETCH_SIZE}B stderr:${FETCH_CURL_STDERR:-<없음>}"
+        continue
+      fi
       # 상세 이미지도 md5 중복제거: 같은 내용이 다른 CDN URL 로 중복 게시되는 경우가 있다.
       h="$(MD5 "$tmpf")"
       if grep -q "^$h$" "$SEEN_D"; then echo "  상세 중복(md5) → skip"; continue; fi
@@ -149,7 +168,7 @@ if [ -n "$DETAIL_URL" ]; then
       mv "$tmpf" "$OUTDIR/03_이미지/02_상세이미지/상세_$n.jpg"
       echo "  상세_$n OK"
     done
-  else warn "상세페이지 HTTP:$code"; fi
+  else warn "상세페이지 실패(skip) URL:$DETAIL_URL HTTP:$code curl_rc:$DETAIL_CURL_RC SIZE:${DETAIL_SIZE}B stderr:${DETAIL_CURL_STDERR:-<없음>}"; fi
 else
   echo "상세페이지 URL 없음 (detailUrl 비어있음)"
 fi
@@ -157,8 +176,16 @@ fi
 # ---- 8) 동영상 커버 + 동영상 ----
 if [ -n "$VIDEO_COVER" ]; then
   echo "--- 동영상 커버 ---"
-  c="$(dl_img "$VIDEO_COVER" "$OUTDIR/03_이미지/03_동영상커버/동영상_커버.jpg")"
-  [ "$c" = "200" ] && echo "  커버 OK" || echo "  커버 HTTP:$c"
+  cover_file="$OUTDIR/03_이미지/03_동영상커버/동영상_커버.jpg"
+  dl_img "$VIDEO_COVER" "$cover_file"; c="$FETCH_HTTP_CODE"
+  if [ "$FETCH_IPV4_FALLBACK" -eq 1 ]; then
+    echo "  커버 1차 실패 HTTP:$FETCH_PRIMARY_HTTP_CODE curl_rc:$FETCH_PRIMARY_CURL_RC SIZE:${FETCH_PRIMARY_SIZE}B — curl -4 폴백"
+  fi
+  if [ "$c" = "200" ] && [ "$FETCH_CURL_RC" -eq 0 ] && [ "$FETCH_SIZE" -ge 1 ]; then
+    echo "  커버 OK"
+  else
+    warn "동영상 커버 실패(skip) URL:$VIDEO_COVER HTTP:$c curl_rc:$FETCH_CURL_RC SIZE:${FETCH_SIZE}B stderr:${FETCH_CURL_STDERR:-<없음>}"
+  fi
 fi
 if [ -n "$VIDEO_URL" ]; then
   echo "--- 동영상 다운로드 (302 → 서명 URL) ---"
@@ -166,10 +193,17 @@ if [ -n "$VIDEO_URL" ]; then
   LOC="$(curl -sI -A "$UA" -H "Referer: https://detail.1688.com/" --max-time 30 "$VIDEO_URL" \
         | tr -d '\r' | awk -F': ' 'tolower($1)=="location"{print $2}' | tail -1)"
   TARGET="${LOC:-$VIDEO_URL}"
-  c="$(curl -sL -A "$UA" -H "Referer: https://detail.1688.com/" \
-        -o "$OUTDIR/04_동영상/상품동영상.mp4" -w "%{http_code}" --max-time 90 "$TARGET")"
-  vs="$(wc -c < "$OUTDIR/04_동영상/상품동영상.mp4" 2>/dev/null | tr -d ' ')"
-  if [ "$c" = "200" ] && [ "${vs:-0}" -gt 10000 ]; then echo "  동영상 OK (${vs}B)"; else warn "동영상 실패 HTTP:$c SIZE:$vs"; fi
+  MP4="$OUTDIR/04_동영상/상품동영상.mp4"
+  fetch_resource "$MP4" "$TARGET" "$UA" "$TMP/video_curl.err" 90 10001
+  c="$FETCH_HTTP_CODE"; vs="$FETCH_SIZE"
+  if [ "$FETCH_IPV4_FALLBACK" -eq 1 ]; then
+    echo "  동영상 1차 실패 HTTP:$FETCH_PRIMARY_HTTP_CODE curl_rc:$FETCH_PRIMARY_CURL_RC SIZE:${FETCH_PRIMARY_SIZE}B — curl -4 폴백"
+  fi
+  if [ "$c" = "200" ] && [ "$FETCH_CURL_RC" -eq 0 ] && [ "${vs:-0}" -gt 10000 ]; then
+    echo "  동영상 OK (${vs}B)"
+  else
+    warn "동영상 실패(skip) URL:$TARGET HTTP:$c curl_rc:$FETCH_CURL_RC SIZE:${vs}B stderr:${FETCH_CURL_STDERR:-<없음>}"
+  fi
 fi
 
 # ---- 9) README.md ----
