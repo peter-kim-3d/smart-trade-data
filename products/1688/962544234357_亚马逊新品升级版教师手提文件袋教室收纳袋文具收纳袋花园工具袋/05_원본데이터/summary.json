@@ -1,0 +1,257 @@
+{
+  "offerId": 962544234357,
+  "title": "亚马逊新品升级版教师手提文件袋教室收纳袋文具收纳袋花园工具袋",
+  "slug": "亚马逊新品升级版教师手提文件袋教室收纳袋文具收纳袋花园工具袋",
+  "saleNum": "1000+",
+  "unit": "件",
+  "price": {
+    "display": "13.20-14.25",
+    "min": "13.20",
+    "max": "14.25",
+    "moq": 2,
+    "tiers": [
+      {
+        "price": "14.25",
+        "beginAmount": 2
+      },
+      {
+        "price": "14.00",
+        "beginAmount": 2000
+      },
+      {
+        "price": "13.20",
+        "beginAmount": 50000
+      }
+    ]
+  },
+  "skus": [
+    {
+      "skuId": 6065565859295,
+      "specId": "77ae7ed9b1f00eff3fcc94b124fbfef4",
+      "specAttrs": "绿色",
+      "canBookCount": 2625631
+    },
+    {
+      "skuId": 6068111310405,
+      "specId": "6a67a0c231ddcbfe73c4ab1dfcaa0ced",
+      "specAttrs": "灰色",
+      "canBookCount": 0
+    },
+    {
+      "skuId": 6068111310404,
+      "specId": "b1a1765aa55aec4e02d84ce81ac546d2",
+      "specAttrs": "粉色",
+      "canBookCount": 3876207
+    }
+  ],
+  "attributes": [
+    {
+      "name": "材质",
+      "values": [
+        "牛津布"
+      ]
+    },
+    {
+      "name": "功能",
+      "values": [
+        "多用途"
+      ]
+    },
+    {
+      "name": "产品类别",
+      "values": [
+        "工具包"
+      ]
+    },
+    {
+      "name": "品牌",
+      "values": [
+        "云逸"
+      ]
+    },
+    {
+      "name": "是否进口",
+      "values": [
+        "否"
+      ]
+    },
+    {
+      "name": "型号",
+      "values": [
+        "A1-2636"
+      ]
+    },
+    {
+      "name": "形状",
+      "values": [
+        "立方体式"
+      ]
+    },
+    {
+      "name": "适用场景",
+      "values": [
+        "室内"
+      ]
+    },
+    {
+      "name": "收纳场景",
+      "values": [
+        "旅行收纳",
+        "化妆收纳",
+        "桌面收纳",
+        "客厅收纳"
+      ]
+    },
+    {
+      "name": "适用范围",
+      "values": [
+        "其他"
+      ]
+    },
+    {
+      "name": "风格",
+      "values": [
+        "现代简约"
+      ]
+    },
+    {
+      "name": "颜色",
+      "values": [
+        "绿色",
+        "粉色",
+        "灰色"
+      ]
+    },
+    {
+      "name": "产地",
+      "values": [
+        "义乌"
+      ]
+    },
+    {
+      "name": "箱装数量",
+      "values": [
+        "50PCS"
+      ]
+    },
+    {
+      "name": "产品上市时间",
+      "values": [
+        "2025"
+      ]
+    },
+    {
+      "name": "价格段",
+      "values": [
+        "10-20元"
+      ]
+    },
+    {
+      "name": "贸易属性",
+      "values": [
+        "内贸+外贸"
+      ]
+    },
+    {
+      "name": "专利",
+      "values": [
+        "否"
+      ]
+    },
+    {
+      "name": "货号",
+      "values": [
+        "教师手提袋"
+      ]
+    },
+    {
+      "name": "主要下游平台",
+      "values": [
+        "亚马逊",
+        "wish",
+        "速卖通",
+        "独立站",
+        "LAZADA",
+        "其他"
+      ]
+    },
+    {
+      "name": "主要销售地区",
+      "values": [
+        "欧洲",
+        "南美",
+        "东南亚",
+        "北美",
+        "东北亚",
+        "中东",
+        "其他"
+      ]
+    },
+    {
+      "name": "有可授权的自有品牌",
+      "values": [
+        "否"
+      ]
+    },
+    {
+      "name": "是否跨境出口专供货源",
+      "values": [
+        "是"
+      ]
+    },
+    {
+      "name": "版权",
+      "values": [
+        "无"
+      ]
+    }
+  ],
+  "images": [
+    "https://cbu01.alicdn.com/img/ibank/O1CN01O5m1qT2AXby97UriX_!!2219599048213-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01ZBtpxZ2AXby99gwIn_!!2219599048213-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01iPQvuS2AXbyA9OgLk_!!2219599048213-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN019puf7s1alyDWkCGxH_!!6000000003371-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01ZoCpqK1Qj5ZGFMBsy_!!6000000002011-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01AdViXK1Eon6yyiw6B_!!6000000000399-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01x2xnqW2AXbyF5Annb_!!2219599048213-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01LBpKio2AXbyCOa7Qa_!!2219599048213-0-cib.jpg"
+  ],
+  "video": {
+    "videoUrl": "https://cloud.video.taobao.com/play/u/2219599048213/p/2/e/6/t/1/529552094759.mp4",
+    "coverUrl": "https://img.alicdn.com/imgextra/i1/6000000001161/O1CN013chmT71KRmuhSDerY_!!6000000001161-0-tbvideo.jpg",
+    "videoId": 529552094759,
+    "title": "教师手提袋"
+  },
+  "detailUrl": "https://itemcdn.tmall.com/1688offer/icoss985729557d7f91ed8acf7e823",
+  "leafCategoryId": 1036894,
+  "shipping": {
+    "location": "浙江省金华市",
+    "logisticsText": "承诺48小时发货·常发中通快递",
+    "unitWeight": 0
+  },
+  "seller": {
+    "companyName": "义乌市云逸箱包有限公司",
+    "authCompanyName": "义乌市云逸箱包有限公司",
+    "cardType": "factory",
+    "byrRepeatRate3m": "50.34%",
+    "sellerMemberId": "b2b-22195990482137b097",
+    "sellerUserId": 2219599048213,
+    "shopUrl": "https://shop730u6900b5180.1688.com",
+    "winportUrl": "https://winport.m.1688.com/page/index.html?memberId=b2b-22195990482137b097"
+  },
+  "rate": {
+    "goodRates": 100,
+    "goodsGrade": 5,
+    "reviewCount": 2091,
+    "impressionTags": [
+      {
+        "name": "性价比很高",
+        "count": 1
+      },
+      {
+        "name": "服务不错",
+        "count": 1
+      }
+    ]
+  }
+}
