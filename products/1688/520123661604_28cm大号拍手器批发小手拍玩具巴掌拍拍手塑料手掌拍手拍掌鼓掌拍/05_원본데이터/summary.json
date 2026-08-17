@@ -1,0 +1,352 @@
+{
+  "offerId": 520123661604,
+  "title": "28cm大号拍手器批发小手拍玩具巴掌拍拍手塑料手掌拍手拍掌鼓掌拍",
+  "slug": "28cm大号拍手器批发小手拍玩具巴掌拍拍手塑料手掌拍手拍掌鼓掌拍",
+  "saleNum": "9.9万+",
+  "unit": "个",
+  "price": {
+    "display": "0.30-1.55",
+    "min": "0.30",
+    "max": "1.55",
+    "moq": 2,
+    "tiers": [
+      {
+        "price": "0.30",
+        "beginAmount": 2
+      },
+      {
+        "price": "1.55",
+        "beginAmount": 2
+      }
+    ]
+  },
+  "skus": [
+    {
+      "skuId": 4725378380157,
+      "specId": "066d2f7076b55734e76d04a3cfaa7745",
+      "specAttrs": "{28cm发光大号拍手",
+      "price": "1.09",
+      "discountPrice": "1.09",
+      "canBookCount": 682142
+    },
+    {
+      "skuId": 4249320793155,
+      "specId": "ad3c7f3c86a4074793a35bee42730c4d",
+      "specAttrs": "小号19cm无笑脸（全新料））",
+      "price": "0.30",
+      "discountPrice": "0.30",
+      "canBookCount": 728385
+    },
+    {
+      "skuId": 6005129581183,
+      "specId": "ecf36eee0722f3a86185f1c7db6346c2",
+      "specAttrs": "篮球拍手",
+      "price": "1.55",
+      "discountPrice": "1.55",
+      "canBookCount": 49189
+    },
+    {
+      "skuId": 6005129581184,
+      "specId": "6284f045553931c4293d1bdec855cc31",
+      "specAttrs": "足球拍手",
+      "price": "1.55",
+      "discountPrice": "1.55",
+      "canBookCount": 44655
+    },
+    {
+      "skuId": 4259965307564,
+      "specId": "8851374fa23df94aca884897b6f0499b",
+      "specAttrs": "小号19cm{有笑脸不发光}}",
+      "price": "0.32",
+      "discountPrice": "0.32",
+      "canBookCount": 751845
+    },
+    {
+      "skuId": 4899316118473,
+      "specId": "7abebdddc5a8ba1415b9de09f92be38f",
+      "specAttrs": "24cm发光中号拍手",
+      "price": "1.05",
+      "discountPrice": "1.05",
+      "canBookCount": 2825
+    },
+    {
+      "skuId": 4249320793153,
+      "specId": "132421c639964ef54be6dfbe866cdc75",
+      "specAttrs": "中号24cm无笑脸（全新料）",
+      "price": "0.49",
+      "discountPrice": "0.49",
+      "canBookCount": 647280
+    },
+    {
+      "skuId": 4249320793154,
+      "specId": "74830f710901a10be5892b8c13324b88",
+      "specAttrs": "大号28cm无笑脸（全新料）",
+      "price": "0.60",
+      "discountPrice": "0.60",
+      "canBookCount": 620231
+    },
+    {
+      "skuId": 4223606589544,
+      "specId": "c80e72dfbf9ee655952a7e2f2d630e52",
+      "specAttrs": "不发光国旗拍手",
+      "price": "0.80",
+      "discountPrice": "0.80",
+      "canBookCount": 944098
+    },
+    {
+      "skuId": 4249320793156,
+      "specId": "d9766d078e3b0ae694d7717759ef8ad9",
+      "specAttrs": "大号28cm有笑脸（全新料）",
+      "price": "0.62",
+      "discountPrice": "0.62",
+      "canBookCount": 60064
+    },
+    {
+      "skuId": 4223606589543,
+      "specId": "af5d7a687029160be622cd46ec4b9982",
+      "specAttrs": "发光国旗拍手",
+      "price": "1.22",
+      "discountPrice": "1.22",
+      "canBookCount": 960643
+    },
+    {
+      "skuId": 4249320793157,
+      "specId": "2eb530c88b160714c2188290315ef20d",
+      "specAttrs": "中号24cm有笑脸（全新料）",
+      "price": "0.52",
+      "discountPrice": "0.52",
+      "canBookCount": 315949
+    },
+    {
+      "skuId": 5171017878947,
+      "specId": "cb8993b8d6f57a7ec088306da650b94d",
+      "specAttrs": "32CM带笑脸【全新料】",
+      "price": "1.25",
+      "discountPrice": "1.25",
+      "canBookCount": 4383
+    },
+    {
+      "skuId": 5146161551998,
+      "specId": "473adef061c36952b9f6caf1ced3e600",
+      "specAttrs": "28cm拍手单个包装",
+      "price": "0.75",
+      "discountPrice": "0.75",
+      "canBookCount": 107
+    }
+  ],
+  "attributes": [
+    {
+      "name": "材质",
+      "values": [
+        "塑料"
+      ]
+    },
+    {
+      "name": "道具种类",
+      "values": [
+        "拍拍手"
+      ]
+    },
+    {
+      "name": "工艺",
+      "values": [
+        "注塑"
+      ]
+    },
+    {
+      "name": "品牌",
+      "values": [
+        "港丰"
+      ]
+    },
+    {
+      "name": "货号",
+      "values": [
+        "41545"
+      ]
+    },
+    {
+      "name": "形象",
+      "values": [
+        "其他"
+      ]
+    },
+    {
+      "name": "加工定制",
+      "values": [
+        "是"
+      ]
+    },
+    {
+      "name": "产品编号",
+      "values": [
+        "69565"
+      ]
+    },
+    {
+      "name": "加印LOGO",
+      "values": [
+        "可以"
+      ]
+    },
+    {
+      "name": "是否专利货源",
+      "values": [
+        "否"
+      ]
+    },
+    {
+      "name": "是否进口",
+      "values": [
+        "否"
+      ]
+    },
+    {
+      "name": "尺寸",
+      "values": [
+        "小号19cm无笑脸（全新料））",
+        "中号24cm有笑脸（全新料）",
+        "大号28cm有笑脸（全新料）",
+        "中号24cm无笑脸（全新料）",
+        "大号28cm无笑脸（全新料）",
+        "24cm发光中号拍手",
+        "{28cm发光大号拍手",
+        "小号19cm{有笑脸不发光}}",
+        "发光国旗拍手",
+        "不发光国旗拍手",
+        "28cm拍手单个包装",
+        "32CM带笑脸【全新料】",
+        "足球拍手",
+        "篮球拍手"
+      ]
+    },
+    {
+      "name": "是否跨境出口专供货源",
+      "values": [
+        "否"
+      ]
+    },
+    {
+      "name": "是否属于礼品",
+      "values": [
+        "是，商务礼品"
+      ]
+    },
+    {
+      "name": "送礼用途",
+      "values": [
+        "积分换购礼品",
+        "商务礼品",
+        "广告礼品",
+        "促销赠品",
+        "节庆礼品",
+        "嘉奖纪念"
+      ]
+    },
+    {
+      "name": "适用节日",
+      "values": [
+        "圣诞节",
+        "春节",
+        "教师节",
+        "元旦",
+        "万圣节",
+        "复活节",
+        "国庆节",
+        "儿童节"
+      ]
+    },
+    {
+      "name": "是否IP授权",
+      "values": [
+        "否"
+      ]
+    }
+  ],
+  "images": [
+    "https://cbu01.alicdn.com/img/ibank/10963883564_2113230103.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01kzL0CR1ecacTLpKYp_!!2556853892-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/10904973702_2113230103.jpg",
+    "https://cbu01.alicdn.com/img/ibank/10935721777_2113230103.jpg",
+    "https://cbu01.alicdn.com/img/ibank/10935742355_2113230103.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01TWenQ91ecacYMvkn0_!!2556853892-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01GPwys11ecacYFmFg8_!!2556853892-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01nDFR801ecacTLDfUn_!!2556853892-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01vctaSr1ecacTLHUd4_!!2556853892-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01hBaZPC1ecacZb8dVJ_!!2556853892-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/9245552257_2113230103.jpg",
+    "https://cbu01.alicdn.com/img/ibank/9226936055_2113230103.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01y0In4y1ecacYUeQkd_!!2556853892-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/12019860623_2113230103.jpg",
+    "https://cbu01.alicdn.com/img/ibank/12090377126_2113230103.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01oEXF801ecacXxhZcn_!!2556853892-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN011wFRyX1ecabOjB4qh_!!2556853892-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01oJiE1T1ecabPpEJ5N_!!2556853892-0-cib.jpg"
+  ],
+  "video": {
+    "videoUrl": "https://cloud.video.taobao.com/play/u/2556853892/p/2/e/6/t/1/559688807073.mp4",
+    "coverUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01s8EfM41STdUMKKwuZ_!!6000000002248-0-cib.jpg",
+    "videoId": 559688807073,
+    "title": "大号拍手28的"
+  },
+  "detailUrl": "https://itemcdn.tmall.com/1688offer/icoss243465531ba31e4a90e150a94",
+  "leafCategoryId": 1734,
+  "shipping": {
+    "location": "浙江省金华市",
+    "logisticsText": "常发韵达快递",
+    "unitWeight": 0.05
+  },
+  "seller": {
+    "companyName": "义乌市港丰电子商务有限公司",
+    "authCompanyName": "义乌市港丰电子商务有限公司",
+    "cardType": "pm",
+    "byrRepeatRate3m": "52.11%",
+    "sellerMemberId": "b2b-2556853892becsv",
+    "sellerUserId": 2556853892,
+    "shopUrl": "https://shop1433609595524.1688.com",
+    "winportUrl": "https://winport.m.1688.com/page/index.html?memberId=b2b-2556853892becsv"
+  },
+  "rate": {
+    "goodRates": 90.8,
+    "goodsGrade": 4.6,
+    "reviewCount": 1006,
+    "impressionTags": [
+      {
+        "name": "商家客服态度很好",
+        "count": 29
+      },
+      {
+        "name": "价格很便宜",
+        "count": 27
+      },
+      {
+        "name": "质量挺好",
+        "count": 23
+      },
+      {
+        "name": "物流快",
+        "count": 15
+      },
+      {
+        "name": "质量好",
+        "count": 8
+      },
+      {
+        "name": "性价比不错",
+        "count": 7
+      },
+      {
+        "name": "性价比很高",
+        "count": 7
+      },
+      {
+        "name": "下单推荐",
+        "count": 6
+      },
+      {
+        "name": "卖家人真不错",
+        "count": 5
+      }
+    ]
+  }
+}
