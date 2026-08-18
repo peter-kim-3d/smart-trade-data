@@ -1,0 +1,353 @@
+{
+  "offerId": 802152971252,
+  "title": "透明包包收纳挂袋衣柜悬挂式皮包防尘袋家用布艺透明储物袋墙挂式",
+  "slug": "透明包包收纳挂袋衣柜悬挂式皮包防尘袋家用布艺透明储物袋墙挂式",
+  "saleNum": "2700+",
+  "unit": "个",
+  "price": {
+    "display": "18.00-40.90",
+    "min": "18.00",
+    "max": "40.90",
+    "moq": 1,
+    "tiers": [
+      {
+        "price": "18.00",
+        "beginAmount": 1
+      },
+      {
+        "price": "40.90",
+        "beginAmount": 1
+      }
+    ]
+  },
+  "skus": [
+    {
+      "skuId": 6036647907633,
+      "specId": "f489a372e027d9f32cdb527429336956",
+      "specAttrs": "透明包包公仔挂浅灰色-六层",
+      "price": "32.00",
+      "discountPrice": "32.00",
+      "canBookCount": 4928
+    },
+    {
+      "skuId": 6015387488128,
+      "specId": "7332e0c139d9b0bc625d2284fb79e8c0",
+      "specAttrs": "透明包包挂袋-浅灰 四层",
+      "price": "23.00",
+      "discountPrice": "23.00",
+      "canBookCount": 58897
+    },
+    {
+      "skuId": 5877567766352,
+      "specId": "417c992a27d62560e0ca07514545528d",
+      "specAttrs": "透明包包挂袋-米色 四层",
+      "price": "23.00",
+      "discountPrice": "23.00",
+      "canBookCount": 88588
+    },
+    {
+      "skuId": 6036647907631,
+      "specId": "564ade3985a197e031791b44a450e10a",
+      "specAttrs": "透明包包公仔挂袋浅灰色-五层",
+      "price": "28.00",
+      "discountPrice": "28.00",
+      "canBookCount": 49934
+    },
+    {
+      "skuId": 5877567766354,
+      "specId": "c45f6a391703381a69cd4c586863eef7",
+      "specAttrs": "透明包包挂袋-深灰 四层",
+      "price": "23.00",
+      "discountPrice": "23.00",
+      "canBookCount": 88882
+    },
+    {
+      "skuId": 6036647907630,
+      "specId": "2c88fb87f84c78baf77e47011d8d5e99",
+      "specAttrs": "透明包包公仔挂袋米色-五层",
+      "price": "28.00",
+      "discountPrice": "28.00",
+      "canBookCount": 49859
+    },
+    {
+      "skuId": 6291020982956,
+      "specId": "0dd0526807e6801ca53e4275e6fbe547",
+      "specAttrs": "透明包包公仔挂米色-十层",
+      "price": "36.50",
+      "discountPrice": "36.50",
+      "canBookCount": 4928
+    },
+    {
+      "skuId": 6291020982954,
+      "specId": "29d632bea8c57b76008e4a911e545378",
+      "specAttrs": "透明包包公仔挂浅灰色-八层",
+      "price": "40.90",
+      "discountPrice": "40.90",
+      "canBookCount": 4928
+    },
+    {
+      "skuId": 6291020982953,
+      "specId": "82daeacbbb9e87516055d35944850306",
+      "specAttrs": "透明包包公仔挂袋米色-八层",
+      "price": "36.50",
+      "discountPrice": "36.50",
+      "canBookCount": 4928
+    },
+    {
+      "skuId": 6036647907632,
+      "specId": "4aa545a2f2576b19a07969d2da80b861",
+      "specAttrs": "透明包包公仔挂袋米色-六层",
+      "price": "32.00",
+      "discountPrice": "32.00",
+      "canBookCount": 4827
+    },
+    {
+      "skuId": 6291020982955,
+      "specId": "a44c4ea0bae3566265ade5de8b7155be",
+      "specAttrs": "透明包包公仔挂浅灰色-十层",
+      "price": "40.90",
+      "discountPrice": "40.90",
+      "canBookCount": 4928
+    },
+    {
+      "skuId": 5877567766351,
+      "specId": "fd433eb21ae7040ca1df3c52ce9c3877",
+      "specAttrs": "透明包包挂袋-米色 三层",
+      "price": "18.00",
+      "discountPrice": "18.00",
+      "canBookCount": 89179
+    },
+    {
+      "skuId": 5877567766353,
+      "specId": "f0d9b2003320a96cb75c9f1024f722d8",
+      "specAttrs": "透明包包挂袋-深灰 三层",
+      "price": "18.00",
+      "discountPrice": "18.00",
+      "canBookCount": 89796
+    }
+  ],
+  "attributes": [
+    {
+      "name": "材质",
+      "values": [
+        "无纺布"
+      ]
+    },
+    {
+      "name": "功能",
+      "values": [
+        "多用途"
+      ]
+    },
+    {
+      "name": "品牌",
+      "values": [
+        "其他"
+      ]
+    },
+    {
+      "name": "款式",
+      "values": [
+        "立体式"
+      ]
+    },
+    {
+      "name": "类别",
+      "values": [
+        "透明包包收纳挂袋"
+      ]
+    },
+    {
+      "name": "是否进口",
+      "values": [
+        "否"
+      ]
+    },
+    {
+      "name": "型号",
+      "values": [
+        "透明包包收纳挂袋"
+      ]
+    },
+    {
+      "name": "货号",
+      "values": [
+        "透明包包收纳挂袋"
+      ]
+    },
+    {
+      "name": "产地",
+      "values": [
+        "河北"
+      ]
+    },
+    {
+      "name": "收纳场景",
+      "values": [
+        "卧室收纳"
+      ]
+    },
+    {
+      "name": "风格",
+      "values": [
+        "日式"
+      ]
+    },
+    {
+      "name": "适用场景",
+      "values": [
+        "挂壁式",
+        "衣柜悬挂式",
+        "门窗悬挂式"
+      ]
+    },
+    {
+      "name": "适用范围",
+      "values": [
+        "其它",
+        "CD",
+        "杂志",
+        "文具",
+        "卫生巾",
+        "化妆品",
+        "文胸",
+        "皮包",
+        "宝宝用品",
+        "尿布湿",
+        "杂物"
+      ]
+    },
+    {
+      "name": "专利",
+      "values": [
+        "否"
+      ]
+    },
+    {
+      "name": "颜色",
+      "values": [
+        "透明包包挂袋-米色 三层",
+        "透明包包挂袋-深灰 三层",
+        "透明包包挂袋-米色 四层",
+        "透明包包挂袋-深灰 四层",
+        "透明包包挂袋-浅灰 四层",
+        "透明包包公仔挂袋米色-五层",
+        "透明包包公仔挂袋浅灰色-五层",
+        "透明包包公仔挂袋米色-六层",
+        "透明包包公仔挂浅灰色-六层",
+        "透明包包公仔挂袋米色-八层",
+        "透明包包公仔挂浅灰色-八层",
+        "透明包包公仔挂米色-十层",
+        "透明包包公仔挂浅灰色-十层"
+      ]
+    },
+    {
+      "name": "主要下游平台",
+      "values": [
+        "ebay",
+        "亚马逊",
+        "wish",
+        "速卖通",
+        "LAZADA"
+      ]
+    },
+    {
+      "name": "主要销售地区",
+      "values": [
+        "欧洲",
+        "南美",
+        "东南亚",
+        "北美",
+        "东北亚",
+        "中东"
+      ]
+    },
+    {
+      "name": "是否跨境出口专供货源",
+      "values": [
+        "是"
+      ]
+    },
+    {
+      "name": "定制属性",
+      "values": [
+        "来图来样"
+      ]
+    }
+  ],
+  "images": [
+    "https://cbu01.alicdn.com/img/ibank/O1CN01vZxlU11S1ElnW5ZmC_!!2212913092186-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01bBLF0h1S1ElonxHlt_!!2212913092186-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01iPhtnF1S1ElpenqjC_!!2212913092186-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01gFxQLd1S1Ell3z7Nv_!!2212913092186-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01DrEVxG1S1ElonwcBb_!!2212913092186-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01wDzQWB1S1EpJowjQ2_!!2212913092186-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01VoNfrr1S1EpIGprJD_!!2212913092186-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01pgMZng1S1EpJovSOj_!!2212913092186-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01f9oXN11S1EpJhSPv6_!!2212913092186-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01Oqths51S1EurGkjko_!!2212913092186-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01qQ8Njz1S1Ertsv22C_!!2212913092186-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01SdojZn1S1EruHlyJH_!!2212913092186-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01ZBMBuz1S1ErsTLAsE_!!2212913092186-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01eaICQs1S1ErtyQDKi_!!2212913092186-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01oJSVw6DVTVB1chua_!!2212913092186-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01BmFNitAfAKG1chua_!!2212913092186-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01yTCgPeB7XvI1chua_!!2212913092186-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01x32OQVmPlrC1chua_!!2212913092186-0-cib.jpg"
+  ],
+  "video": {
+    "videoId": 0
+  },
+  "detailUrl": "https://itemcdn.tmall.com/1688offer/icoss426999915c7ef4371ae5440b",
+  "leafCategoryId": 122342007,
+  "shipping": {
+    "location": "河北省石家庄市",
+    "logisticsText": "承诺48小时发货·常发中通快递",
+    "unitWeight": 0.5
+  },
+  "seller": {
+    "companyName": "石家庄焱森家居用品有限公司",
+    "authCompanyName": "石家庄焱森家居用品有限公司",
+    "cardType": "factory",
+    "byrRepeatRate3m": "63.72%",
+    "sellerMemberId": "b2b-22129130921868710f",
+    "sellerUserId": 2212913092186,
+    "shopUrl": "https://shop853022z3c8904.1688.com",
+    "winportUrl": "https://winport.m.1688.com/page/index.html?memberId=b2b-22129130921868710f"
+  },
+  "rate": {
+    "goodRates": 99.1,
+    "goodsGrade": 4.9,
+    "reviewCount": 84,
+    "impressionTags": [
+      {
+        "name": "物流快",
+        "count": 10
+      },
+      {
+        "name": "店家很愉快",
+        "count": 9
+      },
+      {
+        "name": "质量不错",
+        "count": 9
+      },
+      {
+        "name": "卖家的态度非常好",
+        "count": 6
+      },
+      {
+        "name": "价格不贵",
+        "count": 4
+      },
+      {
+        "name": "收纳起来太方便",
+        "count": 3
+      },
+      {
+        "name": "性价比满分",
+        "count": 3
+      }
+    ]
+  }
+}
