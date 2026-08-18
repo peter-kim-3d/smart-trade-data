@@ -1,0 +1,384 @@
+{
+  "offerId": 705110577976,
+  "title": "现货pvc透明手提袋批发pvc袋子定 制小批量透明袋子礼品袋礼物袋",
+  "slug": "现货pvc透明手提袋批发pvc袋子定_制小批量透明袋子礼品袋礼物袋",
+  "saleNum": "10万+",
+  "unit": "件",
+  "price": {
+    "display": "0.61-1.99",
+    "min": "0.61",
+    "max": "1.99",
+    "moq": 1,
+    "tiers": [
+      {
+        "price": "0.37",
+        "beginAmount": 1
+      },
+      {
+        "price": "1.19",
+        "beginAmount": 10
+      }
+    ]
+  },
+  "skus": [
+    {
+      "skuId": 5369635293439,
+      "specId": "d328aa80ef4970ab8391bd4415ec9666",
+      "specAttrs": "竖款 宽15*高25*侧宽7;1个;透明",
+      "price": "1.09",
+      "discountPrice": "1.09",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827814,
+      "specId": "ed6df0626b16257ab1bc60387784310b",
+      "specAttrs": "横款 宽20*高16*侧7cm;1个;透明",
+      "price": "1.02",
+      "discountPrice": "1.02",
+      "canBookCount": 99974
+    },
+    {
+      "skuId": 5532171827815,
+      "specId": "2f2eee314ccb658cf4687509371dc04c",
+      "specAttrs": "正方形 宽20*高20*侧8cm;1个;透明",
+      "price": "1.02",
+      "discountPrice": "1.02",
+      "canBookCount": 99724
+    },
+    {
+      "skuId": 5532171827813,
+      "specId": "61d38072734bec2e612b3ac64152b638",
+      "specAttrs": "正方形 宽17.5*高17.5*侧9.5cm;1个;透明",
+      "price": "0.85",
+      "discountPrice": "0.85",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827832,
+      "specId": "d4850bdc7d68d91e276b9d47492fa67a",
+      "specAttrs": "竖款 宽15*高33*侧宽7;1个;透明",
+      "price": "1.18",
+      "discountPrice": "1.18",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827820,
+      "specId": "2436e810f7942fb96a38dc2427976b1c",
+      "specAttrs": "正方形 宽28*高28*侧10cm;1个;透明",
+      "price": "1.29",
+      "discountPrice": "1.29",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827829,
+      "specId": "536d6c230169f5c09d9729a130b7e532",
+      "specAttrs": "横款 宽40*高30*侧宽10cm;1个;透明",
+      "price": "1.72",
+      "discountPrice": "1.72",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827822,
+      "specId": "49e72a0af00799a7443d4ee1962f70b9",
+      "specAttrs": "竖款 宽24*高34*侧12cm;1个;透明",
+      "price": "1.78",
+      "discountPrice": "1.78",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827808,
+      "specId": "6af13678a14428de30cb8e53cf88f529",
+      "specAttrs": "竖款 宽15*高16*侧7cm;1个;透明",
+      "price": "0.72",
+      "discountPrice": "0.72",
+      "canBookCount": 96434
+    },
+    {
+      "skuId": 5532171827834,
+      "specId": "657a5a3314c7d40efa3aa94bcf688d85",
+      "specAttrs": "横版 宽31 *高26* 侧宽8;1个;透明",
+      "price": "1.72",
+      "discountPrice": "1.72",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827811,
+      "specId": "7442363b42e558dc4255d616af2d6343",
+      "specAttrs": "竖款 宽17*高23*侧7cm;1个;透明",
+      "price": "1.12",
+      "discountPrice": "1.12",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827824,
+      "specId": "9bbb31de9690daf0bffa6710399d8462",
+      "specAttrs": "竖款 宽30*高35*侧12cm;1个;透明",
+      "price": "1.86",
+      "discountPrice": "1.86",
+      "canBookCount": 99995
+    },
+    {
+      "skuId": 5532171827810,
+      "specId": "9124454318116b46d737377e18c692b9",
+      "specAttrs": "竖款 宽13*高19*侧8cm;1个;透明",
+      "price": "0.75",
+      "discountPrice": "0.75",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827809,
+      "specId": "f41185b9b4430c2e409a249e08a56381",
+      "specAttrs": "竖款 宽15*高20*侧7cm;1个;透明",
+      "price": "0.80",
+      "discountPrice": "0.80",
+      "canBookCount": 99519
+    },
+    {
+      "skuId": 5532171827812,
+      "specId": "7e0f3c94b76406e73c3c5b6870a759bf",
+      "specAttrs": "竖款 宽10*高25*侧宽10cm;1个;透明",
+      "price": "0.95",
+      "discountPrice": "0.95",
+      "canBookCount": 98599
+    },
+    {
+      "skuId": 5532171827818,
+      "specId": "c57fd546e6c9821ced38dfd1fb837228",
+      "specAttrs": "竖款 宽20*高30*侧10cm;1个;透明",
+      "price": "1.14",
+      "discountPrice": "1.14",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827828,
+      "specId": "7fd4ef10c639b7fe97d8afd258ab2208",
+      "specAttrs": "竖款 宽18*高25*侧8cm;1个;透明",
+      "price": "1.12",
+      "discountPrice": "1.12",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827827,
+      "specId": "2e68387416f7008be783c494019e23d7",
+      "specAttrs": "正方形 22*22*8;1个;透明",
+      "price": "1.06",
+      "discountPrice": "1.06",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827816,
+      "specId": "a8076eed4b4d842792b7146c67205327",
+      "specAttrs": "竖款 宽20*高25*侧7cm;1个;透明",
+      "price": "1.13",
+      "discountPrice": "1.13",
+      "canBookCount": 99903
+    },
+    {
+      "skuId": 5532171827817,
+      "specId": "b55e8f9906c28fce359f2c49e93d2479",
+      "specAttrs": "竖款 宽20*高28*侧10cm;1个;透明",
+      "price": "1.30",
+      "discountPrice": "1.30",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827831,
+      "specId": "efdb38db501deebd92704ab3631fa5e7",
+      "specAttrs": "横版 宽25*高20*侧宽8;1个;透明",
+      "price": "1.09",
+      "discountPrice": "1.09",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827823,
+      "specId": "2a07c863c85aaacbd245c43dd4359070",
+      "specAttrs": "横款 宽34*高24*侧12cm;1个;透明",
+      "price": "1.78",
+      "discountPrice": "1.78",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827825,
+      "specId": "8c8cd1984dc28a145f1e6aab0920040d",
+      "specAttrs": "横款 宽35*高30*侧12cm;1个;透明",
+      "price": "1.85",
+      "discountPrice": "1.85",
+      "canBookCount": 99924
+    },
+    {
+      "skuId": 5532171827821,
+      "specId": "3a6e9e3cc2d41137a7e307fef99bf2c5",
+      "specAttrs": "竖款 宽26*高31*侧8cm;1个;透明",
+      "price": "1.72",
+      "discountPrice": "1.72",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827807,
+      "specId": "7b8eee4cb82068e8c51ded51eb56e1f2",
+      "specAttrs": "竖款 宽13*高15*侧7cm;1个;透明",
+      "price": "0.61",
+      "discountPrice": "0.61",
+      "canBookCount": 99969
+    },
+    {
+      "skuId": 5532171827826,
+      "specId": "1347b3b553daa5d6c653202e776cc2d1",
+      "specAttrs": "竖款 宽30*高40*侧10cm;1个;透明",
+      "price": "1.86",
+      "discountPrice": "1.86",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827833,
+      "specId": "b96303b75ede9b3fb441a64807766a4c",
+      "specAttrs": "正方形 宽22*高22*侧宽14;1个;透明",
+      "price": "1.28",
+      "discountPrice": "1.28",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827819,
+      "specId": "60944e5fcb056b35f0a896c2256f4a91",
+      "specAttrs": "正方形 宽25*高25*侧9cm;1个;透明",
+      "price": "1.24",
+      "discountPrice": "1.24",
+      "canBookCount": 99999
+    },
+    {
+      "skuId": 5532171827830,
+      "specId": "fcc884ccdcf15884a2e35a82f8a9cea8",
+      "specAttrs": "定制LOGO图案;1个;透明",
+      "price": "1.99",
+      "discountPrice": "1.99",
+      "canBookCount": 99866
+    }
+  ],
+  "attributes": [],
+  "images": [
+    "https://cbu01.alicdn.com/img/ibank/O1CN01puKJ7925NSteOJjvE_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01SjWp7j25NSqtW4lsH_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01dkQscy25NSr3vzapP_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01jz5XVm25NSr9m4Pm7_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01gqHIES25NT075S8p4_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01nVP5sb25NSzJeepKf_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01iYwmDp25NSzHmMz2x_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01fqNSJN25NSzFa61uC_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01boxqmT25NSzHBrwWO_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01kQY5wK25NSz84qn0D_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01Ouo0CL25NSzJenkiV_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01FkmIXd25NSzJekfS3_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01tq8TcN25NSz84rrfW_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01QLaEHX25NSzDx5SXl_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01meOwd425NSzIuNhXH_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01aKjYjh25NSzHByWMe_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01l6ivpR25NSzDwowjm_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01A0IgZW25NSzFaFlZW_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN016sMrmZ25NSzFUl44g_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01G6hwO325NSzDwuidM_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN014CpQeL25NSzDXuNfb_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN016fSs2r25NSzIb4LtP_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01sGAP3f25NSzFljivX_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01zsWNFo25NSzDwywn5_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN010KE0hb25NSzHC7aK4_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01KajZZZ25NSzDY5rOS_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01TW9t3D25NSzDY47Eu_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01ystY4O25NSzIuhhq6_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN012AWF2J25NSzGGytpo_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01PqPxyt25NSz83SO7w_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01vYkYRz25NSzIZX1ap_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01UflqeE25NSzFYrIWQ_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01EWCHJa25NSzCY9ljU_!!2528497514-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN016RnWwn25NSzJKFRbe_!!2528497514-0-cib.jpg"
+  ],
+  "video": {
+    "videoUrl": "https://cloud.video.taobao.com/play/u/2528497514/p/2/e/6/t/1/552140876103.mp4",
+    "coverUrl": "https://img.alicdn.com/imgextra/i1/6000000007441/O1CN01p4mkxg24q2FIxcuaZ_!!6000000007441-0-tbvideo.jpg",
+    "videoId": 552140876103,
+    "title": "袋子视频.mp4"
+  },
+  "detailUrl": "https://itemcdn.tmall.com/1688offer/icoss31832865384a171cfd6d2cd55c",
+  "leafCategoryId": 124600003,
+  "shipping": {
+    "location": "浙江省温州市",
+    "logisticsText": "承诺48小时发货·常发圆通快递",
+    "unitWeight": 0
+  },
+  "seller": {
+    "companyName": "温州市铭秀包装有限公司",
+    "authCompanyName": "温州市铭秀包装有限公司",
+    "cardType": "factory",
+    "byrRepeatRate3m": "52.70%",
+    "sellerMemberId": "b2b-2528497514",
+    "sellerUserId": 2528497514,
+    "shopUrl": "https://minglibiaopai.1688.com",
+    "winportUrl": "https://winport.m.1688.com/page/index.html?memberId=b2b-2528497514"
+  },
+  "rate": {
+    "goodRates": 99.9,
+    "goodsGrade": 5,
+    "reviewCount": 6249,
+    "impressionTags": [
+      {
+        "name": "质量很好",
+        "count": 201
+      },
+      {
+        "name": "价格实惠",
+        "count": 123
+      },
+      {
+        "name": "物流很快",
+        "count": 113
+      },
+      {
+        "name": "客服很热情",
+        "count": 82
+      },
+      {
+        "name": "材质厚实",
+        "count": 81
+      },
+      {
+        "name": "款式好看",
+        "count": 69
+      },
+      {
+        "name": "性价比很高",
+        "count": 68
+      },
+      {
+        "name": "和图片上一样",
+        "count": 41
+      },
+      {
+        "name": "大小合适",
+        "count": 39
+      },
+      {
+        "name": "购买推荐",
+        "count": 37
+      },
+      {
+        "name": "包装很好",
+        "count": 37
+      },
+      {
+        "name": "容量很大",
+        "count": 31
+      },
+      {
+        "name": "质量特别好",
+        "count": 30
+      },
+      {
+        "name": "质量非常好",
+        "count": 26
+      },
+      {
+        "name": "商家满意",
+        "count": 19
+      }
+    ]
+  }
+}
