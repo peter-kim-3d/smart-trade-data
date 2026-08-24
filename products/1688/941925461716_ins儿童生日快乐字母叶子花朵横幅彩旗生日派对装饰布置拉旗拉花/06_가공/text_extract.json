@@ -1,0 +1,43 @@
+{
+  "offer_id": "941925461716",
+  "method": "vlm",
+  "generated_at": "2026-08-24",
+  "images": [
+    {"file":"03_이미지/01_메인이미지/메인_01.jpg","has_text":true,"texts":[
+      {"zh":"Size Dimension","ko":"제품 크기","copy_a":"제품 크기 안내","copy_b":"공간에 꼭 맞는 크기"},
+      {"zh":"6.3-13 inches","ko":"6.3~13인치","copy_a":"글자 높이 6.3~13인치","copy_b":"6.3~13인치로 풍성하게"},
+      {"zh":"3-4 inches","ko":"3~4인치","copy_a":"글자 너비 3~4인치","copy_b":"3~4인치 너비로 또렷하게"}
+    ]},
+    {"file":"03_이미지/01_메인이미지/메인_02.jpg","has_text":true,"texts":[
+      {"zh":"Wildflower Birthday Decorations","ko":"야생화 생일 장식","copy_a":"야생화 생일 가랜드","copy_b":"꽃처럼 피어나는 생일 장식"}
+    ]},
+    {"file":"03_이미지/01_메인이미지/메인_03.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/01_메인이미지/메인_04.jpg","has_text":true,"texts":[
+      {"zh":"Product Details Show","ko":"제품 상세 보기","copy_a":"한눈에 보는 제품 디테일","copy_b":"작은 디테일까지 알차게"},
+      {"zh":"Exquisite wildflower pattern","ko":"정교한 야생화 패턴","copy_a":"섬세한 야생화 패턴","copy_b":"꽃잎마다 살아나는 섬세함"},
+      {"zh":"Double sided printing design","ko":"양면 인쇄 디자인","copy_a":"앞뒤 모두 선명한 양면 인쇄","copy_b":"어느 방향에서도 예쁜 양면 디자인"},
+      {"zh":"Customers need to DIY to connect them in series before use","ko":"사용 전 고객이 직접 이어 연결해야 함","copy_a":"사용 전 직접 이어서 조립","copy_b":"하나씩 이어 완성하는 나만의 가랜드"}
+    ]},
+    {"file":"03_이미지/01_메인이미지/메인_05.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/01_메인이미지/메인_06.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/01_메인이미지/메인_07.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/02_상세이미지/상세_01.jpg","has_text":true,"texts":[
+      {"zh":"Size Dimension","ko":"제품 크기","copy_a":"제품 크기 안내","copy_b":"공간에 꼭 맞는 크기"},
+      {"zh":"6.3-13 inches","ko":"6.3~13인치","copy_a":"글자 높이 6.3~13인치","copy_b":"6.3~13인치로 풍성하게"},
+      {"zh":"3-4 inches","ko":"3~4인치","copy_a":"글자 너비 3~4인치","copy_b":"3~4인치 너비로 또렷하게"}
+    ]},
+    {"file":"03_이미지/02_상세이미지/상세_02.jpg","has_text":true,"texts":[
+      {"zh":"Wildflower Birthday Decorations","ko":"야생화 생일 장식","copy_a":"야생화 생일 가랜드","copy_b":"꽃처럼 피어나는 생일 장식"}
+    ]},
+    {"file":"03_이미지/02_상세이미지/상세_03.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/02_상세이미지/상세_04.jpg","has_text":true,"texts":[
+      {"zh":"Product Details Show","ko":"제품 상세 보기","copy_a":"한눈에 보는 제품 디테일","copy_b":"작은 디테일까지 알차게"},
+      {"zh":"Exquisite wildflower pattern","ko":"정교한 야생화 패턴","copy_a":"섬세한 야생화 패턴","copy_b":"꽃잎마다 살아나는 섬세함"},
+      {"zh":"Double sided printing design","ko":"양면 인쇄 디자인","copy_a":"앞뒤 모두 선명한 양면 인쇄","copy_b":"어느 방향에서도 예쁜 양면 디자인"},
+      {"zh":"Customers need to DIY to connect them in series before use","ko":"사용 전 고객이 직접 이어 연결해야 함","copy_a":"사용 전 직접 이어서 조립","copy_b":"하나씩 이어 완성하는 나만의 가랜드"}
+    ]},
+    {"file":"03_이미지/02_상세이미지/상세_05.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/02_상세이미지/상세_06.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/03_동영상커버/동영상_커버.jpg","has_text":false,"texts":[]}
+  ]
+}
