@@ -1,0 +1,33 @@
+{
+  "offer_id": "664254457363",
+  "method": "vlm",
+  "generated_at": "2026-08-24",
+  "images": [
+    {"file":"03_이미지/01_메인이미지/메인_01.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/01_메인이미지/메인_02.jpg","has_text":true,"texts":[
+      {"zh":"绳长 2.5米","ko":"끈 길이 2.5m","copy_a":"끈 길이 2.5m","copy_b":"2.5m로 여유롭게 장식"},
+      {"zh":"13cm","ko":"가로 13cm","copy_a":"가로 13cm","copy_b":"가로 13cm, 균형 잡힌 삼각형"},
+      {"zh":"17cm","ko":"세로 17cm","copy_a":"세로 17cm","copy_b":"세로 17cm, 시원하게 드리우는 비율"}
+    ]},
+    {"file":"03_이미지/01_메인이미지/메인_03.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/01_메인이미지/메인_04.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/01_메인이미지/메인_05.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/01_메인이미지/메인_06.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/01_메인이미지/메인_08.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/01_메인이미지/메인_09.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/01_메인이미지/메인_11.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/02_상세이미지/상세_01.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/02_상세이미지/상세_02.jpg","has_text":true,"texts":[
+      {"zh":"绳长 2.5米","ko":"끈 길이 2.5m","copy_a":"끈 길이 2.5m","copy_b":"2.5m로 여유롭게 장식"},
+      {"zh":"13cm","ko":"가로 13cm","copy_a":"가로 13cm","copy_b":"가로 13cm, 균형 잡힌 삼각형"},
+      {"zh":"17cm","ko":"세로 17cm","copy_a":"세로 17cm","copy_b":"세로 17cm, 시원하게 드리우는 비율"}
+    ]},
+    {"file":"03_이미지/02_상세이미지/상세_03.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/02_상세이미지/상세_04.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/02_상세이미지/상세_05.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/02_상세이미지/상세_06.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/02_상세이미지/상세_07.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/02_상세이미지/상세_08.jpg","has_text":false,"texts":[]},
+    {"file":"03_이미지/03_동영상커버/동영상_커버.jpg","has_text":false,"texts":[]}
+  ]
+}
