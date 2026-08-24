@@ -1,0 +1,352 @@
+{
+  "offer_id": "769311154189",
+  "method": "vlm",
+  "generated_at": "2026-08-24",
+  "images": [
+    {
+      "file": "03_이미지/01_메인이미지/메인_01.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_02.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_03.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_04.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_05.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_06.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_07.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_08.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_09.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_10.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_11.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_12.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_13.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_14.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_15.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_16.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_17.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_18.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_19.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_20.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_21.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_22.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_23.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_24.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_25.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_26.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_27.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_28.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_29.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_30.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_31.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_32.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_33.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_34.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_35.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_36.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_37.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_38.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_39.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_40.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_41.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_42.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_43.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_44.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_45.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_46.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_47.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_48.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_49.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_50.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_51.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_52.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_53.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_54.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/01_메인이미지/메인_55.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/02_상세이미지/상세_01.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/02_상세이미지/상세_02.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/02_상세이미지/상세_03.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/02_상세이미지/상세_04.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/02_상세이미지/상세_05.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/02_상세이미지/상세_06.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/02_상세이미지/상세_07.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/02_상세이미지/상세_08.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/02_상세이미지/상세_09.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/02_상세이미지/상세_10.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/02_상세이미지/상세_11.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/02_상세이미지/상세_12.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/02_상세이미지/상세_13.jpg",
+      "has_text": false,
+      "texts": []
+    },
+    {
+      "file": "03_이미지/02_상세이미지/상세_14.jpg",
+      "has_text": false,
+      "texts": []
+    }
+  ]
+}
