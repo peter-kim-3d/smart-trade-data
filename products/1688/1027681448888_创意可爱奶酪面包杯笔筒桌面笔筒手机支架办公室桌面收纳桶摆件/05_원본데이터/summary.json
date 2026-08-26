@@ -1,0 +1,152 @@
+{
+  "offerId": 1027681448888,
+  "title": "创意可爱奶酪面包杯笔筒桌面笔筒手机支架办公室桌面收纳桶摆件",
+  "slug": "创意可爱奶酪面包杯笔筒桌面笔筒手机支架办公室桌面收纳桶摆件",
+  "saleNum": "3800+",
+  "unit": "个",
+  "price": {
+    "display": "6.50-6.80",
+    "min": "6.50",
+    "max": "6.80",
+    "moq": 1,
+    "tiers": [
+      {
+        "price": "6.50",
+        "beginAmount": 1
+      },
+      {
+        "price": "6.80",
+        "beginAmount": 1
+      }
+    ]
+  },
+  "skus": [
+    {
+      "skuId": 6037889949826,
+      "specId": "76ff2dcc41464c0b297d9abbd876bf6a",
+      "specAttrs": "萌趣卡通笔筒丨奶酪",
+      "price": "6.50",
+      "discountPrice": "6.50",
+      "canBookCount": 99047
+    },
+    {
+      "skuId": 6037889949827,
+      "specId": "26c9ddbd06381bcfe22a323288016be0",
+      "specAttrs": "萌趣卡通笔筒丨巧克力",
+      "price": "6.80",
+      "discountPrice": "6.80",
+      "canBookCount": 98978
+    },
+    {
+      "skuId": 6037889949824,
+      "specId": "112aee394a7f9b462b4e1127f7a0bba7",
+      "specAttrs": "萌趣卡通笔筒丨饼干",
+      "price": "6.50",
+      "discountPrice": "6.50",
+      "canBookCount": 98729
+    },
+    {
+      "skuId": 6037889949825,
+      "specId": "8ef321db538f4c193dd0dfdb76db9834",
+      "specAttrs": "萌趣卡通笔筒丨吐司",
+      "price": "6.80",
+      "discountPrice": "6.80",
+      "canBookCount": 99037
+    }
+  ],
+  "attributes": [],
+  "images": [
+    "https://cbu01.alicdn.com/img/ibank/O1CN01GVFeFy1S0K8J7okMk_!!2211059032184-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01VwQAuI1S0K8Dl3b0v_!!2211059032184-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01ZV7jYH1S0K8IWrbAO_!!2211059032184-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01iv1qy41S0K8IkYrOE_!!2211059032184-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01Lcnuq21S0K8Iosqrz_!!2211059032184-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN019FryJK1S0K8JCTKWe_!!2211059032184-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01OWCkvO1S0K8Iha5PV_!!2211059032184-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01LFIdCJ1S0K8I7ogOU_!!2211059032184-0-cib.jpg",
+    "https://cbu01.alicdn.com/img/ibank/O1CN01yIf1J61S0K8J4QNRs_!!2211059032184-0-cib.jpg"
+  ],
+  "video": {
+    "videoId": 0
+  },
+  "detailUrl": "https://itemcdn.tmall.com/1688offer/icoss14571876129967ae457a2056a7",
+  "leafCategoryId": 1033087,
+  "shipping": {
+    "location": "浙江省金华市",
+    "logisticsText": "承诺48小时发货·常发申通快递",
+    "unitWeight": 0
+  },
+  "seller": {
+    "companyName": "义乌丽坚电子商务有限公司",
+    "authCompanyName": "义乌丽坚电子商务有限公司",
+    "cardType": "default",
+    "byrRepeatRate3m": "63.67%",
+    "sellerMemberId": "b2b-22110590321846a55a",
+    "sellerUserId": 2211059032184,
+    "shopUrl": "https://shop1o82e596137v0.1688.com",
+    "winportUrl": "https://winport.m.1688.com/page/index.html?memberId=b2b-22110590321846a55a"
+  },
+  "rate": {
+    "goodRates": 99,
+    "goodsGrade": 5,
+    "reviewCount": 4303,
+    "impressionTags": [
+      {
+        "name": "卖家很好",
+        "count": 58
+      },
+      {
+        "name": "质量很好",
+        "count": 31
+      },
+      {
+        "name": "价格不贵",
+        "count": 28
+      },
+      {
+        "name": "性价比很高",
+        "count": 17
+      },
+      {
+        "name": "发货速度比较快",
+        "count": 16
+      },
+      {
+        "name": "颜色新颖",
+        "count": 16
+      },
+      {
+        "name": "跟描述一模一样",
+        "count": 14
+      },
+      {
+        "name": "入手推荐",
+        "count": 12
+      },
+      {
+        "name": "设计感十足",
+        "count": 7
+      },
+      {
+        "name": "下手值得",
+        "count": 7
+      },
+      {
+        "name": "放在桌上超萌",
+        "count": 5
+      },
+      {
+        "name": "使用起来很好",
+        "count": 5
+      },
+      {
+        "name": "质量非常好",
+        "count": 5
+      },
+      {
+        "name": "外包装完整",
+        "count": 4
+      }
+    ]
+  }
+}
