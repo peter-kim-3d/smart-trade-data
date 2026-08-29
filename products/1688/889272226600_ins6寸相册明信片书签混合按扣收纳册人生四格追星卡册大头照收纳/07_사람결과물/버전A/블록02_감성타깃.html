@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=860, initial-scale=1">
+  <title>블록 02 — 감성·타깃 공감</title>
+  <style>
+    @font-face {
+      font-family: "Noto Sans KR Local";
+      src: url("./assets/NotoSansKR-Variable.subset.woff2") format("woff2");
+      font-weight: 100 900;
+      font-style: normal;
+      font-display: block;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 860px; background: #fffaf7; }
+    body { color: #332b2c; font-family: "Noto Sans KR Local", sans-serif; word-break: keep-all; }
+    .block { width: 860px; min-height: 1190px; padding: 72px 50px 64px; overflow: hidden; }
+    .eyebrow { margin: 0 0 15px; color: #b8757d; font-size: 16px; font-weight: 750; letter-spacing: .18em; }
+    h1 { margin: 0; font-size: 46px; line-height: 1.26; font-weight: 730; letter-spacing: -.042em; }
+    .sub { margin: 20px 0 35px; color: #7c6d70; font-size: 21px; line-height: 1.55; letter-spacing: -.025em; }
+    .photo { position: relative; overflow: hidden; height: 730px; border-radius: 30px; background: #f3e7e5; box-shadow: 0 22px 55px rgba(117, 72, 78, .15); }
+    .photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 43%; }
+    .photo::after { content: ""; position: absolute; inset: auto 0 0; height: 180px; background: linear-gradient(transparent, rgba(58,42,45,.43)); pointer-events: none; }
+    .photo-copy { position: absolute; z-index: 1; left: 34px; right: 34px; bottom: 30px; color: #fff; }
+    .photo-copy strong { display: block; margin-bottom: 8px; font-size: 27px; line-height: 1.35; letter-spacing: -.035em; }
+    .photo-copy span { font-size: 17px; opacity: .92; }
+    .tags { display: flex; gap: 10px; flex-wrap: wrap; padding: 28px 4px 0; }
+    .tags span { padding: 11px 17px 12px; border-radius: 999px; color: #8b5961; background: #f4e4e5; font-size: 16px; font-weight: 650; }
+  </style>
+</head>
+<body>
+  <main class="block">
+    <p class="eyebrow">FOR YOUR MOMENTS</p>
+    <h1>좋아하는 순간,<br>여기저기 흩어두지 마세요</h1>
+    <p class="sub">크기가 다른 기록도 한 권에 차곡차곡</p>
+    <section class="photo" aria-label="투명 속지를 펼쳐 보는 사용 장면">
+      <img src="../../06_가공/final_B/동영상_커버.jpg" alt="투명 속지를 펼쳐 보는 사용 장면">
+      <div class="photo-copy"><strong>꺼내 보기 쉬운 한 권의 기록</strong><span>좋아하는 장면을 넘기며 다시 만나요</span></div>
+    </section>
+    <div class="tags" aria-label="수납 대상"><span>책갈피</span><span>엽서</span><span>사진</span></div>
+  </main>
+</body>
+</html>

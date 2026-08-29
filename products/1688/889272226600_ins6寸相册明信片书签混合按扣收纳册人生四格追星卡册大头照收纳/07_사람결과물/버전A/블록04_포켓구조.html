@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=860, initial-scale=1">
+  <title>블록 04 — 1칸·2칸/양면 구조</title>
+  <style>
+    @font-face {
+      font-family: "Noto Sans KR Local";
+      src: url("./assets/NotoSansKR-Variable.subset.woff2") format("woff2");
+      font-weight: 100 900;
+      font-style: normal;
+      font-display: block;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 860px; background: #f7f4ee; }
+    body { color: #2f2c28; font-family: "Noto Sans KR Local", sans-serif; word-break: keep-all; }
+    .block { width: 860px; min-height: 1080px; padding: 68px 50px 62px; overflow: hidden; }
+    .eyebrow { margin: 0 0 14px; color: #90704d; font-size: 16px; font-weight: 750; letter-spacing: .19em; }
+    h1 { margin: 0; font-size: 47px; line-height: 1.25; font-weight: 730; letter-spacing: -.042em; }
+    .sub { margin: 18px 0 34px; color: #756d64; font-size: 20px; line-height: 1.5; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .card { overflow: hidden; border: 1px solid rgba(95,75,54,.10); border-radius: 26px; background: #fff; box-shadow: 0 15px 38px rgba(75,58,43,.11); }
+    .card img { display: block; width: 100%; height: 368px; object-fit: cover; }
+    .caption { min-height: 138px; padding: 23px 24px 25px; }
+    .caption small { display: block; margin-bottom: 8px; color: #9a7654; font-size: 14px; font-weight: 750; letter-spacing: .10em; }
+    .caption strong { display: block; margin-bottom: 7px; font-size: 25px; line-height: 1.3; letter-spacing: -.025em; }
+    .caption span { color: #746b63; font-size: 17px; }
+    .double { display: flex; align-items: center; gap: 22px; margin-top: 24px; padding: 25px 28px; border-radius: 24px; color: #fff; background: #5f665d; }
+    .double b { display: grid; place-items: center; flex: 0 0 56px; height: 56px; border: 1px solid rgba(255,255,255,.48); border-radius: 18px; font-size: 22px; }
+    .double strong { display: block; margin-bottom: 4px; font-size: 23px; letter-spacing: -.025em; }
+    .double span { font-size: 16px; opacity: .86; }
+  </style>
+</head>
+<body>
+  <main class="block">
+    <p class="eyebrow">TWO POCKET TYPES</p>
+    <h1>두 가지 포켓으로 알차게</h1>
+    <p class="sub">길쭉한 기록부터 넓은 사진과 엽서까지, 모양에 맞춰 정리하세요</p>
+    <section class="grid" aria-label="1칸과 2칸 포켓 구조">
+      <article class="card">
+        <img src="../../06_가공/final_A/메인_03.jpg" alt="두 칸 포켓과 한 칸 포켓이 함께 펼쳐진 모습">
+        <div class="caption"><small>2-POCKET</small><strong>2칸 포켓</strong><span>5×16cm</span></div>
+      </article>
+      <article class="card">
+        <img src="../../06_가공/final_B/메인_06.jpg" alt="두 가지 포켓에 수납한 투명 앨범">
+        <div class="caption"><small>1-POCKET</small><strong>1칸 포켓</strong><span>10.3×16cm</span></div>
+      </article>
+    </section>
+    <div class="double"><b>↔</b><div><strong>앞뒤로 활용하는 양면 수납</strong><span>투명 속지로 내용물을 선명하게</span></div></div>
+  </main>
+</body>
+</html>

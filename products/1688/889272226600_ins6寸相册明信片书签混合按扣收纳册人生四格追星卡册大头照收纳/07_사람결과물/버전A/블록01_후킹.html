@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=860, initial-scale=1">
+  <title>블록 01 — 후킹</title>
+  <style>
+    @font-face {
+      font-family: "Noto Sans KR Local";
+      src: url("./assets/NotoSansKR-Variable.subset.woff2") format("woff2");
+      font-weight: 100 900;
+      font-style: normal;
+      font-display: block;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 860px; background: #f4efe8; }
+    body { color: #2d2925; font-family: "Noto Sans KR Local", sans-serif; word-break: keep-all; }
+    .block { width: 860px; min-height: 1090px; padding: 78px 50px 58px; overflow: hidden; }
+    .eyebrow { margin: 0 0 17px; color: #9c7557; font-size: 16px; font-weight: 700; letter-spacing: .20em; }
+    h1 { margin: 0; font-size: 54px; line-height: 1.18; font-weight: 730; letter-spacing: -.045em; }
+    .lead { margin: 20px 0 40px; color: #776d64; font-size: 22px; line-height: 1.55; letter-spacing: -.025em; }
+    .visual { position: relative; overflow: hidden; height: 620px; border-radius: 30px; background: #fff; box-shadow: 0 22px 58px rgba(76, 57, 40, .15); }
+    .visual img { display: block; width: 100%; height: 760px; object-fit: cover; object-position: center top; }
+    .badge { position: absolute; right: 26px; top: 25px; padding: 11px 17px 12px; border: 1px solid rgba(255,255,255,.62); border-radius: 999px; color: #fff; background: rgba(43, 39, 35, .35); backdrop-filter: blur(8px); font-size: 15px; font-weight: 650; letter-spacing: .04em; }
+    .footer { display: flex; align-items: center; justify-content: space-between; padding: 28px 8px 0; }
+    .footer strong { font-size: 22px; font-weight: 700; letter-spacing: -.025em; }
+    .footer span { color: #8d8176; font-size: 16px; }
+  </style>
+</head>
+<body>
+  <main class="block">
+    <p class="eyebrow">MEMORY ALBUM</p>
+    <h1>소중한 조각을 한 권에</h1>
+    <p class="lead">책갈피와 엽서, 사진을 한곳에 모아<br>좋아하는 장면을 오래 간직하세요</p>
+    <section class="visual" aria-label="책갈피와 엽서를 함께 수납한 투명 앨범">
+      <img src="../../06_가공/final_B/메인_01.jpg" alt="책갈피와 엽서를 함께 수납한 투명 앨범">
+      <span class="badge">MIXED POCKET</span>
+    </section>
+    <div class="footer"><strong>멀티 포토 수납 앨범</strong><span>책갈피 · 엽서 · 사진</span></div>
+  </main>
+</body>
+</html>
